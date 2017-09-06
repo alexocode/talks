@@ -480,7 +480,7 @@ defmodule RomanNumeralsSpec do
   }
 
   describe ".convert" do
-    subject RomanNumerals.convert(number())
+    let result: RomanNumerals.convert(number())
 
     for {number, numeral} <- statuses do
       context "given #{inspect number}" do
@@ -488,7 +488,7 @@ defmodule RomanNumeralsSpec do
         let numeral: unquote(numeral)
 
         it "should return #{numeral}" do
-          should(eq numeral())
+          result() |> should(eq numeral())
         end
       end
     end
@@ -496,8 +496,40 @@ defmodule RomanNumeralsSpec do
 end
 ```
 
-^
-`subject` allows to write `should` directly
+---
+
+# Generated Examples
+
+```elixir, [.highlight: 4-12, 17-26]
+defmodule RomanNumeralsSpec do
+  use ESpec
+
+  numerals = %{
+    1 => "I",
+    10 => "X",
+    7 => "VII",
+    3 => "III",
+    11 => "XI",
+    16 => "XVI",
+    1216 => "MCCXVI",
+  }
+
+  describe ".convert" do
+    let result: RomanNumerals.convert(number())
+
+    for {number, numeral} <- statuses do
+      context "given #{inspect number}" do
+        let number: unquote(number)
+        let numeral: unquote(numeral)
+
+        it "should return #{numeral}" do
+          result() |> should(eq numeral())
+        end
+      end
+    end
+  end
+end
+```
 
 ---
 
