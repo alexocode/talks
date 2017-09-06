@@ -1,3 +1,5 @@
+theme: Letters from Sweden
+
 # [fit] ESpec
 
 ---
