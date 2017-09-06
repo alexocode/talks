@@ -434,9 +434,7 @@ end
 ---
 
 # Shared Examples
-
-*Make your tests more DRY*
-<br>
+#### A DRY approach to testing<br><br>
 
 ```elixir
 defmodule HelloWorldSharedSpec do
@@ -451,8 +449,7 @@ end
 ---
 
 # Shared Examples
-
-<br>
+#### A DRY approach to testing<br><br>
 
 ```elixir
 defmodule HelloWorldSpec do
