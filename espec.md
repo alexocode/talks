@@ -7,7 +7,7 @@ theme: Next, 3
 # ESpec
 
 - BDD testing framework
-- Inspired by Rubys RSpec
+- Heavily inspired by Rubys RSpec
 - Not based on ExUnit
 
 ^
