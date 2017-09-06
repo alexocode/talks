@@ -24,7 +24,7 @@
 
 - Extension of *t*est-*d*riven *d*evelopment (*TDD*)
 - Simple, *d*omain-*s*pecific *l*anguage (*DSL*)
-- Transform acceptance criteria into tests
+- Tests written as user stories
 
 ^Short definition of TDD
 
