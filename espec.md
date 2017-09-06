@@ -10,8 +10,10 @@ theme: Next, 3
 - Inspired by Rubys RSpec
 - Not based on ExUnit
 
-^ExUnit is Elixirs baked-in testing framework
-^What does BDD mean?
+^
+- ExUnit is Elixirs baked-in testing framework
+- ESpec drop in replacement
+- What exactly does "BDD framework" mean?
 
 ---
 
@@ -26,12 +28,14 @@ __b__ehaviour-__d__riven __d__evelopment
 
 - Extension of __t__est-__d__riven __d__evelopment (__TDD__)
 - Simple, __d__omain-__s__pecific __l__anguage (__DSL__)
-- Tests describe the behaviour of components
 - Tests are derived from the acceptance criteria
+- Tests describe the behaviour of components
 
 ^
-Tests written as User Stories
-For example: Cucumber
+- Tests written as User Stories
+  + Example: Cucumber & Gherkin
+- Where does ESpec fit in here?
+  + Subcategory of BDD: spec-based testing
 
 ---
 
@@ -42,6 +46,10 @@ For example: Cucumber
 - Alternative to free-form unit testing
 - Describe components in an english-like DSL
 
+^
+- DSL: Honoring the BDD principles
+- Enough theory, lets get to ESpec
+
 ---
 
 # ESpec
@@ -50,14 +58,17 @@ For example: Cucumber
 - Organization with `describe`, `context` and `it` blocks
 - `before` and `finally` blocks
 - Wide variety of matchers (`eq`, `be_integer`, `have`)
-- `let` to define memoizable functions
 
 ^
-*memoizable* means that it only evaluates once when first called
+- instead of assert => matchers
 
 ---
 
 # [fit] Example
+
+^
+First in ExUnit
+Then in ESpec
 
 ---
 
@@ -90,6 +101,9 @@ defmodule RomanNumeralsSpec do
   end
 end
 ```
+
+^
+The `expect` syntax is one of three
 
 ---
 
@@ -185,7 +199,9 @@ end
 ```
 
 ^
-Let's assume we have the `create` functions defined somewhere
+- `let` to define memoizable functions
+- *memoizable* means that it only evaluates once when first called
+- Let's assume we have the `create` functions defined somewhere
 
 ---
 
@@ -368,7 +384,7 @@ end
 # Configuration
 
 - `async`: Run your tests in parallel
-- `focus`: Run only focused tests using the `--focus` cli option
+- `focus`: Run only focused tests using the `--focus` CLI option
 - `skip`: Skip the tests
 
 ---
