@@ -26,20 +26,6 @@
 - Simple, *d*omain-*s*pecific *l*anguage (*DSL*)
 - Tests written as user stories
 
-^Short definition of TDD
-
-<!-- ---
-
-# TDD
-
-1. Write a test
-2. Run the test, it should __fail__
-3. Implement
-4. Run the test, it should __succeed__
-5. Refactor
-
-*Rinse and repeat* -->
-
 ---
 
 # BDD
