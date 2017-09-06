@@ -24,7 +24,11 @@
 
 - Extension of *t*est-*d*riven *d*evelopment (*TDD*)
 - Simple, *d*omain-*s*pecific *l*anguage (*DSL*)
-- Tests written as user stories
+- Tests describe the behaviour of components
+- Tests are derived from the acceptance criteria
+
+^Tests written as User Stories
+^For example: Cucumber
 
 ---
 
