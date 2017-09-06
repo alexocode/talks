@@ -133,8 +133,14 @@ end
 
 - Can have multiple articles
 - Each article can have comments
+<br>
+<br>
+<br>
 
-*Let's focus on comments*
+__Let's focus on comments__
+
+^
+If asked for, there is an equivalent implementation using ExUnit
 
 ---
 
@@ -354,3 +360,162 @@ end
 ```
 
 ---
+
+# [fit] What else?
+
+---
+
+# Configuration
+
+- `async`: Run your tests in parallel
+- `focus`: Run only focused tests using the `--focus` cli option
+- `skip`: Skip the tests
+
+---
+
+# Configuration
+#### Example
+
+```elixir
+defmodule ConfigurationSpec do
+  use ESpec, async: true
+
+  it "should be skipped", skip: true do
+    5 |> should(be_between 4, 6)
+  end
+
+  it "should be skipped with reason" , skip: "Reason" do
+    "abc" |> should(have "a")
+  end
+
+  it "should be focused", focus: true do
+    4.5 |> should(be_close_to 4.3, 0.5)
+  end
+
+  context "run synchronously", async: false do
+    before do: modify_the_global_state()
+
+    it do: global_state() |> should(eq :hello_world)
+  end
+end
+```
+
+---
+
+# Shortcuts
+
+| Focus | Skip |
+| :---: | :---: |
+| `fdescribe` |  `xdescribe` |
+| `fcontext` | `xcontext` |
+| `fit` | `xit` |
+
+---
+
+## Pending examples
+
+- `it` or `pending` with a description
+- Listed when executing tests
+- Can be used in a TODO-like manner
+
+<br>
+
+```elixir
+defmodule PendingSpec
+  use ESpec
+
+  it "should be pending"
+  pending "should also be pending"
+end
+```
+
+![right](images/pending.png)
+
+---
+
+# Shared Examples
+
+*Make your tests more DRY*
+<br>
+
+```elixir
+defmodule HelloWorldSharedSpec do
+  use ESpec, shared: true
+
+  let_overridable :hello
+
+  it do: hello() |> should(eq "world")
+end
+```
+
+---
+
+# Shared Examples
+
+<br>
+
+```elixir
+defmodule HelloWorldSpec do
+  use ESpec
+
+  let hello: "world"
+
+  it_behaves_like HelloWorldSharedSpec
+end
+```
+
+---
+
+# Generated Examples
+
+```elixir
+defmodule RomanNumeralsSpec do
+  use ESpec
+
+  numerals = %{
+    1 => "I",
+    10 => "X",
+    7 => "VII",
+    3 => "III",
+    11 => "XI",
+    16 => "XVI",
+    1216 => "MCCXVI",
+  }
+
+  describe ".convert" do
+    subject RomanNumerals.convert(number())
+
+    for {number, numeral} <- statuses do
+      context "given #{inspect number}" do
+        let number: unquote(number)
+        let numeral: unquote(numeral)
+
+        it "should return #{numeral}" do
+          should(eq numeral())
+        end
+      end
+    end
+  end
+end
+```
+
+^
+`subject` allows to write `should` directly
+
+---
+
+# Mocking
+
+ESpec ships with Meck to mock functions
+
+```elixir
+defmodule MockSpec do
+  use ESpec
+
+  before do
+    allow SomeModule |> to(accept :func, fn(a, b) -> a + b end)
+  end
+
+  it do: SomeModule.func(1, 2) |> should(eq 3)
+end
+```
