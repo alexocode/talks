@@ -1,4 +1,4 @@
-theme: Letters from Sweden
+theme: Next, 3
 
 # [fit] ESpec
 
@@ -17,15 +17,15 @@ theme: Letters from Sweden
 
 # [fit] BDD
 
-*b*ehaviour-*d*riven *d*evelopment
+__b__ehaviour-__d__riven __d__evelopment
 
 ---
 
 # BDD
 #### A brief overview
 
-- Extension of *t*est-*d*riven *d*evelopment (*TDD*)
-- Simple, *d*omain-*s*pecific *l*anguage (*DSL*)
+- Extension of __t__est-__d__riven __d__evelopment (__TDD__)
+- Simple, __d__omain-__s__pecific __l__anguage (__DSL__)
 - Tests describe the behaviour of components
 - Tests are derived from the acceptance criteria
 
