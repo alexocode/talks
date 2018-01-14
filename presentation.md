@@ -1,10 +1,89 @@
-theme: Work, 1
+theme: Next, 1
+slidenumbers: true
+slidecount: true
 
-<br/>
+[.slidecount: false]
+[.slidenumbers: false]
 
-<br/>
+> git gud
 
-# [fit] Template
+---
+
+# Agenda
+
+1. What is `Git`?
+2. Basics
+3. Advanced commands
+4. Best Practices
+5. Gems
+
+---
+
+# What is `Git`?
+
+---
+
+# Version Control System
+
+^
+or VCS
+^
+What does a VCS do?
+
+---
+
+> [...] a system that records changes to a file or set of files over time
+-- Scott Chacon & Ben Straub [^ProGit]
+
+---
+
+## Version Control Systems
+
+- `CVS`
+- `Perforce`
+- `SVN`
+- `Mercurial`
+- `Git`
+
+^
+Later: How they differ
+
+---
+
+# Open Source
+
+^
+published under GNU General Public License version 2
+^
+Next Slide: What makes Git different from, for example, SVN
+
+---
+
+# Distributed
+
+^
+What does that mean? For this we have understand:
+
+---
+
+# Centralised
+# VS
+# Distributed
+
+---
+
+# Centralised
+
+- One central repository
+- Communication: Developer <=> Repository
+
+
+*For example: SVN*
+
+---
+
+> The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data.
+-- Scott Chacon and Ben Straub
 
 ---
 
@@ -30,3 +109,5 @@ With `:---:`, `---:` and `:---` you can center, right or right align the cell co
 -----------| :-----------: | -----------: |
 Cell       |     _Cell_    |     *Cell*
 Cell       |   **Cell**    |     __Cell__
+
+[^ProGit]: https://git-scm.com/book/en/v2
