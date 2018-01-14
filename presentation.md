@@ -8,10 +8,11 @@ slidecount: true
 > git gud
 
 ---
+[.build-lists: true]
 
 # Agenda
 
-1. What is `Git`?
+1. Background
 2. Basics
 3. Advanced commands
 4. Best Practices
@@ -19,14 +20,14 @@ slidecount: true
 
 ---
 
-# What is `Git`?
+# Background
+## What is `Git`?
 
 ---
 
-# Version Control System
+# VCS
+## Version Control System
 
-^
-or VCS
 ^
 What does a VCS do?
 
@@ -51,6 +52,7 @@ Later: How they differ
 ---
 
 # Open Source
+## GNU GPL2
 
 ^
 published under GNU General Public License version 2
@@ -74,11 +76,28 @@ What does that mean? For this we have understand:
 
 # Centralised
 
-- One central repository
-- Communication: Developer <=> Repository
+![100%](images/centralized.png)
 
+^
+- Central repository = Single source of truth
+- Server/Client communication
 
-*For example: SVN*
+^
+Examples: SVN, CVS, Perforce
+
+---
+
+# Distributed
+
+![80%](images/distributed.png)
+
+^
+- Each repository a full backup (with exceptions)
+- Communication between repositories
+- Possibel to do centralised approach
+
+^
+Examples: Git, Mercurial
 
 ---
 
