@@ -101,8 +101,39 @@ Examples: Git, Mercurial
 
 ---
 
-> The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data.
--- Scott Chacon and Ben Straub
+# Basics
+## Day to day stuff
+
+^
+Who has more SVN than Git experience?
+=> You'll be trouble
+
+---
+
+# `Git` is different
+
+^
+Not only "Distributed"
+=> The way `Git` thinks about it's files
+
+---
+
+> The major difference [...] is the way Git thinks about its data.
+-- Scott Chacon & Ben Straub [^ProGit]
+
+^
+A lot VCS: Deltas (what changed?)
+Git: Snapshots
+
+---
+
+![100%](images/snapshots.png)
+
+<!--         Version 1
+        File A    -> A1 -> *A1* -> A2 -> *A2*
+        File B    -> *B* -> *B* -> B1 -> B2
+        File C    -> C1 ->  -> 
+ -->
 
 ---
 
