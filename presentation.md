@@ -172,7 +172,30 @@ Git is closer to a filesystem then to a classic VCS
 
 ---
 
+# Try it out!
 
+---
+
+```sh
+$ git init git-playground
+Initialized empty Git repository in ...
+
+$ cd git-playground
+
+$ echo 'Some random text' > my_file
+
+$ git hash-object -w my_file
+1a76b8a41993e2c667f5b191fb57abdab2102a8b
+
+$ git cat-file -t 1a76b8a41993e2c667f5b191fb57abdab2102a8b
+blob
+
+$ git cat-file -p 1a76b8a41993e2c667f5b191fb57abdab2102a8b
+Some random text
+```
+
+^
+You can actually find the blob in .git/objects/1a/76b8a41993e2c667f5b191fb57abdab2102a8b
 
 ---
 
