@@ -9,14 +9,22 @@ theme: Next, 1
 
 1. Background
 2. Basics
-3. Advanced commands
-4. Best Practices
-5. Gems
+3. Advanced
+4. Tips & Tricks
+5. Best Practices
+
+^
+1. & 2. => Lecture
+3. & 4. => Interactive
+5. => Lecture
 
 ---
 
 # Background
 ## What is `Git`?
+
+^
+Ask this question?
 
 ---
 
