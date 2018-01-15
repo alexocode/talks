@@ -64,7 +64,7 @@ What does that mean? For this we have understand:
 ---
 
 # Centralised
-# VS
+## VS
 # Distributed
 
 ---
@@ -97,7 +97,6 @@ Examples: Git, Mercurial
 ---
 
 # Basics
-## Day to day stuff
 
 ^
 Who has more SVN than Git experience?
@@ -116,19 +115,36 @@ Not only "Distributed"
 > The major difference [...] is the way Git thinks about its data.
 -- Scott Chacon & Ben Straub [^ProGit]
 
+---
+
+# Snapshots
+## not
+# Deltas
+
+![150%](images/snapshots.png)
+
 ^
-A lot VCS: Deltas (what changed?)
-Git: Snapshots
+Deltas: What changed?
+Snapshots: Current state
+
+^
+How does Git build this to a commit?
 
 ---
 
-![100%](images/snapshots.png)
+## What is a
+# Commit
 
-<!--         Version 1
-        File A    -> A1 -> *A1* -> A2 -> *A2*
-        File B    -> *B* -> *B* -> B1 -> B2
-        File C    -> C1 ->  -> 
- -->
+---
+
+![150%](images/commit-and-tree.png)
+
+^
+Commit -> Tree -> Tree | BLOB
+Commit: Tree + Parents + Metadata
+
+^
+Git is closer to a filesystem then classic VCS
 
 ---
 
