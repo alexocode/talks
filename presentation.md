@@ -110,6 +110,22 @@ Examples: Git, Mercurial
 Who has more SVN than Git experience?
 => You'll be trouble
 
+^
+I could bore with commands, but you probably know those already.
+Let's talk about how Git works internally => Helps a lot for advanced stuff
+
+---
+
+![150%](images/areas.png)
+
+^
+How to add changes? (Probably familiar with this)
+Follow up: How does Git track changes?
+
+---
+
+## How does `Git` track changes?
+
 ---
 
 # `Git` is different
@@ -152,21 +168,11 @@ Commit -> Tree -> Tree | BLOB
 Commit: Tree + Parents + Metadata
 
 ^
-Git is closer to a filesystem then classic VCS
+Git is closer to a filesystem then to a classic VCS
 
 ---
 
-## Inline Images
 
-When using the **[inline]** modifier, images automatically centre and fit to the available space.
-
-![inline](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
----
-
-![inline, left](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
-Use **[inline, left]** or **[inline, right]** to move images around. With the text underneath like this, it is the simplest ways to add captions to images.
 
 ---
 
