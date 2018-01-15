@@ -1,9 +1,4 @@
 theme: Next, 1
-slidenumbers: true
-slidecount: true
-
-[.slidecount: false]
-[.slidenumbers: false]
 
 > git gud
 
