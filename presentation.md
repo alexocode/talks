@@ -239,7 +239,25 @@ Not really single though ...
 ### Navigate through history
 
 ^
+Q: You want to remove the last commit, how?
 
+---
+
+# `^` and `~<N>`
+
+```
+$ git log --oneline -1 HEAD
+810e72b Presentation - Basics: Add the ancestry operations slide
+
+$ git log --oneline -1 HEAD^
+85b332f Presentation - Basics: Git History
+
+$ git log --oneline -1 HEAD^^
+1a60452 Presentation: Reformat headlines
+
+$ git log --oneline -1 HEAD~2
+1a60452 Presentation: Reformat headlines
+```
 
 ---
 
