@@ -196,11 +196,15 @@ You might have heard to never change commits after pushing: Hash changes when pr
 
 ---
 
-```
-$ git init git-playground
-Initialized empty Git repository in ...
+## Clone workshop repository
+### `git clone`
+### `git@github.gcxi.de:swolf/git-workshop.git`
 
-$ cd git-playground
+
+---
+
+```
+$ cd git-workshop
 
 $ echo 'Some random text' > my_file
 
@@ -243,20 +247,27 @@ Q: You want to remove the last commit, how?
 
 ---
 
-# `^` and `~<N>`
+# `^`
+### *and*
+#`~<N>`
+
+---
 
 ```
+$ git checkout ancestry
+...
+
 $ git log --oneline -1 HEAD
-810e72b Presentation - Basics: Add the ancestry operations slide
+822eca1 Add the number 5 to numbers
 
 $ git log --oneline -1 HEAD^
-85b332f Presentation - Basics: Git History
+d4bd446 Add the number 4 to numbers
 
 $ git log --oneline -1 HEAD^^
-1a60452 Presentation: Reformat headlines
+1b94d52 Add the number 3 to numbers
 
 $ git log --oneline -1 HEAD~2
-1a60452 Presentation: Reformat headlines
+1b94d52 Add the number 3 to numbers
 ```
 
 ---
@@ -271,55 +282,60 @@ Q: Ask this!
 
 # Let's take a look
 
-<br/>
+<br/><br/><br/>
 
 ```
-$ ls -l .git/refs/heads/
-total 16
-drwxr-xr-x  3 swolf  staff  96 Dec  1 14:58 catch-up
--rw-r--r--  1 swolf  staff  41 Sep  7 09:44 espec
--rw-r--r--  1 swolf  staff  41 Nov  6 16:30 master
-drwxr-xr-x  3 swolf  staff  96 Jan 16 08:24 mentoring
-drwxr-xr-x  3 swolf  staff  96 Jan 14 19:50 review
+$ ls -l .git/refs/heads
+total 32
+-rw-r--r--  1 swolf  staff  41 Jan 16 09:06 ancestry
+-rw-r--r--  1 swolf  staff  41 Jan 16 07:00 dev
+-rw-r--r--  1 swolf  staff  41 Jan 16 07:00 master
+-rw-r--r--  1 swolf  staff  41 Jan 16 07:02 waldo-came-and-left
 ```
 
 ---
 
 # Huh, `master` is a file ...
 
+^
+Q: What do you think is in master?
+
 ---
 
 # I wonder what's in there ...
 
 ```
-$ cat .git/refs/master
-f3cb43e2601c54819928ee289f948234896e9cb8
+$ cat .git/refs/heads/master
+f20c96538c6dca6fb37e631388814fe941afc2ae
 ```
 
 ---
 
 # It's just a hash!
 
+^
+Let us inspect the object!
+We can use `git cat-file --batch`
+
 ---
 
-# Let's inspect the object
-
 ```
-$ cat .git/refs/master | git cat-file --batch
-f3cb43e2601c54819928ee289f948234896e9cb8 commit 523
-tree 4e6897e11baef8fbf0382093dc160442e9c99f2b
-parent c79a7bb4ef8a587c9264207f6f6715cb9fda8425
-author Sascha Wolf <sascha.wolf@grandcentrix.net> 1509982143 +0100
-committer Sascha Wolf <sascha.wolf@grandcentrix.net> 1509982216 +0100
+$ cat .git/refs/heads/master | git cat-file --batch
+f20c96538c6dca6fb37e631388814fe941afc2ae commit 540
+tree 9ab6d12a4587fb4a02de1b5e745277c6c832cf5a
+parent c9866a994539e01938ceec6c75ada013ce456e9b
+parent 12e86b3370f931c423022a8c8d7d7fa7413e0bc4
+author Sascha Wolf <sascha.wolf@grandcentrix.net> 1516082444 +0100
+committer Sascha Wolf <sascha.wolf@grandcentrix.net> 1516082444 +0100
 gpgsig -----BEGIN PGP SIGNATURE-----
 
- iHUEABEIAB0WIQTQyMji07ff76Vkk26j80vFo8w6AAUCWgCACAAKCRCj80vFo8w6
- AFXDAQDrDWUgym7AuNIDL5Lb4dfgMGtA2DWWj4VqghOA2Vq/aAEAhJmh3vGbvLbu
- WeTc1BfojvsWPqdLp+1kEV7ZqcJMH1U=
- =F4z8
+ iHUEABEIAB0WIQTQyMji07ff76Vkk26j80vFo8w6AAUCWl2VDAAKCRCj80vFo8w6
+ AOqtAPoCPrGCN1QZKKGmlqZu43n824v2wviWbUujd9CBwuUURQD/dn2EJ2zHi+zQ
+ qBKm1cfsi5vwTiYj31O4UbOZ1rJbW1M=
+ =vi7g
  -----END PGP SIGNATURE-----
 
-Presentation: Add a template for the presentation
+Merge branch 'dev'
 ```
 
 ---
@@ -341,12 +357,65 @@ $ git checkout --detach master
 ...
 
 $ cat .git/HEAD
-f3cb43e2601c54819928ee289f948234896e9cb8
+f20c96538c6dca6fb37e631388814fe941afc2ae
 ```
 
 ^
 1. Reference onto a branch
 2. Reference onto a commit (detached HEAD)
+
+---
+
+### *What is a*
+# Merge
+
+^
+Q: How does a merge differ from a usual commit?
+
+---
+
+# What does the log tell us?
+
+<br/>
+
+```
+$ git log --decorate --graph --oneline
+*   f20c965 (origin/master, master) Merge branch 'dev'
+|\
+| * 12e86b3 (origin/dev, dev) Add bar
+| * 4043e69 Add some content to foo
+|/
+* c9866a9 Add foo
+```
+
+---
+
+## Remember the commit object?
+
+---
+
+```
+$ cat .git/refs/heads/master | git cat-file --batch
+f20c96538c6dca6fb37e631388814fe941afc2ae commit 540
+tree 9ab6d12a4587fb4a02de1b5e745277c6c832cf5a
+parent c9866a994539e01938ceec6c75ada013ce456e9b
+parent 12e86b3370f931c423022a8c8d7d7fa7413e0bc4
+author Sascha Wolf <sascha.wolf@grandcentrix.net> 1516082444 +0100
+committer Sascha Wolf <sascha.wolf@grandcentrix.net> 1516082444 +0100
+gpgsig -----BEGIN PGP SIGNATURE-----
+
+ iHUEABEIAB0WIQTQyMji07ff76Vkk26j80vFo8w6AAUCWl2VDAAKCRCj80vFo8w6
+ AOqtAPoCPrGCN1QZKKGmlqZu43n824v2wviWbUujd9CBwuUURQD/dn2EJ2zHi+zQ
+ qBKm1cfsi5vwTiYj31O4UbOZ1rJbW1M=
+ =vi7g
+ -----END PGP SIGNATURE-----
+
+Merge branch 'dev'
+```
+
+^
+Q: Do you notice something?
+=> Two parents
 
 ---
 
@@ -359,12 +428,6 @@ Plumbing: Programmatically used low-level commands
 
 ---
 
-## Clone workshop repository
-### `git clone`
-### `git@github.gcxi.de:swolf/git-workshop.git`
-
----
-
 - (add|reset) patch
 - rebase
 - bisect
@@ -372,7 +435,7 @@ Plumbing: Programmatically used low-level commands
 ---
 
 # `git bisect`
-### The bug has to be here
+### A smart bug hunters weapon
 
 ---
 
