@@ -1,6 +1,6 @@
 theme: Next, 1
 
-> git gud
+# GIT GUD
 
 ---
 [.build-lists: true]
@@ -21,7 +21,7 @@ theme: Next, 1
 ---
 
 # Background
-## What is `Git`?
+### What is `Git`?
 
 ^
 Ask this question?
@@ -29,7 +29,7 @@ Ask this question?
 ---
 
 # VCS
-## Version Control System
+### Version Control System
 
 ^
 What does a VCS do?
@@ -55,7 +55,7 @@ Later: How they differ
 ---
 
 # Open Source
-## GNU GPL2
+### GNU GPL2
 
 ^
 published under GNU General Public License version 2
@@ -72,7 +72,7 @@ What does that mean? For this we have understand:
 ---
 
 # Centralised
-## VS
+### VS
 # Distributed
 
 ---
@@ -158,7 +158,7 @@ How does Git build this to a commit?
 
 ---
 
-## What is a
+### *What is a*
 # Commit
 
 ---
