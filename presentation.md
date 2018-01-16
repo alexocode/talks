@@ -113,6 +113,8 @@ Who has more SVN than Git experience?
 ^
 I could bore with commands, but you probably know those already.
 Let's talk about how Git works internally => Helps a lot for advanced stuff
+- Terminology
+- Object model
 
 ---
 
@@ -169,6 +171,15 @@ Commit: Tree + Parents + Metadata
 
 ^
 Git is closer to a filesystem then to a classic VCS
+Next slide: How does Git identify objects?
+
+---
+
+# SHA1
+
+^
+Hash built over all properties of the object (Commit => Author, Committer etc.)
+You might have heard to never change commits after pushing: Hash changes when properties change
 
 ---
 
@@ -176,7 +187,7 @@ Git is closer to a filesystem then to a classic VCS
 
 ---
 
-```sh
+```
 $ git init git-playground
 Initialized empty Git repository in ...
 
@@ -196,6 +207,7 @@ Some random text
 
 ^
 You can actually find the blob in .git/objects/1a/76b8a41993e2c667f5b191fb57abdab2102a8b
+Git only uses the content; create an identical file and the hash will be the same
 
 ---
 
