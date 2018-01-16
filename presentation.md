@@ -118,6 +118,15 @@ Let's talk about how Git works internally => Helps a lot for advanced stuff
 
 ---
 
+# Expected Knowledge
+
+- `add`
+- `reset`
+- `commit`
+- `merge`
+
+---
+
 ![150%](images/areas.png)
 
 ^
@@ -208,6 +217,65 @@ Some random text
 ^
 You can actually find the blob in .git/objects/1a/76b8a41993e2c667f5b191fb57abdab2102a8b
 Git only uses the content; create an identical file and the hash will be the same
+
+---
+
+# How history is made
+### `Git` history at least
+
+![fit](images/log-graph.png)
+
+---
+
+![150%](images/commits-and-parents.png)
+
+^
+Each commit has a reference on it's parent => Single linked list
+Not really single though ...
+
+---
+
+# Honour thy parent
+### Navigate through history
+
+^
+
+
+---
+
+# Advanced
+### From porcelain to plumbing
+
+^
+Porcelain: Clean CLI commands (like add, commit, reset)
+Plumbing: Programmatically used low-level commands
+
+---
+
+## Clone workshop repository
+### `git clone`
+### `git@github.gcxi.de:swolf/git-workshop.git`
+
+---
+
+- (add|reset) patch
+- rebase
+- bisect
+
+---
+
+# `git bisect`
+### The bug has to be here
+
+---
+
+# Best Practices
+
+---
+
+- Commit message
+- Merging and rebasing
+- Branching?
 
 ---
 
