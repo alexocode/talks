@@ -261,6 +261,95 @@ $ git log --oneline -1 HEAD~2
 
 ---
 
+### *What is a*
+# Branch
+
+^
+Q: Ask this!
+
+---
+
+# Let's take a look
+
+<br/>
+
+```
+$ ls -l .git/refs/heads/
+total 16
+drwxr-xr-x  3 swolf  staff  96 Dec  1 14:58 catch-up
+-rw-r--r--  1 swolf  staff  41 Sep  7 09:44 espec
+-rw-r--r--  1 swolf  staff  41 Nov  6 16:30 master
+drwxr-xr-x  3 swolf  staff  96 Jan 16 08:24 mentoring
+drwxr-xr-x  3 swolf  staff  96 Jan 14 19:50 review
+```
+
+---
+
+# Huh, `master` is a file ...
+
+---
+
+# I wonder what's in there ...
+
+```
+$ cat .git/refs/master
+f3cb43e2601c54819928ee289f948234896e9cb8
+```
+
+---
+
+# It's just a hash!
+
+---
+
+# Let's inspect the object
+
+```
+$ cat .git/refs/master | git cat-file --batch
+f3cb43e2601c54819928ee289f948234896e9cb8 commit 523
+tree 4e6897e11baef8fbf0382093dc160442e9c99f2b
+parent c79a7bb4ef8a587c9264207f6f6715cb9fda8425
+author Sascha Wolf <sascha.wolf@grandcentrix.net> 1509982143 +0100
+committer Sascha Wolf <sascha.wolf@grandcentrix.net> 1509982216 +0100
+gpgsig -----BEGIN PGP SIGNATURE-----
+
+ iHUEABEIAB0WIQTQyMji07ff76Vkk26j80vFo8w6AAUCWgCACAAKCRCj80vFo8w6
+ AFXDAQDrDWUgym7AuNIDL5Lb4dfgMGtA2DWWj4VqghOA2Vq/aAEAhJmh3vGbvLbu
+ WeTc1BfojvsWPqdLp+1kEV7ZqcJMH1U=
+ =F4z8
+ -----END PGP SIGNATURE-----
+
+Presentation: Add a template for the presentation
+```
+
+---
+
+# What about `HEAD`?
+
+^
+Q: What do you think is HEAD?
+
+---
+
+<br/><br/><br/><br/>
+
+```
+$ cat .git/HEAD
+ref: refs/heads/master
+
+$ git checkout --detach master
+...
+
+$ cat .git/HEAD
+f3cb43e2601c54819928ee289f948234896e9cb8
+```
+
+^
+1. Reference onto a branch
+2. Reference onto a commit (detached HEAD)
+
+---
+
 # Advanced
 ### From porcelain to plumbing
 
