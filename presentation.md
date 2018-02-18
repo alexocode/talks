@@ -257,6 +257,13 @@ Q: You want to remove the last commit, how?
 
 ---
 
+![](images/wat.png)
+
+^
+Better have an example
+
+---
+
 ```
 $ git checkout ancestry
 ...
