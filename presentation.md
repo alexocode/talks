@@ -584,6 +584,21 @@ Use `stash@{<n>}` to reference older stashes
 
 ---
 
+# `git reflog`
+## a history for your `HEAD`
+
+---
+
+## Try it out!
+### `git reflog`
+
+---
+
+## Branches have `reflog`s too!
+### `git reflog <some branch>`
+
+---
+
 # `git rebase`
 ### *one command to rule them all*
 
