@@ -621,6 +621,36 @@ $ git rebase --interactive dev
 
 ---
 
+## Avoid rebasing pushed commits!
+
+^
+Q: Do you know why?
+
+---
+
+## `rebase` rewrites history
+#### with great power comes great responsibility
+
+^
+Q: Why is that bad?
+
+---
+
+## Changing parent
+### =
+## Changing SHA1
+### =
+## Chain reaction
+
+![](images/boom.jpg)
+
+---
+
+# MOAR POWER!
+#### over history
+
+---
+
 # Honourable mentions
 
 - `bisect`: find the commit which introduced an error
