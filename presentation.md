@@ -289,6 +289,8 @@ $ git log --oneline -1 HEAD~2
 ### *What is a*
 # Branch
 
+![](images/branch.jpg)
+
 ^
 Q: Ask this!
 
@@ -387,6 +389,8 @@ f20c96538c6dca6fb37e631388814fe941afc2ae
 
 ### *What is a*
 # Merge
+
+![](images/merge.jpg)
 
 ^
 Q: How does a merge differ from a usual commit?
@@ -488,6 +492,8 @@ $ git l -3
 # `git bisect`
 ### a smart bug hunters weapon
 
+![](images/weapon.jpg)
+
 ---
 
 # `git bisect`
@@ -534,6 +540,8 @@ Show the asciinema as demonstration at the end
 # `--patch`
 ### `add` | `checkout` | `reset`
 
+![fit](images/patch.png)
+
 ---
 
 # Let's try it out!
@@ -559,6 +567,8 @@ Tip 2: `s` for split
 # Level up your `--patch`
 ## `e`dit mode
 
+![230%](images/level-up.png)
+
 ^
 It's possible to edit things before adding it to the index!
 => Show it on the example patch
@@ -567,6 +577,8 @@ It's possible to edit things before adding it to the index!
 
 # `git stash`
 ## quicksave for git
+
+![](images/stash.jpg)
 
 ^
 Q: Who knows this already?
@@ -687,6 +699,8 @@ Q: Why is that bad?
 # MOAR POWER!
 #### over history
 
+![](images/power.jpg)
+
 ---
 
 # `git filter-branch`
@@ -731,6 +745,10 @@ Need to remove a sensitive file from all commits?
 # Best Practices[^2]
 
 ![140%](images/best-practices.png)
+
+---
+
+![](images/best-practice.jpg)
 
 ---
 
