@@ -565,6 +565,13 @@ Use `stash@{<n>}` to reference older stashes
 
 ---
 
+# `git rebase`
+### *one command to rule them all*
+
+![original](images/ring.png)
+
+---
+
 # Honourable mentions
 
 - `bisect`: find the commit which introduced an error
