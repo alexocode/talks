@@ -727,7 +727,7 @@ Need to remove a sensitive file from all commits?
 
 ---
 
-# Best Practices
+# Best Practices[^2]
 
 ![140%](images/best-practices.png)
 
@@ -775,3 +775,5 @@ Cell       |   **Cell**    |     __Cell__
 [^ProGit]: https://git-scm.com/book/en/v2
 
 [^1]: https://asciinema.org/a/h9S0ICShlW3ngij5CFbpg8Oc9
+
+[^2]: http://sethrobertson.github.io/GitBestPractices
