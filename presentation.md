@@ -511,6 +511,11 @@ $ git bisect <known bad commit> <known good commit>
 # Automate it!
 ## `git bisect run <command>`
 
+^
+Exit codes are used
+1: bad commit
+0: good commit
+
 ---
 
 # Let's try it out!
