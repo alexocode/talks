@@ -579,6 +579,25 @@ Q: What rebase do?
 
 ![original 75%](images/rebase.png)
 
+^
+That's a bit meh, right?
+=> That's only the beginning
+
+---
+
+## `git rebase --interactive`
+
+![](images/forge.jpeg)
+
+---
+
+# Let's try it out
+
+```
+
+```
+
+
 ---
 
 # Honourable mentions
