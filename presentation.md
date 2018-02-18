@@ -456,14 +456,65 @@ Plumbing: Programmatically used low-level commands
 
 ---
 
-- (add|reset) patch
-- cherry-pick
-- stash
-- rebase
-- bisect
-- grep
-- notes
-- worktree
+# We're going to look at
+
+- `--patch` mode
+- `stash`
+- `rebase`
+- `submodule`
+- `for-each-ref`
+- `update-index` (--assume-unchanged | --skip-worktree)
+
+---
+
+## One thing before we start ...
+
+^
+Use aliases for intersting command+option combinations
+
+---
+
+# Aliase
+#### `git config --global alias.<your-alias> <command>``
+
+---
+
+# In Action
+
+<br/>
+
+```
+$ git config --global alias.l 'log --decorate --graph --oneline'
+
+$ git l -3
+*   f20c965 (HEAD -> master, origin/master) Merge branch 'dev'
+|\
+| * 12e86b3 (origin/dev, dev) Add bar
+| * 4043e69 Add some content to foo
+|/
+```
+
+^
+`--global` to put it into your `~/.gitconfig`
+
+---
+
+- (`add`|`reset`) `--patch`
+- `stash`
+- `rebase`
+- `submodule`
+- `for-each-ref`
+- `update-index` (--assume-unchanged | --skip-worktree)
+
+---
+
+# Honourable mention
+
+- `bisect` find the commit which introduced an error
+- `cherry-pick` "copy" one+ commits onto the current branch
+- `clean` remove untracked files and folders
+- `grep` search pattern in tracked files
+- `worktree` checkout a reference into another worktree
 
 ---
 
