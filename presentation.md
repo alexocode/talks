@@ -7,21 +7,23 @@ theme: Next, 1
 
 # Agenda
 
+<br/>
+
 1. Background
-2. Basics
-3. Advanced
-4. Tips & Tricks
-5. Best Practices
+2. Internals
+3. Tips & Tricks
+4. Best Practices
 
 ^
-1. & 2. => Lecture
-3. & 4. => Interactive
-5. => Lecture
+1. => Lecture
+2. => Lecture & Interactive
+3. => Interactive
+4. => Lecture
 
 ---
 
 # Background
-### What is `Git`?
+### what is `Git`?
 
 ^
 Ask this question?
@@ -105,11 +107,10 @@ Examples: Git, Mercurial
 
 ---
 
-# Basics
+# Internals
+### let's get our hands dirty
 
-^
-Who has more SVN than Git experience?
-=> You'll be trouble
+![](images/hard-work.jpg)
 
 ^
 I could bore with commands, but you probably know those already.
@@ -227,7 +228,7 @@ Git only uses the content; create an identical file and the hash will be the sam
 ---
 
 # How history is made
-### `Git` history at least
+### `git` history at least
 
 ![fit](images/log-graph.png)
 
@@ -437,12 +438,7 @@ Q: Do you notice something?
 
 ---
 
-# Advanced
-### from porcelain to plumbing
-
-^
-Porcelain: Clean CLI commands (like add, commit, reset)
-Plumbing: Programmatically used low-level commands
+# Tips & Tricks
 
 ---
 
@@ -486,6 +482,11 @@ $ git l -3
 
 ^
 `--global` to put it into your `~/.gitconfig`
+
+---
+
+# `git bisect`
+### a smart bug hunters weapon
 
 ---
 
@@ -661,17 +662,23 @@ Need to remove a sensitive file from all commits?
 
 ---
 
+# `git update-index`
+### some real plumbing
+
+---
+
+# `git update-index`
+
+
+
+---
+
 # Honourable mentions
 
 - `cherry-pick`: "copy" one+ commits onto the current branch
 - `clean`: remove untracked files and folders
 - `grep`: search pattern in tracked files
 - `worktree`: checkout a reference into another worktree
-
----
-
-# `git bisect`
-### A smart bug hunters weapon
 
 ---
 
