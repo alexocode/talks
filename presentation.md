@@ -570,6 +570,15 @@ Use `stash@{<n>}` to reference older stashes
 
 ![original](images/ring.png)
 
+^
+Q: What rebase do?
+
+---
+
+`git rebase dev feature/login-button`
+
+![original 75%](images/rebase.png)
+
 ---
 
 # Honourable mentions
