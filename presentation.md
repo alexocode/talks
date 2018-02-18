@@ -533,7 +533,26 @@ It's possible to edit things before adding it to the index!
 
 ---
 
+# `git stash`
+## quicksave for git
 
+^
+Q: Who knows this already?
+
+---
+
+# `git stash`
+
+<br/>
+
+- `push` create a stash from current changes
+- `pop` apply and delete a stash
+- `drop` delete a stash
+
+<br/>
+<br/>
+
+Use `stash@{<n>}` to reference older stashes
 
 ---
 
