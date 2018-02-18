@@ -490,6 +490,51 @@ $ git l -3
 
 ---
 
+# `git bisect`
+
+*Search for the first commit which introduces an issue*
+
+```
+$ git bisect start
+$ git bisect bad <known bad commit>
+$ git bisect good <known good commit>
+```
+
+### Shortcut
+
+```
+$ git bisect <known bad commit> <known good commit>
+```
+
+---
+
+# Automate it!
+## `git bisect run <command>`
+
+---
+
+# Let's try it out!
+
+<br/>
+
+```
+$ git checkout waldo-came-and-left
+...
+
+$ git bisect start HEAD d175476
+...
+
+$ git bisect run test -f waldo
+???
+```
+
+---
+
+# Stop `bisect`ing
+## `git bisect reset`
+
+---
+
 # `--patch`
 ### `add` | `checkout` | `reset`
 
