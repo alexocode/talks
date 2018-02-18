@@ -702,7 +702,7 @@ Lot's of ways to rewrite history
 
 # `git filter-branch`
 
-Allows rewrite
+Allows to rewrite
 
 `--env-filter <command>`
 `--index-filter <command>`
