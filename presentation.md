@@ -748,6 +748,17 @@ You can use interactive rebase for "Perfect later"
 
 ---
 
+# Do not rewrite published history!
+
+^
+N: Otherwise your colleagues might do this
+
+---
+
+![](images/hulk.gif)
+
+---
+
 # Commit Messages
 
 ![](images/commit-message.jpg)
