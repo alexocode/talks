@@ -499,6 +499,44 @@ $ git l -3
 
 ---
 
+# `--patch`
+### `add` | `reset`
+
+---
+
+# Let's try it out!
+
+<br/>
+
+```
+$ git checkout patch-practice
+...
+
+$ git apply patch-practice.diff
+...
+
+$ git add --patch # Try to add only the above line!
+```
+
+^
+Tip 1: `?` for help
+Tip 2: `s` for split
+
+---
+
+# Level up your `--patch`
+## `e`dit mode
+
+^
+It's possible to edit things before adding it to the index!
+=> Show it on the example patch
+
+---
+
+
+
+---
+
 - (`add`|`reset`) `--patch`
 - `stash`
 - `rebase`
