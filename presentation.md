@@ -438,21 +438,11 @@ Q: Do you notice something?
 ---
 
 # Advanced
-### From porcelain to plumbing
+### from porcelain to plumbing
 
 ^
 Porcelain: Clean CLI commands (like add, commit, reset)
 Plumbing: Programmatically used low-level commands
-
----
-
-# Porcelain
-#### add | reset | commit | merge | pull | push
-
----
-
-# Plumbing
-#### cat-file | update-index | write-tree | commit-tree
 
 ---
 
@@ -462,7 +452,7 @@ Plumbing: Programmatically used low-level commands
 - `stash`
 - `rebase`
 - `submodule`
-- `for-each-ref`
+- `filter-branch`
 - `update-index` (--assume-unchanged | --skip-worktree)
 
 ---
@@ -556,15 +546,6 @@ Use `stash@{<n>}` to reference older stashes
 
 ---
 
-- (`add`|`reset`) `--patch`
-- `stash`
-- `rebase`
-- `submodule`
-- `for-each-ref`
-- `update-index` (--assume-unchanged | --skip-worktree)
-
----
-
 # `git rebase`
 ### *one command to rule them all*
 
@@ -648,6 +629,35 @@ Q: Why is that bad?
 
 # MOAR POWER!
 #### over history
+
+---
+
+# `git filter-branch`
+
+---
+
+![](images/rewrite-all-the-history.png)
+
+^
+Lot's of ways to rewrite history
+
+---
+
+# `git filter-branch`
+
+Allows rewrite
+
+`--env-filter <command>`
+`--index-filter <command>`
+`--msg-filter <command>`
+`--parent-filter <command>`
+`--subdirectory-filter <directory>`
+`--tag-name-filter <command>`
+`--tree-filter <command>`
+
+^
+Need to remove a sensitive file from all commits?
+`tree-filter` to the rescue
 
 ---
 
