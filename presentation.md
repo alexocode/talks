@@ -733,6 +733,20 @@ Need to remove a sensitive file from all commits?
 
 ---
 
+# Commit often
+# Perfect later
+# Publish once
+
+^
+You can use interactive rebase for "Perfect later"
+
+---
+
+## Use shortlived branches
+#### or at least merge upstream work regularly
+
+---
+
 # Commit Messages
 
 ![](images/commit-message.jpg)
