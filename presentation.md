@@ -514,11 +514,10 @@ $ git bisect <known bad commit> <known good commit>
 ---
 
 # Let's try it out!
-### `git checkout waldo-came-and-left`
+### `git bisect start waldo-came-and-left d175`
 
----
-
-# Demonstration
+^
+Show the asciinema as demonstration at the end
 
 ---
 
