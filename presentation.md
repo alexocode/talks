@@ -777,14 +777,9 @@ N: Don't do this
 
 ---
 
-# Tables
+# Thank you
 
-With `:---:`, `---:` and `:---` you can center, right or right align the cell content.
-
-  Header 1 |    Header 2   |   Header 3   |
------------| :-----------: | -----------: |
-Cell       |     _Cell_    |     *Cell*
-Cell       |   **Cell**    |     __Cell__
+![](images/supa-hot-fire.gif)
 
 [^ProGit]: https://git-scm.com/book/en/v2
 
