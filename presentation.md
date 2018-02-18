@@ -729,11 +729,37 @@ Need to remove a sensitive file from all commits?
 
 # Best Practices
 
+![140%](images/best-practices.png)
+
 ---
 
-- Commit message
-- Merging and rebasing
-- Branching?
+# Commit Messages
+
+![](images/commit-message.jpg)
+
+---
+
+# Commit Messages
+
+```
+<Topic|File>: <Short description> (50 characters sort limit)
+
+<More detailed description> (bullet points are fine)
+- problem (what is the issue with the current implementation)
+- choosen approach with reasoning
+- maybe rejected approaches
+```
+
+### Use imperativ
+
+`Add foo` instead of `Added foo`
+
+^
+N: Don't do this
+
+---
+
+![](images/commit-messages-2.png)
 
 ---
 
