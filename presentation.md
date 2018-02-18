@@ -50,6 +50,7 @@ What does a VCS do?
 - `Git`
 
 ^
+Who has tried what?
 Later: How they differ
 
 ---
@@ -97,7 +98,7 @@ Examples: SVN, CVS, Perforce
 ^
 - Each repository a full backup (with exceptions)
 - Communication between repositories
-- Possibel to do centralised approach
+- Possibel to do centralised approach (usual approach)
 
 ^
 Examples: Git, Mercurial
@@ -161,6 +162,7 @@ Not only "Distributed"
 ^
 Deltas: What changed?
 Snapshots: Current state
+Q: Any advantages you can think of?
 
 ^
 How does Git build this to a commit?
@@ -293,6 +295,12 @@ total 32
 -rw-r--r--  1 swolf  staff  41 Jan 16 07:02 waldo-came-and-left
 ```
 
+^
+All references in `.git/refs`:
+- branches in `heads`
+- remote branches in `remotes/<remote-name>`
+- tags in `tags`
+
 ---
 
 # Huh, `master` is a file ...
@@ -344,6 +352,7 @@ Merge branch 'dev'
 
 ^
 Q: What do you think is HEAD?
+Q: Have you ever seen "detached HEAD"?
 
 ---
 
