@@ -514,19 +514,11 @@ $ git bisect <known bad commit> <known good commit>
 ---
 
 # Let's try it out!
+### `git checkout waldo-came-and-left`
 
-<br/>
+---
 
-```
-$ git checkout waldo-came-and-left
-...
-
-$ git bisect start HEAD d175476
-...
-
-$ git bisect run test -f waldo
-???
-```
+# Demonstration
 
 ---
 
@@ -707,17 +699,6 @@ Need to remove a sensitive file from all commits?
 
 ---
 
-# `git update-index`
-### some real plumbing
-
----
-
-# `git update-index`
-
-
-
----
-
 # Honourable mentions
 
 - `cherry-pick`: "copy" one+ commits onto the current branch
@@ -747,3 +728,5 @@ Cell       |     _Cell_    |     *Cell*
 Cell       |   **Cell**    |     __Cell__
 
 [^ProGit]: https://git-scm.com/book/en/v2
+
+[^1]: https://asciinema.org/a/h9S0ICShlW3ngij5CFbpg8Oc9
