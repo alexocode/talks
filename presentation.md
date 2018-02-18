@@ -143,6 +143,8 @@ Follow up: How does Git track changes?
 
 # `Git` is different
 
+![](images/different.jpg)
+
 ^
 Not only "Distributed"
 => The way `Git` thinks about it's files
@@ -320,12 +322,10 @@ Q: What do you think is in master?
 
 ---
 
-# I wonder what's in there ...
-
-```
-$ cat .git/refs/heads/master
-f20c96538c6dca6fb37e631388814fe941afc2ae
-```
+## I wonder what's in there ...
+### <br/>
+### `$ cat .git/refs/heads/master`
+### `f20c96538c6dca6fb37e631388814fe941afc2ae`
 
 ---
 
