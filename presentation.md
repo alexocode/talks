@@ -579,9 +579,24 @@ Q: What rebase do?
 
 ![original 75%](images/rebase.png)
 
+---
+
+# Let's try it out
+
+<br/>
+
+```
+$ git checkout rebase-practice
+...
+
+$ git rebase dev
+???
+```
+
 ^
-That's a bit meh, right?
-=> That's only the beginning
+Huh, seems like we got a conflict ...
+`foo` was removed but we want to keep it!
+Q: What can we do?
 
 ---
 
@@ -591,12 +606,18 @@ That's a bit meh, right?
 
 ---
 
-# Let's try it out
+# Let's fix this
+
+We don't want to remove `foo`!
+<br/>
 
 ```
+$ git rebase --abort
+...
 
+$ git rebase --interactive dev
+???
 ```
-
 
 ---
 
