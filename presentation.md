@@ -241,8 +241,10 @@ Not really single though ...
 
 ---
 
-# Honour thy parent
+# Honour thy parents
 ### Navigate through history
+
+![fit](images/parents.png)
 
 ^
 Q: You want to remove the last commit, how?
