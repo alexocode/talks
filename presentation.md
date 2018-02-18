@@ -722,6 +722,7 @@ Need to remove a sensitive file from all commits?
 
 - `cherry-pick`: "copy" one+ commits onto the current branch
 - `clean`: remove untracked files and folders
+- `commit --amend`: include added changes in last commit
 - `grep`: search pattern in tracked files
 - `worktree`: checkout a reference into another worktree
 
