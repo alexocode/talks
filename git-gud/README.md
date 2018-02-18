@@ -26,8 +26,8 @@ Hammers in to never rewrite published history.
 
 ## Presentation
 
-- [Markdown](git-gud/git-gud.md)
-- [PDF](git-gud/build/git-gud.pdf)
+- [Markdown](git-gud.md)
+- [PDF](build/git-gud.pdf)
 
 ## Links
 
