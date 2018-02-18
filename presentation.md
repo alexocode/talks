@@ -446,9 +446,24 @@ Plumbing: Programmatically used low-level commands
 
 ---
 
+# Porcelain
+#### add | reset | commit | merge | pull | push
+
+---
+
+# Plumbing
+#### cat-file | update-index | write-tree | commit-tree
+
+---
+
 - (add|reset) patch
+- cherry-pick
+- stash
 - rebase
 - bisect
+- grep
+- notes
+- worktree
 
 ---
 
