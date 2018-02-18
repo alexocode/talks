@@ -546,13 +546,14 @@ It's possible to edit things before adding it to the index!
 
 ---
 
-# Honourable mention
+# Honourable mentions
 
-- `bisect` find the commit which introduced an error
-- `cherry-pick` "copy" one+ commits onto the current branch
-- `clean` remove untracked files and folders
-- `grep` search pattern in tracked files
-- `worktree` checkout a reference into another worktree
+- `bisect`: find the commit which introduced an error
+- `cherry-pick`: "copy" one+ commits onto the current branch
+- `clean`: remove untracked files and folders
+- `grep`: search pattern in tracked files
+- `reflog`: checkout history for `HEAD` or a branch
+- `worktree`: checkout a reference into another worktree
 
 ---
 
