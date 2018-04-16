@@ -1,6 +1,7 @@
 theme: Poster, 1
 
-# [fit] Template
+# Tracing
+### *In Elixir*
 
 ---
 [.autoscale: true]
