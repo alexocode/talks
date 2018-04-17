@@ -314,6 +314,13 @@ Question: Ask this!
 
 ![90%](images/tracing-event.png)
 
+---
+
+# **Questions?**
+#### Slides on GitHub[^1]
+
+[^1]: https://github.com/Zeeker/talks
+
 
 ^
 Used those downstream to correlate the spans to each other
