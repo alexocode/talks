@@ -308,12 +308,48 @@ Remember what OTTER provides us with?
 
 ---
 
-# How did 👨‍💻 solve this?
+# Options?
+
+^
+Question: Ask this!
+
+---
+[.build-lists: true]
+
+1. Inject tracing contexts "into" events
+2. Save tracing contexts globally
+3. Generate span ID from input
+4. Use unique event data as span IDs
+
+^
+1. Where?
+2. scaling issues
+3. collision risk (that bad?), obscure
+4. UUIDs but we need 64bit integer
+
+---
+
+## What did 👨‍💻 do?
 
 ---
 
 ## Inserted Span IDs
 ## into event metadata
+
+---
+
+## Used these IDs
+## downstream to
+## correlate spans
+
+---
+
+## Custom context propagation
+
+---
+
+![90%](images/tracing-event.png)
+
 
 ^
 Used those downstream to correlate the spans to each other
