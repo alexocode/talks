@@ -157,6 +157,43 @@ Not going to explain OT in detail, couldn't do it anyway
 ^
 Getting Span information from one system into another
 
+^
+"For this OpenTracing standardizes ..."
+
+---
+
+- Span management (start, finish, decorate)
+- Inter-process propagation (overcome process boundaries)
+- Active span management (store, retrieve)
+
+^
+"Ok, so this is OpenTracing ..."
+
+---
+
+# What about Elixir?
+
+---
+
+# OTTER
+#### *O*pen*T*racing *T*oolkit for *Er*lang
+
+![fit](images/otter.png)
+
+---
+
+## Partial
+## OpenTracing
+## Implementation
+
+---
+
+- Span management (start, finish, decorate)
+- Kinda: Active span management
+
+^
+Active: Per-Process span "caching", not crossing process boundaries
+
 ---
 
 ## Inline Images
