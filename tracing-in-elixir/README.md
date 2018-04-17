@@ -8,5 +8,5 @@ It talks about the following subjects:
 
 - [OpenTracing](http://opentracing.io/)
 - [OTTER](https://github.com/Bluehouse-Technology/otter)
-- [ExRay](https://github.com/xavier/exray)
+- [ExRay](https://github.com/derailed/ex_ray)
 - [Jaeger](http://www.jaegertracing.io/) (briefly)
