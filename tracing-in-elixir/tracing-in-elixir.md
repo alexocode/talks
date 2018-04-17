@@ -1,7 +1,15 @@
+build-lists: true
 theme: Poster, 1
 
 # Tracing
 ### *In Elixir*
+
+^
+Asked myself what this talk should be about ...
+- Technical details?
+- Scaling?
+- Issues?
+-> Story
 
 ---
 
@@ -228,40 +236,49 @@ Must be easy now, right?
 # 🎉🎉🎉
 
 ^
-Let's go deeper ...
+Now he actually wants to see what a request DOES!
 
 ^
-"But then Alexander ..."
+ALEX WANTED TO GO DEEPER!
 
 ---
 
-![](images/hit-a-wall.gif)
+![](images/inception.gif)
 
 ^
-"The project was ..."
+"But for that, he had to ..."
+
+---
+
+# Cross Process Boundaries
+
+^
+"Why? Because, you see, the project was ..."
 
 ---
 
 # Event-driven
 
----
-
-## How to cross
-## system boundaries?
+^
+He wanted to see what an event triggered!
 
 ^
-Remember what OTTER provides us with?
+"Which meant, Alex needed ..."
 
 ---
 
-- Span management (start, finish, decorate)
+# Inter-Process Propagation
+
+^
+Remember OTTER? Partial Implementation? What exactly did it gave Alex?
+
+---
+
+- Span management
 - Kinda: Active span management
+- *No* inter-process propagation
 
----
-
-## What about
-## inter-process
-## propagation?
+![fit](images/otter.png)
 
 ^
 "Well ..."
@@ -269,6 +286,13 @@ Remember what OTTER provides us with?
 ---
 
 # 💩
+
+^
+"Here Alexander ..."
+
+---
+
+![](images/hit-a-wall.gif)
 
 ---
 
@@ -278,7 +302,6 @@ Remember what OTTER provides us with?
 Question: Ask this!
 
 ---
-[.build-lists: true]
 
 1. Inject tracing contexts "into" events
 2. Save tracing contexts globally
@@ -300,19 +323,40 @@ Question: Ask this!
 ## Inserted Span IDs
 ## into event metadata
 
+^
+1. Option
+
 ---
 
 ## Used these IDs
 ## downstream to
 ## correlate spans
 
+^
+Basically built ...
+
 ---
 
-## Custom context propagation
+## Custom
+## inter-process
+## propagation
+
+^
+"Now finally he could ..."
 
 ---
 
 ![90%](images/tracing-event.png)
+
+---
+
+# Take away?
+
+---
+
+- Tracing is *hard*
+- OpenTracing has neat ideas
+- Tooling in Elixir/Erlang still has need for improvement
 
 ---
 
