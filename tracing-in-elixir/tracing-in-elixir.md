@@ -29,7 +29,7 @@ theme: Poster, 1
 4. "Look into OpenTracing, you must"
 5. OpenTracing: Vendor-neutral APIs and instrumentation for distributed tracing
 6. Otter, ExRay more?
-7. "Woho! Working Prove of Concept!"
+7. "Woho! Working Proof of Concept!"
 8. Integrate tracing without much code changes?
   - Carriers in OpenTracing, no support in Otter
   - Global State? ets table? When to clean
@@ -196,25 +196,44 @@ Active: Per-Process span "caching", not crossing process boundaries
 
 ---
 
-## Inline Images
+# ExRay
+#### Tracing annotations built with OTTER
 
-When using the **[inline]** modifier, images automatically centre and fit to the available space.
-
-![inline](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
----
-
-![inline, left](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
-Use **[inline, left]** or **[inline, right]** to move images around. With the text underneath like this, it is the simplest ways to add captions to images.
+![120%](images/exray.png)
 
 ---
 
-# Tables
+```elixir
+defmodule Stuff do
+  use ExRay, pre: :start_span, post: :finish_span
 
-With `:---:`, `---:` and `:---` you can center, right or right align the cell content.
+  defp start_span(context), do: ...
+  defp finish_span(context, span, result), do: ...
 
-  Header 1 |    Header 2   |   Header 3   |
------------| :-----------: | -----------: |
-Cell       |     _Cell_    |     *Cell*
-Cell       |   **Cell**    |     __Cell__
+  @trace kind: "list"
+  def list_stuff do
+    Stuff.Repo.all(Stuff)
+  end
+
+  ...
+end
+```
+
+---
+
+# Remember Alexander?
+
+---
+
+## He built a
+## Proof of Concept
+
+---
+
+![60%](images/tracing-poc.png)
+
+^
+Screenshot from Jaeger UI, distributed tracing system by Uber
+
+---
+
