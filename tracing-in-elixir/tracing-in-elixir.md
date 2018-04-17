@@ -72,7 +72,7 @@ Backend Developer at a random compomany, let's say
 # 🤷‍♂️
 
 ^
-- No idea where to start, what makes sense
+- Where to start? What makes sense?
 - Ask experienced colleague, Senior Developer, if you want
 
 ---
@@ -87,9 +87,75 @@ Backend Developer at a random compomany, let's say
 ^
 Pretty much the exchange
 
+^
+"Before we look at OT, let's ask ourselfs ..."
+
+---
+
+# What exactly
+# *is* tracing?
+
+^
+Question!
+
+^
+"Tracing is about ..."
+
+---
+
+# Analyzing
+# Transactions
+
+^
+"But ..."
+
+---
+
+# Tracing
+# is *hard*
+
+^
+Question: Why?
+
+---
+
+- Contexts need to be passed around
+- Within and between processes
+- Through OSS packages (ORM etc.)
+- Self-contained services (NGINX, Redis etc.)
+- Arbitrary glue code and business logic
+
+^
+Unreasonable to abide to single vendor specifications
+
+---
+
+# Vendor
+# Lock-in
+
 ---
 
 ![](images/open-tracing.png)
+
+^
+Not going to explain OT in detail, couldn't do it anyway
+
+---
+
+## Timed Operations
+#### called *Spans*
+
+---
+
+## Relations between
+## *Spans*
+
+---
+
+## Context Propagation
+
+^
+Getting Span information from one system into another
 
 ---
 
