@@ -237,3 +237,83 @@ Screenshot from Jaeger UI, distributed tracing system by Uber
 
 ---
 
+# 🎉🎉🎉
+
+^
+Everybody was like "Yeeeaaaah"
+
+---
+
+## Integrate it
+## into the project!
+
+^
+Must be easy now, right?
+
+---
+
+# Tracing Plug
+
+^
+1. Create span and add some tags
+2. Wait for response
+3. Finish span
+
+---
+
+# 🎉🎉🎉
+
+^
+Let's go deeper ...
+
+^
+"But then Alexander ..."
+
+---
+
+![](images/hit-a-wall.gif)
+
+^
+"The project was ..."
+
+---
+
+# Event-driven
+
+---
+
+## How to cross
+## system boundaries?
+
+^
+Remember what OTTER provides us with?
+
+---
+
+- Span management (start, finish, decorate)
+- Kinda: Active span management
+
+---
+
+## What about
+## inter-process
+## propagation?
+
+^
+"Well ..."
+
+---
+
+# 💩
+
+---
+
+# How did 👨‍💻 solve this?
+
+---
+
+## Inserted Span IDs
+## into event metadata
+
+^
+Used those downstream to correlate the spans to each other
