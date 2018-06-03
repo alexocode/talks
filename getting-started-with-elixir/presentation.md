@@ -1,46 +1,69 @@
 theme: Poster, 1
 
-# [fit] Template
-
----
-[.autoscale: true]
-
-# Hero's Journey
-
-1. The journey begins with the introduction of the Heroes in the Ordinary World, where
-2. they are presented with the Call to Adventure.
-3. Their initial reluctance may lead to Refusal of the Call, but they
-4. receive encouragement from a Mentor to
-5. cross over the Threshold and gain entry into the Special World.
-6. There, they encounter Tests, Allies, and Enemies.
-7. They Approach the Inmost Cave where
-8. they must endure an Ordeal.
-9. The Reward is seized and
-10. they are pursued as they follow The Road Back to the Ordinary World.
-11. They are transformed by the experience of a Resurrection and
-12. return triumphant with the Elixir—an item of great value that will benefit the Ordinary World.
+# Getting Started
+# with *Elixir*
 
 ---
 
-## Inline Images
-
-When using the **[inline]** modifier, images automatically centre and fit to the available space.
-
-![inline](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
+## What is *Elixir*?
 
 ---
 
-![inline, left](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
+> Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
+-- elixir-lang.org
 
-Use **[inline, left]** or **[inline, right]** to move images around. With the text underneath like this, it is the simplest ways to add captions to images.
+^
+Great sales pitch, right?
 
 ---
 
-# Tables
+> Elixir is young and immature!
+-- Some grumpy old programmer
 
-With `:---:`, `---:` and `:---` you can center, right or right align the cell content.
+^
+It was released in 2011
 
-  Header 1 |    Header 2   |   Header 3   |
------------| :-----------: | -----------: |
-Cell       |     _Cell_    |     *Cell*
-Cell       |   **Cell**    |     __Cell__
+---
+
+## *Elixir* is running
+## on the Erlang VM
+
+---
+
+## Erlang is 32 years old
+### *OpenSource for 20 years*
+
+^
+Known for designs suitable for ... systems
+
+---
+[.build-lists: true]
+
+# It's designs are well suited for ...
+
+- Distributed
+- Fault-tolerant
+- Highly available
+
+# systems
+
+---
+
+# Erlang properties
+
+- Immutable data
+- Pattern matching
+- Functional programming
+
+---
+
+## *Elixir* provides
+## us the same
+
+---
+
+## What else?
+
+---
+
+## Concurrency is easy
