@@ -204,3 +204,10 @@ If you know about Erlang you might have heard about OTP
 # Coding
 # Dojo
 #### https://github.com/jfornoff/elixir-ug-rover
+
+---
+
+# __*Thank you!*__
+#### Slides on GitHub[^1]
+
+[^1]: https://github.com/Zeeker/talks
