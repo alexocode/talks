@@ -2,6 +2,9 @@ theme: Poster, 1
 
 # Getting Started
 # with *Elixir*
+#### Slides on GitHub[^1]
+
+[^1]: https://github.com/Zeeker/talks
 
 ---
 
@@ -201,13 +204,7 @@ If you know about Erlang you might have heard about OTP
 
 ---
 
+#### *Follow us on Twitter @ZeekerDev, @JanFornoff*
 # Coding
 # Dojo
-#### https://github.com/jfornoff/elixir-ug-rover
-
----
-
-# __*Thank you!*__
-#### Slides on GitHub[^1]
-
-[^1]: https://github.com/Zeeker/talks
+#### <br/> *`git clone https://github.com/jfornoff/elixir-ug-rover`*
