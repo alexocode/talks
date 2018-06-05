@@ -27,6 +27,14 @@ It was released in 2011
 
 ## *Elixir* is running
 ## on the Erlang VM
+#### Also called *BEAM VM*
+
+---
+
+## Why is that important?
+
+^
+In Elixir you can directly interact with Erlang modules. AND ...
 
 ---
 
@@ -34,12 +42,22 @@ It was released in 2011
 ### *OpenSource for 20 years*
 
 ^
-Known for designs suitable for ... systems
+If you know about Erlang you might have heard about OTP
+
+---
+
+# Erlang/*OTP*
+### *O*pen *T*elecom *P*latform
+
+---
+
+> OTP is a collection of useful middleware, libraries, and tools written in the Erlang programming language.
+-- Wikipedia on OTP
 
 ---
 [.build-lists: true]
 
-# It's designs are well suited for ...
+# *OTP* is well suited for
 
 - Distributed
 - Fault-tolerant
@@ -49,16 +67,9 @@ Known for designs suitable for ... systems
 
 ---
 
-# Erlang properties
-
-- Immutable data
-- Pattern matching
-- Functional programming
-
----
-
-## *Elixir* provides
-## us the same
+## *O*f course you get all of
+## *t*his "for free" when
+## *p*rogramming *Elixir*
 
 ---
 
@@ -66,4 +77,29 @@ Known for designs suitable for ... systems
 
 ---
 
-## Concurrency is easy
+## Immutable data
+
+---
+
+## Pattern matching
+
+---
+
+## Easy concurrency
+#### Using the Actor Model
+
+---
+
+## Topics for today?
+
+---
+
+- Syntax
+- Functional paradigms
+- Immutable data
+- Pattern matching
+
+---
+
+# Let's get started!
+#### Unless you have some questions
