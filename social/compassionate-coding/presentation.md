@@ -45,3 +45,13 @@ theme: Poster, 1
 ![right 180%](images/compassionate-coding-medium.png)
 
 [^3]: https://medium.com/compassionate-coding
+
+---
+
+# *__Slides__*
+## on GitHub[^4]
+#### *Twitter @ZeekerDev*
+
+![right 180%](images/slides.png)
+
+[^4]: https://github.com/Zeeker/talks
