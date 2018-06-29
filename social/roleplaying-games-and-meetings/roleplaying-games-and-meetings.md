@@ -7,12 +7,58 @@ theme: Poster, 1
 
 ---
 
-### Who here has played a
-## *Roleplaying Game*
+## *Disclaimer*
+### I'm not a business/pm person
 
 ^
-How long on a story?
-One-Shot, Adventure, Campaign (years!)
+Maybe this is all old news to you?
+
+---
+
+### Who has played a
+## *Roleplaying Game*?
+
+---
+
+### What is a
+## *Roleplaying Game*?
+
+^
+You're probably thinking of something like this
+
+---
+
+![](images/roleplaying-game.jpg)
+
+^
+Bunch of nerds, sitting around a table, pretending to be Orcs and Elves
+
+---
+
+# Collaborative
+# *Story Telling*
+
+^
+Playing somebody else, reacting to the world
+!!! building something together !!!
+
+---
+
+## WTF does this
+## have to do with
+## *building software*?
+
+^
+Sitting alone in your room, not very much but
+There is a common theme:
+
+---
+
+# *Collaboration*
+
+^
+Coordinating important for Long running projects
+How does roleplaying tackle this?
 
 ---
 
@@ -34,7 +80,7 @@ One-Shot, Adventure, Campaign (years!)
 
 ^
 1. Who is doing what? What responsibilities exist?
-2. How are we working together?
+2. How are we working together? When are we working together? DoD? Coding Styles? Anything we need to agree on!
 3. What are we trying to achieve? More importantly: What aren't we trying to achieve? What can we expect to do/learn?
 
 ---
@@ -56,6 +102,14 @@ One-Shot, Adventure, Campaign (years!)
 # *Kickoff*
 ### is the place for this
 
+^
+But it's more
+
+---
+
+## Getting on the
+# *Same Page*
+
 ---
 
 ### We want to make sure
@@ -64,7 +118,30 @@ One-Shot, Adventure, Campaign (years!)
 
 ---
 
-## When should I use this?
+## That everyone
+## will enjoy the
+# __*Game*__
+
+---
+
+## Of course we're
+## not playing a
+# __*Game*__
+
+---
+
+## But we are
+## *Collaborating*
+
+---
+
+## *Collaboration*
+## works best when
+## people are invested
+
+---
+
+## When should I do this?
 
 ---
 
@@ -78,5 +155,23 @@ One-Shot, Adventure, Campaign (years!)
 
 ---
 
+# Up to you
+
+---
+
 ## I suggest
 ## with everybody
+
+---
+
+# Let's discuss
+
+---
+
+# *__Slides__*
+## on GitHub[^4]
+#### *Twitter @ZeekerDev*
+
+![right 180%](images/slides.png)
+
+[^4]: https://github.com/Zeeker/talks
