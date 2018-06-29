@@ -1,46 +1,82 @@
 theme: Poster, 1
 
-# [fit] Template
-
----
-[.autoscale: true]
-
-# Hero's Journey
-
-1. The journey begins with the introduction of the Heroes in the Ordinary World, where
-2. they are presented with the Call to Adventure.
-3. Their initial reluctance may lead to Refusal of the Call, but they
-4. receive encouragement from a Mentor to
-5. cross over the Threshold and gain entry into the Special World.
-6. There, they encounter Tests, Allies, and Enemies.
-7. They Approach the Inmost Cave where
-8. they must endure an Ordeal.
-9. The Reward is seized and
-10. they are pursued as they follow The Road Back to the Ordinary World.
-11. They are transformed by the experience of a Resurrection and
-12. return triumphant with the Elixir—an item of great value that will benefit the Ordinary World.
+### What
+## *Roleplaying Games*
+### can teach us about
+## *Collaboration*
 
 ---
 
-## Inline Images
+### Who here has played a
+## *Roleplaying Game*
 
-When using the **[inline]** modifier, images automatically centre and fit to the available space.
-
-![inline](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
----
-
-![inline, left](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
-Use **[inline, left]** or **[inline, right]** to move images around. With the text underneath like this, it is the simplest ways to add captions to images.
+^
+How long on a story?
+One-Shot, Adventure, Campaign (years!)
 
 ---
 
-# Tables
+# *__Session 0__*
 
-With `:---:`, `---:` and `:---` you can center, right or right align the cell content.
+---
 
-  Header 1 |    Header 2   |   Header 3   |
------------| :-----------: | -----------: |
-Cell       |     _Cell_    |     *Cell*
-Cell       |   **Cell**    |     __Cell__
+## What is a[^1]
+## *__Session 0__*
+
+[^1]: https://rpg.stackexchange.com/questions/105388/what-is-a-session-0
+
+---
+[.build-lists: true]
+
+1. Roles
+2. Ground Rules
+3. Expectation Management
+
+^
+1. Who is doing what? What responsibilities exist?
+2. How are we working together?
+3. What are we trying to achieve? More importantly: What aren't we trying to achieve? What can we expect to do/learn?
+
+---
+
+### But don't we have the
+# *Kickoff*
+### for this?
+
+---
+
+# Yes
+
+---
+
+# Yes*__ish__*
+
+---
+
+# *Kickoff*
+### is the place for this
+
+---
+
+### We want to make sure
+### that every person feels
+## *heard*
+
+---
+
+## When should I use this?
+
+---
+
+# Business
+# People?
+
+---
+
+# Tech
+# People?
+
+---
+
+## I suggest
+## with everybody
