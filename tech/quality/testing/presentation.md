@@ -1,6 +1,131 @@
-theme: Poster, 1
+theme: Courier, 5
 
 # [fit] Template
+
+---
+
+## I want to take you on a
+# journey
+
+---
+
+## Meet Alex
+# 👨‍💻
+
+---
+
+# Alex is a developer
+
+---
+
+## He just started at this
+# cool company
+
+^
+Let's call them ...
+
+---
+
+# Smallcentrix
+
+---
+
+## They are pretty big on
+# Clean Code
+
+---
+
+## He starts working
+## on his first project
+
+---
+
+## They tell him to
+# write tests
+
+^
+No experience doing that
+
+---
+
+# :scream:
+
+---
+
+![](images/no-idea.gif)
+
+---
+
+## Alex asks himself
+# Why?
+
+---
+
+> It costs time!
+
+---
+
+> It's annoying!
+
+---
+
+> I can test manually!
+
+---
+
+## But he starts to write tests
+
+---
+
+## <angry typing gif>?
+
+^
+This is ...
+
+---
+
+## It's painful
+
+---
+
+## The tests break with the smallest change
+
+---
+
+## They take a lot of time to maintain
+
+---
+
+## They are hard to read
+
+---
+
+## Alex is frustated
+
+---
+
+# <rage.gif>?
+
+---
+
+## A senior developer
+## approaches him
+# 🧙‍♂️
+
+---
+
+> Let's do this together
+
+---
+
+# Test Pyramid
+
+- A lot of Unit Tests
+- Less Integration Tests
+- Even less UI Tests
+- Some manual tests
+
+![right 100%](images/test-pyramid.png)
 
 ---
 [.autoscale: true]
