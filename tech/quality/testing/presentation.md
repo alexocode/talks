@@ -1,3 +1,4 @@
+build-lists: true
 theme: Courier, 5
 
 # [fit] Template
@@ -122,10 +123,69 @@ This is ...
 
 - A lot of Unit Tests
 - Less Integration Tests
-- Even less UI Tests
+- Even less Acceptance/UI Tests
 - Some manual tests
 
 ![right 100%](images/test-pyramid.png)
+
+---
+
+# Acceptance Tests
+## UI Tests
+
+---
+
+# Acceptance/UI Tests
+
+- High-level testing
+- Ensure requirements are being fulfilled
+- A topic on it's own
+
+^
+~10%
+Not focussing on this
+
+---
+
+# Integration Tests
+
+---
+
+# Integration Tests
+
+- Test parts working together
+- Black box testing
+- Does not care about inner workings
+
+^
+Relevant, but we'll focus on
+
+---
+
+# Unit Tests
+
+- Test single "units" in isolation
+- Independent from each other
+- Good unit tests act as ...
+  + design specifications
+  + documentation
+
+^
+You might ask, and Alex does too, ...
+
+---
+
+> What makes a good Unit Test?
+-- Alex
+
+---
+
+> First you need to understand how to write testable units
+-- 🧙‍♂️
+
+---
+
+# Example
 
 ---
 [.autoscale: true]
