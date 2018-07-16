@@ -258,6 +258,22 @@ class TestGetTimeOfDay(unittest.TestCase):
 
 ---
 
+```python
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
+
+---
+
 ```python, [.highlight: 2]
 def get_time_of_day():
   now = datetime.now()
@@ -271,6 +287,72 @@ def get_time_of_day():
 
   return "evening"
 ```
+
+---
+
+> How can we resolve this issue?
+-- 🧙‍♂️
+
+---
+
+```python, [.highlight: 2]
+
+
+def get_time_of_day(datetime):
+  if datetime.hour >= 0 and datetime.hour < 6:
+    return "night"
+  elif datetime.hour >= 6 and datetime.hour < 12:
+    return "morning"
+  elif datetime.hour >= 12 and datetime.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
+
+---
+
+> Testing is easy now
+-- 🧙‍♂️
+
+---
+
+```python
+def today_at(hour):
+  now = datetime.now()
+
+  return datetime(now.year, now.month, now.day, hour)
+
+
+class TestGetTimeOfDay(unittest.TestCase):
+  def test_returns_morning_at_6(self):
+    time_of_day = get_time_of_day(today_at(6))
+
+    self.assertEqual(time_of_day, "morning")
+```
+
+---
+
+> Well, that's neat
+-- Alex
+
+^
+But ...
+
+---
+
+> How do I make sure to write code like that?
+-- Alex
+
+---
+
+> It's called the ...
+-- 🧙‍♂️
+
+---
+
+# Single
+# Responsibility
+# Principle
 
 ---
 [.autoscale: true]
