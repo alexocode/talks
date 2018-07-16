@@ -230,6 +230,34 @@ def get_time_of_day():
 
 ---
 
+> How might a test for this function look like?
+-- 🧙‍♂️
+
+---
+
+```python
+
+
+
+
+class TestGetTimeOfDay(unittest.TestCase):
+  def test_returns_morning_at_6am(self):
+    # How to specify 6am?
+    self.assertEqual(get_time_of_day(), "morning")
+```
+
+---
+[.background-color: #0f0f0f]
+
+![inline](images/untestable.gif)
+
+---
+
+> Do you see the problem?
+-- 🧙‍♂️
+
+---
+
 ```python, [.highlight: 2]
 def get_time_of_day():
   now = datetime.now()

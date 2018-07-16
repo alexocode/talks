@@ -14,5 +14,16 @@ def get_time_of_day():
   return "evening"
 
 
-if __name__ == "__main__":
-  print(get_time_of_day())
+# Test
+
+import unittest
+
+
+class TestGetTimeOfDay(unittest.TestCase):
+  def test_returns_morning_at_6am(self):
+    # How to specify 6am?
+    self.assertEqual(get_time_of_day(), "morning")
+
+
+if __name__ == '__main__':
+    unittest.main()
