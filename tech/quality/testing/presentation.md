@@ -1,5 +1,5 @@
 build-lists: true
-theme: Courier, 5
+theme: Courier, 7
 
 # [fit] Template
 
