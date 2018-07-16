@@ -184,7 +184,7 @@ You might ask, and Alex does too, ...
 
 ---
 
-> First you need to understand how to write testable units
+> First you need to understand how to write testable units.
 -- 🧙‍♂️
 
 ---
@@ -311,7 +311,7 @@ def get_time_of_day(datetime):
 
 ---
 
-> Testing is easy now
+> Testing is easy now.
 -- 🧙‍♂️
 
 ---
@@ -332,7 +332,7 @@ class TestGetTimeOfDay(unittest.TestCase):
 
 ---
 
-> Well, that's neat
+> Well, that's neat.
 -- Alex
 
 ^
@@ -353,6 +353,16 @@ But ...
 # Single
 # Responsibility
 # Principle
+
+^
+It's actually quite simple
+
+---
+
+> A class [or function] should have only one reason to change.
+-- Robert C. Martin[^1]
+
+[^1]: Agile Software Development, Principles, Patterns, and Practices
 
 ---
 [.autoscale: true]
