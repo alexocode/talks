@@ -188,6 +188,59 @@ You might ask, and Alex does too, ...
 # Example
 
 ---
+
+```python
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
+
+---
+
+> Do you see any issues with this code?
+-- 🧙‍♂️
+
+---
+
+```python
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
+
+---
+
+```python, [.highlight: 2]
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
+
+---
 [.autoscale: true]
 
 # Hero's Journey
