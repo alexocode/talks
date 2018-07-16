@@ -5,6 +5,10 @@ theme: Courier, 7
 
 ---
 
+## <insert goal>
+
+---
+
 ## I want to take you on a
 # journey
 
