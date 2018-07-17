@@ -597,3 +597,17 @@ class AlarmController:
 - Composable units
 - Behaviour specifications (basically a contract)
 - Refactoring safety
+
+---
+
+> Is there something I can do to make writing tests more easy?
+-- Alex
+
+---
+
+![inline](images/wizard-yes.gif)
+
+---
+
+# TDD
+### Test Driven Development
