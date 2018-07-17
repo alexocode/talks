@@ -93,15 +93,19 @@ This is ...
 
 ---
 
-## The tests break with the smallest change
+## The tests are brittle
 
 ---
 
-## They take a lot of time to maintain
+## Break with the smallest change
 
 ---
 
-## They are hard to read
+## Take a lot of time to maintain
+
+---
+
+## And are hard to read
 
 ---
 
@@ -115,20 +119,29 @@ This is ...
 
 ## A senior developer
 ## approaches him
-# 🧙‍♂️
+
+---
+
+# <wizard.gif>?
 
 ---
 
 > Let's do this together
+-- 🧙‍♂️
+
+---
+
+> Have you heard of the test pyramid?
+-- 🧙‍♂️
 
 ---
 
 # Test Pyramid
 
+- Few manual tests
+- Some Acceptance/UI Tests
+- More Integration Tests
 - A lot of Unit Tests
-- Less Integration Tests
-- Even less Acceptance/UI Tests
-- Some manual tests
 
 ![right 100%](images/test-pyramid.png)
 
@@ -159,9 +172,11 @@ Not focussing on this
 
 - Test parts working together
 - Black box testing
-- Does not care about inner workings
+- Have no assumptions about inner workings
+- Only test input and output of the system
 
 ^
+~20%
 Relevant, but we'll focus on
 
 ---
@@ -175,6 +190,7 @@ Relevant, but we'll focus on
   + documentation
 
 ^
+~70%
 You might ask, and Alex does too, ...
 
 ---
@@ -184,7 +200,12 @@ You might ask, and Alex does too, ...
 
 ---
 
-> First you need to understand how to write testable units.
+> To understand that we first have to look at units.
+-- 🧙‍♂️
+
+---
+
+> You need to understand how to write testable units.
 -- 🧙‍♂️
 
 ---
@@ -292,6 +313,22 @@ def get_time_of_day():
 
 > How can we resolve this issue?
 -- 🧙‍♂️
+
+---
+
+```python, [.highlight: 2]
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
 
 ---
 
