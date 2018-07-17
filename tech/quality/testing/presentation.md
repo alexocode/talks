@@ -332,15 +332,15 @@ def get_time_of_day():
 
 ---
 
-```python, [.highlight: 1-2]
-def get_time_of_day(datetime):
-  hour = datetime.hour
+```python, [.highlight: 2]
 
-  if hour >= 0 and hour < 6:
+
+def get_time_of_day(datetime):
+  if datetime.hour >= 0 and datetime.hour < 6:
     return "night"
-  elif hour >= 6 and hour < 12:
+  elif datetime.hour >= 6 and datetime.hour < 12:
     return "morning"
-  elif hour >= 12 and hour < 18:
+  elif datetime.hour >= 12 and datetime.hour < 18:
     return "afternoon"
 
   return "evening"
@@ -354,15 +354,13 @@ def get_time_of_day(datetime):
 ---
 
 ```python
-def today_at(hour):
-  now = datetime.now()
-
-  return datetime(now.year, now.month, now.day, hour)
 
 
 class TestGetTimeOfDay(unittest.TestCase):
   def test_returns_morning_at_6(self):
-    time_of_day = get_time_of_day(today_at(6))
+    now = datetime.now()
+    today_at_6 = datetime(now.year, now.month, now.day, 6)
+    time_of_day = get_time_of_day(today_at_6)
 
     self.assertEqual(time_of_day, "morning")
 ```
@@ -400,6 +398,22 @@ It's actually quite simple
 -- Robert C. Martin[^1]
 
 [^1]: Agile Software Development, Principles, Patterns, and Practices
+
+---
+
+```python
+def get_time_of_day():
+  now = datetime.now()
+
+  if now.hour >= 0 and now.hour < 6:
+    return "night"
+  elif now.hour >= 6 and now.hour < 12:
+    return "morning"
+  elif now.hour >= 12 and now.hour < 18:
+    return "afternoon"
+
+  return "evening"
+```
 
 ---
 
@@ -509,7 +523,11 @@ class AlarmControllerTest(unittest.TestCase):
     self.alarm_controller = AlarmController(self.alarm)
 
   def test_motion_detected_at_2_activates_alarm(self):
-    self.alarm_controller.motion_detected(today_at(2))
+    now = datetime.now()
+    today_at_2 = datetime(now.year, now.month, now.day, 2)
+    self.alarm_controller.motion_detected(today_at_2)
+
+    self.assertTrue(self.alarm.activated)
 ```
 
 ---
@@ -563,6 +581,25 @@ class AlarmController:
 
 ---
 
+```python
+
+
+class AlarmControllerTest(unittest.TestCase):
+  def setUp(self):
+    self.alarm_triggered = False
+    self.alarm_controller = AlarmController()
+
+  def trigger_alarm(self):
+    self.alarm_triggered = True
+
+  def test_motion_detected_at_2_activates_alarm(self):
+    self.alarm_controller.motion_detected(today_at(2), self.trigger_alarm)
+
+    self.assertTrue(self.alarm_triggered)
+```
+
+---
+
 > Let us summarize.
 -- 🧙‍♂️
 
@@ -572,6 +609,7 @@ class AlarmController:
 
 - Single Responsibility Principle
 - Side Effects / Side Causes
+- <PURE FUNCTIONS>
 - Testing units in isolation
 - And of course Don't Repeat Yourself
 
@@ -618,7 +656,7 @@ class AlarmController:
 
 1. Write a test for a new function or behaviour
 2. Run all tests and see if the new test fails
-3. Write minimal code which satisfies the test
+3. Write __minimal__ code which satisfies the test
 4. Run all tests and see if the new test succeeds
 5. Refactor code and tests
 
