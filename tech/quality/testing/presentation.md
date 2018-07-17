@@ -730,3 +730,8 @@ class TestGetTimeOfDay(unittest.TestCase):
 # Rinse
 ## and
 # Repeat
+
+---
+
+## But now
+# Let's Code
