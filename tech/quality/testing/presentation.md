@@ -183,7 +183,7 @@ Relevant, but we'll focus on
 
 # Unit Tests
 
-- Test single "units" in isolation
+- Test single "units" in __isolation__
 - Independent from each other
 - Good unit tests act as ...
   + design specifications
@@ -536,8 +536,15 @@ class AlarmControllerTest(unittest.TestCase):
 
 ---
 
-> Another way are __higher order functions__.
+> Another way are __higher-order functions__.
 -- 🧙‍♂️
+
+---
+
+> a higher-order function ... takes one or more functions as arguments.
+-- Wikipedia[^2]
+
+[^2]: https://en.wikipedia.org/wiki/Higher-order_function
 
 ---
 
@@ -553,3 +560,40 @@ class AlarmController:
   def is_night(datetime):
     return get_time_of_day(datetime) == "night"
 ```
+
+---
+
+> Let us summarize.
+-- 🧙‍♂️
+
+---
+
+# Summary
+
+- Single Responsibility Principle
+- Side Effects / Side Causes
+- Testing units in isolation
+- And of course Don't Repeat Yourself
+
+---
+
+> Of course, there are a lot more things.
+-- 🧙‍♂️
+
+---
+
+> Writing good tests is not easy.
+-- 🧙‍♂️
+
+---
+
+> But it's worth the effort.
+-- 🧙‍♂️
+
+---
+
+# We gain
+
+- Composable units
+- Behaviour specifications (basically a contract)
+- Refactoring safety
