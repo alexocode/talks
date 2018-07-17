@@ -400,3 +400,156 @@ It's actually quite simple
 -- Robert C. Martin[^1]
 
 [^1]: Agile Software Development, Principles, Patterns, and Practices
+
+---
+
+> The same holds true for tests.
+-- 🧙‍♂️
+
+----
+
+> A test should only have __one logical assumption__.
+-- 🧙‍♂️
+
+^
+What does that mean? It should cover a "particular behaviour" of your code
+
+---
+
+## <example>?
+
+---
+
+> Let's look at another potential issue.
+-- 🧙‍♂️
+
+---
+
+# Side Effects
+
+^
+Ask for definition
+
+---
+
+# Example
+
+---
+
+```python
+
+
+class AlarmController:
+  def motion_detected(self, datetime):
+    if AlarmController.is_night(datetime):
+      AlarmSiren.get_instance().activate()
+
+  @staticmethod
+  def is_night(datetime):
+    return get_time_of_day(datetime) == "night"
+```
+
+^
+`AlarmSiren` is a singleton
+
+---
+
+```python
+
+
+class AlarmControllerTest(unittest.TestCase):
+  def setUp(self):
+    self.alarm_controller = AlarmController()
+
+  def test_motion_detected_at_2_activates_alarm(self):
+    self.alarm_controller.motion_detected(today_at(2))
+
+    # How to test that the alarm went off?
+    self.assertTrue(False)
+```
+
+---
+
+> Any ideas on
+> how to do this?
+-- 🧙‍♂️
+
+^
+Next slide is solution
+
+---
+
+```python
+class AlarmController:
+  def __init__(self, alarm):
+    self.alarm = alarm
+
+  def motion_detected(self, datetime):
+    if AlarmController.is_night(datetime):
+      self.alarm.activate()
+
+  @staticmethod
+  def is_night(datetime):
+    return get_time_of_day(datetime) == "night"
+```
+
+---
+
+```python
+class FakeAlarm:
+  activated = False
+
+  def activate(self):
+    self.activated = True
+
+
+class AlarmControllerTest(unittest.TestCase):
+  def setUp(self):
+    self.alarm = FakeAlarm()
+    self.alarm_controller = AlarmController(self.alarm)
+
+  def test_motion_detected_at_2_activates_alarm(self):
+    self.alarm_controller.motion_detected(today_at(2))
+```
+
+---
+
+> That's cool!
+> You removed the coupling!
+-- Alex
+
+---
+
+> Yes, we call this __dependency injection__.
+-- 🧙‍♂️
+
+---
+
+> It's one way of doing ...
+-- 🧙‍♂️
+
+---
+
+# Inversion
+## of
+# Control
+
+---
+
+> Another way are __higher order functions__.
+-- 🧙‍♂️
+
+---
+
+```python
+
+
+class AlarmController:
+  def motion_detected(self, datetime, alarm_function):
+    if AlarmController.is_night(datetime):
+      alarm_function()
+
+  @staticmethod
+  def is_night(datetime):
+    return get_time_of_day(datetime) == "night"
+```
