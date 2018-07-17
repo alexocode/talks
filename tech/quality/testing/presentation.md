@@ -7,7 +7,12 @@ theme: Courier, 7
 
 ---
 
-## <insert goal>
+# Agenda
+
+- different kind of tests
+- purpose of writing tests
+- how to write good tests
+- how to write testable code
 
 ---
 
