@@ -270,7 +270,7 @@ class TestGetTimeOfDay(unittest.TestCase):
 ---
 [.background-color: #0f0f0f]
 
-![inline](images/untestable.gif)
+![62%](images/untestable.gif)
 
 ---
 
@@ -611,3 +611,122 @@ class AlarmController:
 
 # TDD
 ### Test Driven Development
+
+---
+
+# The cycle of TDD
+
+1. Write a test for a new function or behaviour
+2. Run all tests and see if the new test fails
+3. Write minimal code which satisfies the test
+4. Run all tests and see if the new test succeeds
+5. Refactor code and tests
+
+---
+
+### 1. Write a test for a new function or behaviour
+
+*Forces us to ...*
+
+- think about how the function should be used, putting design first
+- make the function testable from the start
+
+---
+
+# Example - Test
+
+```python
+
+
+class TestGetTimeOfDay(unittest.TestCase):
+  def test_returns_morning_at_6(self):
+    now = datetime.now()
+    today_at_6 = datetime(now.year, now.month, now.day, 6)
+    time_of_day = get_time_of_day(today_at_6)
+
+    self.assertEqual(time_of_day, "morning")
+```
+
+---
+
+### 2. Run all tests and see if the new test fails
+
+*Ensures that ...*
+
+- the behaviour has not yet been implemented
+- the test is not flawed and passes always
+
+---
+[.background-color: #0f0f0f]
+
+![62%](images/tdd-red.gif)
+
+---
+
+### 3. Write minimal code which satisfies the test
+
+*Encourages that ...*
+
+- no untested code is being added
+- the tests actually provide meaningful documentation
+
+---
+
+# Example - Implementation
+
+```python
+
+
+
+
+def get_time_of_day(datetime):
+  return "morning"
+```
+
+---
+
+### 4. Run all tests and see if the new test succeeds
+
+^
+Rather obvious, needs no elaboration
+
+---
+[.background-color: #0f0f0f]
+
+![62%](images/tdd-green.gif)
+
+---
+
+### 5. Refactor code and tests
+
+*Allows us to ...*
+
+- make the code easier to read
+- modify with ease, since everything is covered by tests
+
+__Always refactor! If your new code is fine as it is, then refactor something nearby!__
+
+__Leave the code a bit cleaner than you found it!__
+
+---
+
+# Example - Test
+
+```python
+def today_at(hour):
+  now = datetime.now()
+
+  return datetime(now.year, now.month, now.day, hour)
+
+class TestGetTimeOfDay(unittest.TestCase):
+  def test_returns_morning_at_6(self):
+    time_of_day = get_time_of_day(today_at(6))
+
+    self.assertEqual(time_of_day, "morning")
+```
+
+---
+
+# Rinse
+## and
+# Repeat
