@@ -1,7 +1,9 @@
 build-lists: true
 theme: Courier, 7
 
-# [fit] Template
+### Why automated
+# Testing
+### matters
 
 ---
 
@@ -70,11 +72,11 @@ No experience doing that
 
 ---
 
-> It's annoying!
+> I can test manually!
 
 ---
 
-> I can test manually!
+> It's annoying!
 
 ---
 
@@ -82,7 +84,7 @@ No experience doing that
 
 ---
 
-## <angry typing gif>?
+![](images/angry-typing.gif)
 
 ^
 This is ...
@@ -113,7 +115,7 @@ This is ...
 
 ---
 
-# <rage.gif>?
+![](images/computer-rage.gif)
 
 ---
 
@@ -122,7 +124,7 @@ This is ...
 
 ---
 
-# <wizard.gif>?
+![](images/wizard.gif)
 
 ---
 
@@ -430,10 +432,6 @@ What does that mean? It should cover a "particular behaviour" of your code
 
 ---
 
-## <example>?
-
----
-
 > Let's look at another potential issue.
 -- 🧙‍♂️
 
@@ -609,9 +607,12 @@ class AlarmControllerTest(unittest.TestCase):
 
 - Single Responsibility Principle
 - Side Effects / Side Causes
-- <PURE FUNCTIONS>
 - Testing units in isolation
 - And of course Don't Repeat Yourself
+
+Functions free of side-causes and -effects are easy to test. They are called __pure__ functions.
+
+__pure__ = always the same output for the same input
 
 ---
 
