@@ -13,6 +13,7 @@ theme: Courier, 7
 - purpose of writing tests
 - how to write good tests
 - how to write testable code
+- coding dojo
 
 ---
 
@@ -779,3 +780,17 @@ class TestGetTimeOfDay(unittest.TestCase):
 
 ## But now
 # Let's Code
+
+---
+
+# Coding Kata
+
+- install docker
+- go to <insert workshop repo>  
+  you can scan the QR Code
+- read `tdd-dojo/fizz-buzz`
+- `git clone`
+
+## Let's start hacking!
+
+<insert qr code>
