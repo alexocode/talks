@@ -332,15 +332,15 @@ def get_time_of_day():
 
 ---
 
-```python, [.highlight: 2]
-
-
+```python, [.highlight: 1-2]
 def get_time_of_day(datetime):
-  if datetime.hour >= 0 and datetime.hour < 6:
+  hour = datetime.hour
+
+  if hour >= 0 and hour < 6:
     return "night"
-  elif datetime.hour >= 6 and datetime.hour < 12:
+  elif hour >= 6 and hour < 12:
     return "morning"
-  elif datetime.hour >= 12 and datetime.hour < 18:
+  elif hour >= 12 and hour < 18:
     return "afternoon"
 
   return "evening"
