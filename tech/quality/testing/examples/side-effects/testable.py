@@ -12,27 +12,16 @@ def get_time_of_day(datetime):
 
 
 class AlarmController:
+  def __init__(self, alarm):
+    self.alarm = alarm
+
   def motion_detected(self, datetime):
     if AlarmController.is_night(datetime):
-      AlarmSiren.get_instance().activate()
+      self.alarm.activate()
 
   @staticmethod
   def is_night(datetime):
     return get_time_of_day(datetime) == "night"
-
-
-class AlarmSiren:
-  @staticmethod
-  def get_instance():
-    return alarm_siren
-
-  def activate(self):
-    pass
-
-  def deactivate(self):
-    pass
-
-alarm_siren = AlarmSiren()
 
 
 # ---
@@ -49,15 +38,26 @@ def today_at(hour, minute=0, second=0):
   return datetime(now.year, now.month, now.day, hour, minute, second)
 
 
+class FakeAlarm:
+  activated = False
+
+  def activate(self):
+    self.activated = True
+
 class AlarmControllerTest(unittest.TestCase):
   def setUp(self):
-    self.alarm_controller = AlarmController()
+    self.alarm = FakeAlarm()
+    self.alarm_controller = AlarmController(self.alarm)
 
-  def test_motion_detected_at_2am_activates_alarm(self):
+  def test_motion_detected_at_2_activates_alarm(self):
     self.alarm_controller.motion_detected(today_at(2))
 
-    # How to test that the alarm went off?
-    self.assertTrue(False)
+    self.assertTrue(self.alarm.activated)
+
+  def test_motion_detected_at_8_does_not_activate_alarm(self):
+    self.alarm_controller.motion_detected(today_at(8))
+
+    self.assertFalse(self.alarm.activated)
 
 
 if __name__ == '__main__':
