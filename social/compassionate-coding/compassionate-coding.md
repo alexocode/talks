@@ -15,8 +15,8 @@ I want to start this talk about ...
 
 ^
 All our jobs include some form of communication
-- Customer
-- Requirements gathering
+- Customer contact
+- Daily/Planning/Review/Retro etc.
 - Jira/Confluence/GitHub/Code Reviews and more
 
 ^
@@ -60,6 +60,20 @@ hurt; left back a bad feeling; didn't feel quite right
 
 ^
 A lot if it probably came from the other trying to be efficient
+
+---
+## The tech industry values
+# intelligence
+
+---
+### We "worship"
+# ROCKSTAR DEVS
+### and
+# CODE NINJAS
+
+---
+### But what about
+# Emotional Intelligence?
 
 ---
 # We are not machines
@@ -107,7 +121,7 @@ A lot if it probably came from the other trying to be efficient
 -- April Wensel (Compassionate Coding)
 
 ---
-# Efficient Communication
+# Efficient Communication!
 
 > Eventually, I realized that taking time to care about other people’s emotions isn’t just kind — it’s actually more efficient if it leads to smoother interactions that don’t trigger people’s threat responses.
 -- April Wensel (Compassionate Coding)
@@ -124,11 +138,12 @@ A lot if it probably came from the other trying to be efficient
 # 💚💛🧡❤️💜💙
 
 ---
-# Sources
+# Resources
 
+- [Compassionate Coding on Medium](https://medium.com/compassionate-coding/)
 - [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
-
-
+- [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
+- [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
 
 ---
 ################################ OLD #######################
