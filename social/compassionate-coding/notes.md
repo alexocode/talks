@@ -1,5 +1,23 @@
 # Structure
 
+- Communication is hard
+- Efficency
+- BUT We are Humans not Machines
+  - Different people have different backgrounds
+  - Percieve information differently
+- Confessions of a recovering Jerk Developer
+- Where is the humanity?
+  - Look beyond technical expertise => Intelligence isn't everything
+  - They might know things you have no idea about
+  - People experience feedback differently
+  - Just because you can handle criticism, doesn't mean that the other can
+  - They might have a bad day
+- Negative impact on innovation
+- Does not mean we hold everything back
+  - Compassion **not** “ruinous empathy”
+
+## Questions
+
 - Who here had a negative experience with a code review?
 - What is something you noticed/want to improve?
 
