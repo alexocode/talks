@@ -14,17 +14,30 @@ I want to start this talk about ...
 <image?>
 
 ^
-All our jobs include some form of communication
-- Customer contact
-- Daily/Planning/Review/Retro etc.
-- Jira/Confluence/GitHub/Code Reviews and more
-
-^
-It's all about ...
+The act of ...
 
 ---
 # Communication
 ### Transfering information from one person to another
+
+^
+All our jobs include some form of communication
+- Customer contact
+- Daily/Planning/Review/Retro etc.
+- Jira/Confluence/GitHub and of course
+
+---
+# Code Reviews
+
+---
+# Who here had a <br/> *negative experience* <br/> in code reviews?
+
+^
+Doesn't have to be @GCX
+hurt; left back a bad feeling; didn't feel quite right
+
+^
+A lot if it probably came from the other trying to be efficient
 
 ---
 ## The tech industry is about
@@ -38,28 +51,65 @@ It's all about ...
 - High Velocity
 
 ---
-# Efficient Communication
+## Efficient
+# Communication
 
 ^
 And a lot of that boils down to ...
 
 ---
-# Efficient Communication
 ## Brisk & Direct
+# Communication
 
 ---
-# Efficient Communication?
 ## Brisk & Direct
+# Communication
+## = Efficient?
 
 ---
-# Who here had a <br/> *negative experience* <br/> in code reviews?
+# We are not machines
+
+---
+# People are different
+
+---
+> Duh
+-- Captain Obvious
 
 ^
-Doesn't have to be @GCX
-hurt; left back a bad feeling; didn't feel quite right
+<gif?>
+
+---
+# Just because *you* <br/> can handle brisk <br/> criticism doesn't <br/> mean the other can
 
 ^
-A lot if it probably came from the other trying to be efficient
+- They might have a difficult time in life
+- Their pet might be sick
+- They might just have a bad day
+
+---
+# Confessions of a Recovering Jerk Programmer[^1]
+
+> I also spoke to people as if they were computers, and if they got upset, I decided that’s their own fault for not being able to manage their emotions.
+-- April Wensel (Compassionate Coding)
+
+[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
+
+---
+> So, I'm not allowed to critique people any more?
+-- Somebody
+
+---
+## What if I tell you
+# There is an *alternative*
+
+<image - morpheus?>
+
+---
+# Compassion and not "ruinous empathy"
+
+> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
+-- April Wensel (Compassionate Coding)
 
 ---
 ## The tech industry values
@@ -128,51 +178,6 @@ Also ...
 ---
 ## What about
 # Emotional Intelligence?
-
----
-# We are not machines
-
----
-# People are different
-
----
-> Duh
--- Captain Obvious
-
-^
-<gif?>
-
----
-# Just because *you* <br/> can handle brisk <br/> criticism doesn't <br/> mean the other can
-
-^
-- They might have a difficult time in life
-- Their pet might be sick
-- They might just have a bad day
-
----
-# Confessions of a Recovering Jerk Programmer[^1]
-
-> I also spoke to people as if they were computers, and if they got upset, I decided that’s their own fault for not being able to manage their emotions.
--- April Wensel (Compassionate Coding)
-
-[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
-
----
-> So, I'm not allowed to critique people any more?
--- Somebody
-
----
-## What if I tell you
-# There is an *alternative*
-
-<image - morpheus?>
-
----
-# Compassion and not "ruinous empathy"
-
-> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
--- April Wensel (Compassionate Coding)
 
 ---
 # Efficient Communication!
