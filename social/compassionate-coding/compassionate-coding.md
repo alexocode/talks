@@ -243,21 +243,21 @@ If we can do that, we can talk about the bigger issue
 # Big Picture
 
 ^
-And apply what we've learned to the ...
+And by that I mean ...
 
 ---
 
 # The Tech Industry
 
 ^
-Because you see ...
+Because you see, right now ...
 
 ---
 ## We in the tech industry value
 # intelligence
 
 ---
-### We "worship"
+### We talk about
 # ROCKSTAR DEVS
 ### and
 # CODE NINJAS
@@ -266,10 +266,19 @@ Because you see ...
 ## We make fun of
 # "untechnical" people
 
+^
+Things like: "The customer requested the source code in a PDF!"
+
+^
+It IS pretty funny but we should keep one thing in mind ...
+
 ---
 ## But what does
 # *technical*
 ## actually mean?
+
+^
+I looked it up on Wiktionary and this is what came out of it
 
 ---
 # Technical
@@ -277,11 +286,17 @@ Because you see ...
 > Of or pertaining to the useful or mechanic arts, or to any academic, legal, science, engineering, business, or the like terminology with specific and precise meaning or (frequently, as a degree of distinction) shades of meaning; specially appropriate to any art, science or engineering field, or business
 -- Wiktionary
 
+^
+I'll just gonna let you read it
+
 ---
 ![](images/wat.jpg)
 
 ^
 Maybe let's use some examples
+
+---
+## Maybe some examples are better ...
 
 ---
 # Technical Examples
@@ -320,17 +335,46 @@ Also ...
 ## What about
 # Emotional Intelligence?
 
+^
+Because ... If you think about it ...
+
 ---
-# Efficient Communication!
+### If you think about it
+# Compassion
+### is all about
+# Emotional Intelligence
+
+---
+## It's not only about "being nice"
+
+---
+## It actually leads to better
+# Collaboration
+
+^
+Or as April Wensel put it ...
+
+---
+# Smoother Interactions
 
 > Eventually, I realized that taking time to care about other people’s emotions isn’t just kind — it’s actually more efficient if it leads to smoother interactions that don’t trigger people’s threat responses.
--- April Wensel (Compassionate Coding)
+-- April Wensel (Compassionate Coding)[^1]
+
+^
+And here we are again. Full circle back to ...
+
+---
+## Efficient
+# Communication
+
+^
+I want to close this talk with a final quote
 
 ---
 # Be the change ❤️
 
 > The tech industry — and the world — is made up of individual humans, and a lot of those humans are suffering. Each of us has the opportunity to do something about it.
--- April Wensel (Compassionate Coding)
+-- April Wensel (Compassionate Coding)[^1]
 
 ---
 # 💙💜❤️🧡💛💚
@@ -344,39 +388,3 @@ Also ...
 - [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
 - [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
 - [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
-
----
-################################ OLD #######################
-
----
-## Unlearning
-## *toxic behaviour*
-## in code reviews[^A1]
-
-![right 180%](images/unlearning-toxic-behaviour-in-code-reviews.png)
-
-[^A1]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
-
----
-## It's time
-## to retire
-# *RTFM*[^A2]
-
-![right 180%](images/its-time-to-retire-rtfm.png)
-
-[^A2]: https://medium.com/compassionate-coding/its-time-to-retire-rtfm-31acdfef654f
-
----
-## What is
-## something
-## *you noticed*?
-### How can we *improve*?
-
----
-## *Compassionate*
-## *Coding*
-### on Medium[^A3]
-
-![right 180%](images/compassionate-coding-medium.png)
-
-[^A3]: https://medium.com/compassionate-coding
