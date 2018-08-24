@@ -82,11 +82,7 @@ I would bet that a lot of it was about being efficient! But ...
 Some of you probably now think ...
 
 ---
-> Duh
--- Captain Obvious
-
-^
-<gif?>
+![](images/duh.gif)
 
 ^
 But that means ...
