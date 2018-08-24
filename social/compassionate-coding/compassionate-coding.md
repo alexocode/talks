@@ -72,7 +72,61 @@ A lot if it probably came from the other trying to be efficient
 # CODE NINJAS
 
 ---
-### But what about
+## We laugh about
+# "untechnical" people
+
+---
+## But what does
+# *technical*
+## actually mean?
+
+---
+# Technical
+
+> Of or pertaining to the useful or mechanic arts, or to any academic, legal, science, engineering, business, or the like terminology with specific and precise meaning or (frequently, as a degree of distinction) shades of meaning; specially appropriate to any art, science or engineering field, or business
+-- Wiktionary
+
+---
+![](images/wat.jpg)
+
+^
+Maybe let's use some examples
+
+---
+# Technical Examples
+
+- Programming Python
+- Using Photoshop
+- Accounting in Excel
+- Dancing Disco Fox
+- Using a Fork
+
+^
+Sooo ...
+
+---
+[.build-lists: false]
+
+# Technical Examples
+
+- Programming Python
+- Using Photoshop
+- Accounting in Excel
+- Dancing Disco Fox
+- Using a Fork
+
+<br/>__Pretty much any learned skill__
+
+^
+Also ...
+
+---
+## Being
+# technical & intelligent
+## isn't everything
+
+---
+## What about
 # Emotional Intelligence?
 
 ---
@@ -151,20 +205,20 @@ A lot if it probably came from the other trying to be efficient
 ---
 ## Unlearning
 ## *toxic behaviour*
-## in code reviews[^1]
+## in code reviews[^A1]
 
 ![right 180%](images/unlearning-toxic-behaviour-in-code-reviews.png)
 
-[^1]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+[^A1]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
 
 ---
 ## It's time
 ## to retire
-# *RTFM*[^2]
+# *RTFM*[^A2]
 
 ![right 180%](images/its-time-to-retire-rtfm.png)
 
-[^2]: https://medium.com/compassionate-coding/its-time-to-retire-rtfm-31acdfef654f
+[^A2]: https://medium.com/compassionate-coding/its-time-to-retire-rtfm-31acdfef654f
 
 ---
 ## What is
@@ -175,8 +229,8 @@ A lot if it probably came from the other trying to be efficient
 ---
 ## *Compassionate*
 ## *Coding*
-### on Medium[^3]
+### on Medium[^A3]
 
 ![right 180%](images/compassionate-coding-medium.png)
 
-[^3]: https://medium.com/compassionate-coding
+[^A3]: https://medium.com/compassionate-coding
