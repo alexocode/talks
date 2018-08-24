@@ -26,6 +26,9 @@ All our jobs include some form of communication
 - Daily/Planning/Review/Retro etc.
 - Jira/Confluence/GitHub and of course
 
+^
+The thing is ...
+
 ---
 ## The tech industry is about
 # Solving Problems
@@ -52,7 +55,7 @@ And for a lot of people that means ...
 # Communication
 
 ^
-I want to ask you ...
+I would like to pose the question, if ...
 
 ---
 ## Brisk & Direct
@@ -60,6 +63,7 @@ I want to ask you ...
 ## = Efficient?
 
 ^
+Lot of "Bla Bla" ... Let's get more close to reality ...
 Let me ask you a question ...
 
 ---
@@ -85,10 +89,16 @@ Some of you probably now think ...
 ![](images/duh.gif)
 
 ^
-But that means ...
+Thanks, Captain Obvious!
+
+^
+But in practice that means ...
 
 ---
 # The things you mean might not be the things the other person understands
+
+^
+Just because you can handle brisk critism doesn't mean the other can ...
 
 ^
 Even if you mean well ...
@@ -97,24 +107,20 @@ Even if you mean well ...
 - They might just have a bad day
 
 ^
-Just because you can handle brisk critism doesn't mean the other can ...
-
-^
-There is an article from April Wensel which has an interesting bit on this
+Maybe you think ...
 
 ---
-## Confessions of a Recovering Jerk Programmer
 
-> I also spoke to people as if they were computers, and if they got upset, I decided that’s their own fault for not being able to manage their emotions.
--- April Wensel (Compassionate Coding)[^1]
-
-[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
+# They just need </br> a thicker skin!
 
 ^
 I certainly did that in the past!
 
+^
+Why am I telling you all of this?
+
 ---
-> Does that mean <br/> I'm no longer allowed <br/> to critique people?
+> Does that mean <br/> I'm no longer allowed <br/> to criticise people?
 -- Somebody
 
 ^
@@ -131,6 +137,12 @@ I'm here to suggest ...
 
 ---
 # Compassion
+
+^
+Woho! Magic Sauce! Everything is saved!
+
+^
+Ofc we are not going to get there with this, so ...
 
 ![](images/rainbow.jpeg)
 
@@ -153,6 +165,9 @@ What does that mean? You'll see in a sec ...
 Let's start with this one ...
 
 ---
+# Passing of Opinion as Fact
+
+---
 # Passing of Opinion as Fact[^2]
 
 <br/><br/><br/>
@@ -162,7 +177,10 @@ Let's start with this one ...
 [^2]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
 
 ^
-Don’t make claims unless you can cite documentation, formalized guidelines, and coding examples to back those claims up. People need to know why they are being asked to make a change, and another developer’s personal preference isn’t a good enough argument.
+What's the problem with this?
+
+^
+No backup (docs, guidelines etc.). Personal preference is not enough!
 
 ^
 How might a compassionate alternative look like?
@@ -173,6 +191,15 @@ How might a compassionate alternative look like?
 > The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and I think will improve the project structure. What do you think?
 -- A better me
 
+^
+Better!
+- Links to docs
+- Explains why
+- Asks for feedback
+
+---
+# Asking judgmental questions
+
 ---
 # Asking judgmental questions[^2]
 
@@ -181,10 +208,10 @@ How might a compassionate alternative look like?
 ![inline](images/reviews/why-not-use.png)
 
 ^
-Asking such questions implies that a perceived simple solution should have been obvious. It also forces developers to have to defend themselves.
+Implies solution should be obvious => Person is dumb to not see it
 
 ^
-Oftentimes, these judgmental questions are just veiled demands. Instead, provide a recommendation (with documentation and citations) and leave out harsh words.
+Veiled demands => Instead provide recommandations (links)
 
 ---
 # Compassionate Alternative
@@ -200,13 +227,21 @@ I think you get the point
 # Is it worth it? Yes!
 
 ^
-In the end, compassion is ...
+It leads to ...
+
+---
+# Better Collaboration
+
+^
+And to have a quote in here ...
 
 ---
 # Compassion - an optimization problem
 
 > Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
 -- April Wensel (Compassionate Coding)[^1]
+
+[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
 
 ^
 And we like Optimization Problems, right?
