@@ -408,14 +408,14 @@ I want to close this talk with a final quote
 -- April Wensel (Compassionate Coding)[^1]
 
 ---
-# 💙💜❤️🧡💛💚
-## Thank you for listening
-# 💚💛🧡❤️💜💙
-
----
 # Resources
 
 - [Compassionate Coding on Medium](https://medium.com/compassionate-coding/)
 - [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
 - [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
 - [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+
+---
+# 💙💜❤️🧡💛💚
+## Thank you for listening
+# 💚💛🧡❤️💜💙
