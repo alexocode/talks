@@ -100,10 +100,9 @@ And a lot of that boils down to ...
 -- Somebody
 
 ---
-## What if I tell you
-# There is an *alternative*
+# What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
 
-<image - morpheus?>
+![](images/what-if-I-told-you.jpg)
 
 ---
 # Compassion and not "ruinous empathy"
