@@ -11,7 +11,7 @@ I want to start this talk about ...
 ---
 # Communication
 
-<image?>
+![](images/communication.jpg)
 
 ^
 The act of ...
