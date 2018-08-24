@@ -27,19 +27,6 @@ All our jobs include some form of communication
 - Jira/Confluence/GitHub and of course
 
 ---
-# Code Reviews
-
----
-# Who here had a <br/> *negative experience* <br/> in code reviews?
-
-^
-Doesn't have to be @GCX
-hurt; left back a bad feeling; didn't feel quite right
-
-^
-A lot if it probably came from the other trying to be efficient
-
----
 ## The tech industry is about
 # Solving Problems
 ## in an efficient manner
@@ -50,27 +37,49 @@ A lot if it probably came from the other trying to be efficient
 - Time Management
 - High Velocity
 
+^
+Of course that also means we want to have ...
+
 ---
 ## Efficient
 # Communication
 
 ^
-And a lot of that boils down to ...
+And for a lot of people that means ...
 
 ---
 ## Brisk & Direct
 # Communication
+
+^
+I want to ask you ...
 
 ---
 ## Brisk & Direct
 # Communication
 ## = Efficient?
 
+^
+Let me ask you a question ...
+
+---
+# Who here had a <br/> *negative experience* <br/> in a code review?
+
+^
+Doesn't have to be @GCX
+hurt; left back a bad feeling; didn't feel quite right
+
+^
+I would bet that a lot of it was about being efficient! But ...
+
 ---
 # We are not machines
 
 ---
 # People are different
+
+^
+Some of you probably now think ...
 
 ---
 > Duh
@@ -79,25 +88,45 @@ And a lot of that boils down to ...
 ^
 <gif?>
 
+^
+But that means ...
+
 ---
-# Just because *you* <br/> can handle brisk <br/> criticism doesn't <br/> mean the other can
+# The things you mean might not be the things the other person understands
 
 ^
+Even if you mean well ...
 - They might have a difficult time in life
 - Their pet might be sick
 - They might just have a bad day
 
+^
+Just because you can handle brisk critism doesn't mean the other can ...
+
+^
+There is an article from April Wensel which has an interesting bit on this
+
 ---
-# Confessions of a Recovering Jerk Programmer[^1]
+## Confessions of a Recovering Jerk Programmer
 
 > I also spoke to people as if they were computers, and if they got upset, I decided that’s their own fault for not being able to manage their emotions.
--- April Wensel (Compassionate Coding)
+-- April Wensel (Compassionate Coding)[^1]
 
 [^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
 
+^
+I certainly did that in the past!
+
 ---
-> So, I'm not allowed to critique people any more?
+> Does that mean <br/> I'm no longer allowed <br/> to critique people?
 -- Somebody
+
+^
+Of course not! Feedback is important! (Mention talk on feedback?)
+
+^
+I'm here to suggest ...
+
 
 ---
 # What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
@@ -105,13 +134,126 @@ And a lot of that boils down to ...
 ![](images/what-if-I-told-you.jpg)
 
 ---
-# Compassion and not "ruinous empathy"
+# Compassion
 
-> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
--- April Wensel (Compassionate Coding)
+![](images/rainbow.jpeg)
 
 ---
-## The tech industry values
+## How about some examples in the context of Code Reviews?
+
+^
+I looked at our GitHub and picked out a few comments ...
+
+^
+But no worries! I'm not gonna blame anyone! Instead ...
+
+---
+## I'm gonna eat my own dog food
+
+^
+What does that mean? You'll see in a sec ...
+
+^
+Let's start with this one ...
+
+---
+# Passing of Opinion as Fact[^2]
+
+<br/><br/><br/>
+
+![inline](images/reviews/should-should.png)
+
+[^2]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+
+^
+Don’t make claims unless you can cite documentation, formalized guidelines, and coding examples to back those claims up. People need to know why they are being asked to make a change, and another developer’s personal preference isn’t a good enough argument.
+
+^
+How might a compassionate alternative look like?
+
+---
+# Compassionate Alternative
+
+> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and I think will improve the project structure. What do you think?
+-- A better me
+
+---
+# Asking judgmental questions[^2]
+
+<br/><br/><br/>
+
+![inline](images/reviews/why-not-use.png)
+
+^
+Asking such questions implies that a perceived simple solution should have been obvious. It also forces developers to have to defend themselves.
+
+^
+Oftentimes, these judgmental questions are just veiled demands. Instead, provide a recommendation (with documentation and citations) and leave out harsh words.
+
+---
+# Compassionate Alternative
+
+> You could move this into a view, which has the benefit of separating the "response building" from the "rendering" logic.
+-- A better me
+
+^
+I think you get the point
+
+---
+# Is it easy? No.
+# Is it worth it? Yes!
+
+^
+In the end, compassion is ...
+
+---
+# Compassion - an optimization problem
+
+> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
+-- April Wensel (Compassionate Coding)[^1]
+
+^
+And we like Optimization Problems, right?
+
+---
+## Of course
+# Code Reviews
+## are just a small part
+
+---
+## But they are a
+# great start
+
+^
+In the end it boils down to ...
+
+---
+## Try to leave your colleagues better
+
+^
+If we can do that, we can talk about the bigger issue
+
+---
+## Now that we discussed
+# Compassion
+## in Code Reviews
+
+---
+## Let's talk about the
+# Big Picture
+
+^
+And apply what we've learned to the ...
+
+---
+
+# The Tech Industry
+
+^
+Because you see ...
+
+---
+## We in the tech industry value
 # intelligence
 
 ---
@@ -121,7 +263,7 @@ And a lot of that boils down to ...
 # CODE NINJAS
 
 ---
-## We laugh about
+## We make fun of
 # "untechnical" people
 
 ---
