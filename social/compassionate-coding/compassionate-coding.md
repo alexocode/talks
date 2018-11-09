@@ -5,15 +5,18 @@ theme: Sketchnote, 1
 
 ^
 Thank you for being here!
-I want to start this talk about ...
+
+^
+Why "Compassionate Coding"? Orga from April Wensel, good work ...
+
+^
+This talk is about ...
 
 ---
-# Communication
-
 ![](images/communication.jpg)
 
 ^
-The act of ...
+COMMUNICATION: The act of ...
 
 ---
 # Communication
@@ -67,16 +70,131 @@ Lot of "Bla Bla" ... Let's get more close to reality ...
 Let me ask you a question ...
 
 ---
+# Let's start
+### _small_
+
+---
+# _Code Reviews_
+
+<add picture here>
+
+^
+Let me ask you a question ...
+
+---
 # Who here had a <br/> *negative experience* <br/> in a code review?
 
 ![](images/sad.jpeg)
 
 ^
-Doesn't have to be @GCX
-hurt; left back a bad feeling; didn't feel quite right
+hurt; left back a bad feeling/bad taste; didn't feel quite right
+
+---
+> People need a thicker skin!
+-- Somebody
+
+---
+> It's not my job to care about others feelings!
+-- Somebody
+
+---
+> That's the way tech works!
+-- Somebody
 
 ^
-I would bet that a lot of it was about being efficient! But ...
+Who here had thoughts like that, at some point?
+
+^
+You might ask yourself ...
+
+---
+# Why should I care?
+
+< shrug >
+
+^
+Why indeed. Let's hold that thought and look at some concrete examples:
+
+---
+# How about some examples?
+
+^
+I looked at our GitHub and picked out a few comments ...
+
+^
+But no worries! I'm not gonna blame anyone! Instead ...
+
+---
+# Passing of Opinion as Fact
+
+---
+# Passing of Opinion as Fact[^2]
+
+<br/><br/><br/>
+
+![inline](images/reviews/should-should.png)
+
+[^2]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+
+^
+What's the problem with this?
+
+^
+No backup (docs, guidelines etc.). Personal preference is not enough!
+
+^
+How might a compassionate alternative look like?
+
+---
+# Compassionate Alternative
+
+> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and would improve the project structure. What do you think?
+-- A better me
+
+^
+Better!
+- Links to docs
+- Explains why
+- Asks for feedback
+
+---
+# Asking judgmental questions
+
+---
+# Asking judgmental questions[^2]
+
+<br/><br/><br/>
+
+![inline](images/reviews/why-not-use.png)
+
+^
+Implies solution should be obvious => Person is dumb to not see it
+
+^
+Veiled demands => Instead provide recommandations (links)
+
+---
+# Compassionate Alternative
+
+> You could move this into a view, which has the benefit of separating the "response building" from the "rendering" logic.
+-- A better me
+
+^
+I think you get the point
+
+---
+# < LIST OTHERS >
+
+^
+Let's come back to our question ...
+
+---
+# Why should I care?
+
+< shrug >
+
+---
+# < COLLABORATION >
 
 ---
 ![](images/robot.jpeg)
@@ -154,15 +272,6 @@ Ofc we are not going to get there with this, so ...
 ![](images/rainbow.jpeg)
 
 ---
-## How about some examples in the context of Code Reviews?
-
-^
-I looked at our GitHub and picked out a few comments ...
-
-^
-But no worries! I'm not gonna blame anyone! Instead ...
-
----
 ## I'm gonna eat my own dog food
 
 ^
@@ -170,73 +279,6 @@ What does that mean? You'll see in a sec ...
 
 ^
 Let's start with this one ...
-
----
-# Passing of Opinion as Fact
-
----
-# Passing of Opinion as Fact[^2]
-
-<br/><br/><br/>
-
-![inline](images/reviews/should-should.png)
-
-[^2]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
-
-^
-What's the problem with this?
-
-^
-No backup (docs, guidelines etc.). Personal preference is not enough!
-
-^
-How might a compassionate alternative look like?
-
----
-# Compassionate Alternative
-
-> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and would improve the project structure. What do you think?
--- A better me
-
-^
-Better!
-- Links to docs
-- Explains why
-- Asks for feedback
-
----
-# Asking judgmental questions
-
----
-# Asking judgmental questions[^2]
-
-<br/><br/><br/>
-
-![inline](images/reviews/why-not-use.png)
-
-^
-Implies solution should be obvious => Person is dumb to not see it
-
-^
-Veiled demands => Instead provide recommandations (links)
-
----
-# Compassionate Alternative
-
-> You could move this into a view, which has the benefit of separating the "response building" from the "rendering" logic.
--- A better me
-
-^
-I think you get the point
-
----
-
-> Why should I care?
--- Somebody
-
----
-
-< Collaboration >
 
 ---
 ## Of course
@@ -262,8 +304,8 @@ If we can do that, we can talk about the bigger issue
 ## in Code Reviews
 
 ---
-## Let's talk about the
-# Big Picture
+## Let's go
+# [fit] _big_
 
 ^
 And by that I mean ...
