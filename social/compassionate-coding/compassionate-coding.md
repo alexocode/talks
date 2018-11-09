@@ -1,22 +1,26 @@
 theme: Sketchnote, 1
 
+[.footer: Sascha Wolf | grandcentrix]
 # Compassionate Coding
 ### _being more humane in tech_
 
 ^
-Thank you for being here!
+Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix
 
 ^
-Why "Compassionate Coding"? Orga from April Wensel, good work ...
+Disclaimer:
+This talk is strongly inspired by the works of April Wensel and her orga "Compassionate Coding"
+I'm not affiliated with her orga in any way, rather this is about paying credit
 
 ^
-This talk is about ...
+Now that this is out of the way, let's get going!
+This talk is about COMMUNICATION
 
 ---
 ![](images/communication.jpg)
 
 ^
-COMMUNICATION: The act of ...
+In brief Communcation revolves around
 
 ---
 # Communication
@@ -25,21 +29,18 @@ COMMUNICATION: The act of ...
 ^
 All our jobs include some form of communication
 - Customer contact
-- Daily/Planning/Review/Retro etc.
-- Jira/Confluence/GitHub and of course
+- Meetings: Daily/Planning/Review/Retro
+- Digital: Jira/Confluence/GitHub/Slack
 
 ^
-The thing is ...
+The thing is, we in tech are all about solving problems
 
 ---
 
 ![](images/problem-solving.jpeg)
 
 ^
-The tech industry is about solving problems in an efficient manner
-
-^
-"Holy Grail" of the Tech Industry
+Solving problems in an efficient manner; we talk a lot about
 - Efficent Code
 - Time Management
 - High Velocity
@@ -59,15 +60,14 @@ And for a lot of people that means ...
 # Communication
 
 ^
-I would like to pose the question, if ...
+In this talk I would like to pose the question, if ...
 
 ---
 ##  Brisk & Direct?
 # Communication
 
 ^
-Lot of "Bla Bla" ... Let's get more close to reality ...
-Let me ask you a question ...
+most efficient way?
 
 ---
 # Let's start
@@ -89,6 +89,9 @@ Let me ask you a question ...
 ^
 hurt; left back a bad feeling/bad taste; didn't feel quite right
 
+^
+So what? Some might say ...
+
 ---
 > People need a thicker skin!
 -- Somebody
@@ -102,7 +105,7 @@ hurt; left back a bad feeling/bad taste; didn't feel quite right
 -- Somebody
 
 ^
-Who here had thoughts like that, at some point?
+I user to think like that!
 
 ^
 You might ask yourself ...
@@ -113,16 +116,16 @@ You might ask yourself ...
 < shrug >
 
 ^
-Why indeed. Let's hold that thought and look at some concrete examples:
+Why indeed. Let's hold that thought and ...
 
 ---
 # How about some examples?
 
 ^
-I looked at our GitHub and picked out a few comments ...
+I went through my own personal history of code reviews
 
-^
-But no worries! I'm not gonna blame anyone! Instead ...
+---
+## I'm gonna eat my own dogfoot
 
 ---
 # Passing of Opinion as Fact
@@ -180,10 +183,7 @@ Veiled demands => Instead provide recommandations (links)
 -- A better me
 
 ^
-I think you get the point
-
----
-# < LIST OTHERS >
+There are other, would be too much for this talk ...
 
 ^
 Let's come back to our question ...
@@ -193,8 +193,48 @@ Let's come back to our question ...
 
 < shrug >
 
+^
+Because it leads to better collaboration
+
 ---
 # < COLLABORATION >
+
+^
+~5 minutes
+Ask youself: Which of the comments above would have had more of an impact on you?
+
+^
+Not convinced? In 20XX Google tried to find ...
+
+---
+## The secret to the
+# "Perfect Team"
+
+^
+Question: What made a team successful?
+
+^
+After X years of research they arrived at a common denominator
+
+---
+# Emotional Safety[^3]
+
+[^3]: https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html
+
+^
+What does that mean?
+- A protected environment for ideas and exchange
+- Healthy culture around failure
+- A lot more things, check the article out!
+
+^
+One way of approaching this is COMPASSION
+
+---
+< COMPASSION >
+
+^
+While we might work in tech ...
 
 ---
 ![](images/robot.jpeg)
@@ -206,21 +246,13 @@ We are not robots
 ![](images/different.jpeg)
 
 ^
-People are different
-^
-Some of you probably now think ...
+We are different
 
 ---
-![](images/duh.gif)
+< IMAGE: RUN AWAY >
 
 ^
-Thanks, Captain Obvious!
-
-^
-But in practice that means ...
-
----
-# The things you mean might not be the things the other person understands
+Try to avoid triggering the others thread response
 
 ^
 Just because you can handle brisk critism doesn't mean the other can ...
@@ -231,54 +263,25 @@ Even if you mean well ...
 - Their pet might be sick
 - They might just have a bad day
 
-^
-Maybe you think ...
-
----
-
-# They just need </br> a thicker skin!
-
-^
-I certainly did that in the past!
-
-^
-Why am I telling you all of this?
-
 ---
 > Does that mean <br/> I'm no longer allowed <br/> to criticise people?
 -- Somebody
 
 ^
-Of course not! Feedback is important! (Mention talk on feedback?)
-
-^
-I'm here to suggest ...
-
+Of course not! Feedback is important for growth!
 
 ---
-# What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
+## Feedback is
+# important!
 
-![](images/what-if-I-told-you.jpg)
+^
+Quote April Wensel: Compassion != "ruinous empathy"
 
 ---
-# Compassion
+# What now?
 
 ^
-Woho! Magic Sauce! Everything is saved!
-
-^
-Ofc we are not going to get there with this, so ...
-
-![](images/rainbow.jpeg)
-
----
-## I'm gonna eat my own dog food
-
-^
-What does that mean? You'll see in a sec ...
-
-^
-Let's start with this one ...
+Compassion in Code Reviews = Profit? No
 
 ---
 ## Of course
@@ -290,18 +293,7 @@ Let's start with this one ...
 # great start
 
 ^
-In the end it boils down to ...
-
----
-## Try to leave your colleagues better
-
-^
-If we can do that, we can talk about the bigger issue
-
----
-## Now that we discussed
-# Compassion
-## in Code Reviews
+Now that you might have an idea why this is important ...
 
 ---
 ## Let's go
@@ -311,10 +303,10 @@ If we can do that, we can talk about the bigger issue
 And by that I mean ...
 
 ---
-
 # The Tech Industry
 
 ^
+At large ...
 Because you see, right now ...
 
 ---
