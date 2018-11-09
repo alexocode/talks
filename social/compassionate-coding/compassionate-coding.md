@@ -1,4 +1,3 @@
-build-lists: true
 theme: Sketchnote, 1
 
 # Compassionate Coding
@@ -30,9 +29,11 @@ All our jobs include some form of communication
 The thing is ...
 
 ---
-## The tech industry is about
-# Solving Problems
-## in an efficient manner
+
+![](images/problem-solving.jpeg)
+
+^
+The tech industry is about solving problems in an efficient manner
 
 ^
 "Holy Grail" of the Tech Industry
@@ -58,9 +59,8 @@ And for a lot of people that means ...
 I would like to pose the question, if ...
 
 ---
-## Brisk & Direct
+##  Brisk & Direct?
 # Communication
-## = Efficient?
 
 ^
 Lot of "Bla Bla" ... Let's get more close to reality ...
@@ -68,6 +68,8 @@ Let me ask you a question ...
 
 ---
 # Who here had a <br/> *negative experience* <br/> in a code review?
+
+![](images/sad.jpeg)
 
 ^
 Doesn't have to be @GCX
@@ -77,11 +79,16 @@ hurt; left back a bad feeling; didn't feel quite right
 I would bet that a lot of it was about being efficient! But ...
 
 ---
-# We are not machines
+![](images/robot.jpeg)
+
+^
+We are not robots
 
 ---
-# People are different
+![](images/different.jpeg)
 
+^
+People are different
 ^
 Some of you probably now think ...
 
@@ -188,7 +195,7 @@ How might a compassionate alternative look like?
 ---
 # Compassionate Alternative
 
-> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and I think will improve the project structure. What do you think?
+> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and would improve the project structure. What do you think?
 -- A better me
 
 ^
@@ -223,28 +230,13 @@ Veiled demands => Instead provide recommandations (links)
 I think you get the point
 
 ---
-# Is it easy? No.
-# Is it worth it? Yes!
 
-^
-It leads to ...
+> Why should I care?
+-- Somebody
 
 ---
-# Better Collaboration
 
-^
-And to have a quote in here ...
-
----
-# Compassion - an optimization problem
-
-> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
--- April Wensel (Compassionate Coding)[^1]
-
-[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
-
-^
-And we like Optimization Problems, right?
+< Collaboration >
 
 ---
 ## Of course
@@ -330,6 +322,8 @@ Maybe let's use some examples
 ## Maybe some examples are better ...
 
 ---
+[.build-lists: true]
+
 # Technical Examples
 
 - Programming Python
@@ -342,7 +336,6 @@ Maybe let's use some examples
 Sooo ...
 
 ---
-[.build-lists: false]
 
 # Technical Examples
 
@@ -414,6 +407,7 @@ I want to close this talk with a final quote
 - [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
 - [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
 - [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+- [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
 
 ---
 # 💙💜❤️🧡💛💚
