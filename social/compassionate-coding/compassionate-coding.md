@@ -272,8 +272,14 @@ Of course not! Feedback is important for growth!
 ^
 Quote April Wensel: Compassion != "ruinous empathy"
 
+^
+Next: What now?
+
 ---
-# What now?
+![](images/rainbow.gif)
+
+^
+Be more compassionate in code reviews and all problems are fixed?
 
 ^
 Compassion in Code Reviews = Profit? No
