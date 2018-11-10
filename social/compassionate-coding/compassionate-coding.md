@@ -192,7 +192,7 @@ Let's come back to our question ...
 Because it leads to better collaboration
 
 ---
-# < COLLABORATION >
+![](images/collaboration.jpeg)
 
 ^
 ~5 minutes
@@ -226,7 +226,7 @@ What does that mean?
 One way of approaching this is COMPASSION
 
 ---
-< COMPASSION >
+![](images/compassion.jpeg)
 
 ^
 While we might work in tech ...
@@ -244,7 +244,7 @@ We are not robots
 We are different
 
 ---
-< IMAGE: RUN AWAY >
+![](images/run-away.jpeg)
 
 ^
 Try to avoid triggering the others thread response
@@ -384,20 +384,20 @@ Also ...
 # technical & intelligent
 ## isn't everything
 
-< IMAGE >
+![](images/technical.jpeg)
 
 ---
 ## Being
 # compassionate
 ## counts too
 
-< COMPASSION IMAGE >
+![](images/compassion.jpeg)
 
 ^
 So that we can create ...
 
 ---
-# Emotional Safety
+# Emotional Safety[^2]
 
 ^
 For ...
