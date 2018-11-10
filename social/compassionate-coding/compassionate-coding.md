@@ -426,10 +426,10 @@ I want to close this talk with a quote from the person who inspired me to do thi
 ## Thank you for listening
 # 💚💛🧡❤️💜💙
 
-[.footer: Sascha Wolf | saschawolf.me | 🐦 @ZeekerDev]
+[.footer: Sascha Wolf | saschawolf.me | 🐦 @wolf4earth]
 
 ^
-You can find me on Twitter @ZeekerDev, or visit my website
+You can find me on Twitter @wolf4earth, or visit my website
 
 ---
 # Resources
