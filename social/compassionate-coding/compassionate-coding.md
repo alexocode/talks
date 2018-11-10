@@ -428,6 +428,9 @@ I want to close this talk with a quote from the person who inspired me to do thi
 
 [.footer: Sascha Wolf | saschawolf.me | 🐦 @ZeekerDev]
 
+^
+You can find me on Twitter @ZeekerDev, or visit my website
+
 ---
 # Resources
 
