@@ -36,7 +36,6 @@ All our jobs include some form of communication
 The thing is, we in tech are all about solving problems
 
 ---
-
 ![](images/problem-solving.jpeg)
 
 ^
@@ -111,9 +110,7 @@ I user to think like that!
 You might ask yourself ...
 
 ---
-# Why should I care?
-
-< shrug >
+# [fit] `¯\_(ツ)_/¯`
 
 ^
 Why indeed. Let's hold that thought and ...
@@ -189,9 +186,7 @@ There are other, would be too much for this talk ...
 Let's come back to our question ...
 
 ---
-# Why should I care?
-
-< shrug >
+# [fit] `¯\_(ツ)_/¯`
 
 ^
 Because it leads to better collaboration
