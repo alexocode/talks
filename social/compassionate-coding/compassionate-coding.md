@@ -1,36 +1,32 @@
 theme: Sketchnote, 1
 
-[.footer: Sascha Wolf | grandcentrix]
+[.footer: Sascha Wolf | Backend Dev/TSA @ grandcentrix]
 # Compassionate Coding
 ### _being more humane in tech_
 
 ^
-Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix
+Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix in cologne
 
 ^
 Disclaimer:
-This talk is strongly inspired by the works of April Wensel and her orga "Compassionate Coding"
-I'm not affiliated with her orga in any way, rather this is about giving credit and raising awareness!
+- strongly inspired by "April Wensel" & orga "Compassionate Coding"
+- Not affiliated with them
+- Giving credit & raising awareness for the awesome work they're doing!
+- If you like this talk = check them out!
 
 ^
-Now that this is out of the way, let's get going!
-This talk is about COMMUNICATION
+With that out of the way: Let's get going!
 
 ---
 ![](images/communication.jpg)
 
 ^
-In brief Communcation revolves around
-
----
-# Communication
-### Transfering information from one person to another
+Communication: Transfering information from one person to another
 
 ^
-All our jobs include some form of communication
-- Customer contact
-- Meetings: Daily/Planning/Review/Retro
-- Digital: Jira/Confluence/GitHub/Slack
+All our jobs include it:
+- Meetings: Daily/Planning/Retro
+- Digital: Jira/Confluence/Slack
 
 ^
 The thing is, we in tech are all about solving problems
@@ -102,14 +98,10 @@ So what? Some might say ...
 -- Somebody
 
 ^
-I user to think like that!
-
----
-> What now? I'm no longer allowed to criticise people?
--- Somebody
+I used to think like that!
 
 ^
-No, that's not what I'm saying, I'm here to present an alternative:
+It doesn't have to be that way!
 
 ---
 # What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
@@ -122,16 +114,20 @@ No, that's not what I'm saying, I'm here to present an alternative:
 ![](images/compassion.jpeg)
 
 ^
-it is defined as the feeling that arises when you are confronted with another’s suffering and feel motivated to relieve that suffering.
+Definition: the feeling that arises when you are confronted with another’s suffering and feel motivated to relieve that suffering.
 
 ^
-How might that look like?
+Compassion != Empathy != Pity
+=> You want to DO something!
+
+^
+How might that look like in Code Reviews?
 
 ---
 # How about some examples?
 
 ^
-I went through my own personal history of code reviews(images/code-reviews.jpeg)
+I went through my own personal history of code reviews
 
 ---
 ## I'm gonna eat my own dogfoot
@@ -192,7 +188,7 @@ Veiled demands => Instead provide recommandations (links)
 -- A better me
 
 ^
-There are other, would be too much for this talk ...
+There are other things: Too much for this lightning talk!
 
 ^
 Some of you might ask yourself: Why should I care?
@@ -202,6 +198,7 @@ Some of you might ask yourself: Why should I care?
 
 ^
 That's certainly a valid question! Why should we?
+No Advantage = No Reason
 
 ^
 Because it leads to better collaboration
@@ -218,18 +215,19 @@ Not convinced? In 2012 Google embarked on journey to answer the following questi
 
 ---
 > What's the secret to <br/> a successful team?
--- Project Aristotle
+-- Google (Project Aristotle)
 
 ^
 2 years of research
-- 200+ interviews with Googlers
-- from 180+ active Google teams
-- looked at 250 different attributes
+- 200+ interviews (employees)
+- 180+ active teams
+- 250 different attributes
+
+^
+In the end it boiled down to something called:
 
 ---
-# Psychological Safety[^2]
-
-[^2]: https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html
+# Psychological Safety
 
 ---
 # Psychological Safety
@@ -240,12 +238,12 @@ Not convinced? In 2012 Google embarked on journey to answer the following questi
 
 ^
 What does that mean?
-- A protected environment for ideas and exchange
+- A protected environment to exchange ideas
 - Healthy culture around failure
-- A lot more things, check the article out!
+- A lot more things: article from NY Times!
 
 ^
-One way of approaching this is COMPASSION
+How to build it? One approaching could be COMPASSION
 
 ---
 ![](images/rainbow.gif)
@@ -300,33 +298,30 @@ Because you see, right now ...
 Things like: "The customer requested the source code in a PDF!"
 
 ^
-It IS pretty funny but we should keep one thing in mind ...
+It IS pretty funny but let me ask you:
 
 ---
 ## But what does
 # *technical*
 ## actually mean?
 
+---
+# Technical
+
+>  having special and usually practical knowledge especially of a mechanical or scientific subject
+-- Merriam-Webster Online Dictionary
+
 ^
-I looked it up on Wiktionary and this is what came out of it
+Interesting: "especially" not "exclusively"
 
 ---
 # Technical
 
-> Of or pertaining to the useful or mechanic arts, or to any academic, legal, science, engineering, business, or the like terminology with specific and precise meaning or (frequently, as a degree of distinction) shades of meaning; specially appropriate to any art, science or engineering field, or business
--- Wiktionary
+>  having special and usually practical knowledge __especially__ of a mechanical or scientific subject
+-- Merriam-Webster Online Dictionary
 
 ^
-I'll just gonna let you read it
-
----
-![](images/wat.jpg)
-
-^
-Maybe let's use some examples
-
----
-## Maybe some examples are better ...
+Based on that: what would be some examples
 
 ---
 [.build-lists: true]
@@ -334,28 +329,30 @@ Maybe let's use some examples
 # Technical Examples
 
 - Programming Python
+- Accounting in EXCEL
 - Using Photoshop
-- Accounting in Excel
 - Dancing Disco Fox
-- Using a Fork
-
-^
-Sooo ...
 
 ---
 
 # Technical Examples
 
 - Programming Python
+- Accounting in EXCEL
 - Using Photoshop
-- Accounting in Excel
 - Dancing Disco Fox
-- Using a Fork
+- Using chopsticks/a fork[^2]
 
-<br/>__Pretty much any learned skill__
+[^2]: https://medium.com/compassionate-coding/if-you-can-use-a-fork-youre-technical-352e21d92c87
 
 ^
-Also ...
+Pretty much any learned skill!
+
+^
+"Not technical" = "Not versed in MY technical stuff"
+
+^
+But as we just discussed:
 
 ---
 ## Being
@@ -373,17 +370,11 @@ Also ...
 
 ^
 As a rule of thumb: Avoid triggering thread responses
-
----
-## Avoid triggering
-# threat responses
-
-![](images/run-away.jpeg)
+- You can handle criticism? Great! Others might not!
+- Try to leave them better!
 
 ^
-Try to avoid triggering the others thread response
-- You can handle criticism? Great! Others might not!
-- Reiterate: Critic is okay but consider the other!
+Let's use this knowledge and ...
 
 ---
 ## Let's build
@@ -415,6 +406,9 @@ I want to close this talk with a quote from the person who inspired me to do thi
 
 ^
 You can find me on Twitter @wolf4earth, or visit my website
+
+^
+Links? I'll post on Slack/Twitter!
 
 ---
 # Resources
