@@ -104,20 +104,31 @@ So what? Some might say ...
 ^
 I user to think like that!
 
+---
+> What now? I'm no longer allowed to criticise people?
+-- Somebody
+
 ^
-You might ask yourself ...
+No, that's not what I'm saying, I'm here to present an alternative:
 
 ---
-# [fit] `¯\_(ツ)_/¯`
+# What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
+
+![](images/what-if-I-told-you.jpg)
+
+---
+# Compassion
+
+![](images/compassion.jpeg)
 
 ^
-Why indeed. Let's hold that thought and ...
+it is defined as the feeling that arises when you are confronted with another’s suffering and feel motivated to relieve that suffering.
 
 ---
 # How about some examples?
 
 ^
-I went through my own personal history of code reviews
+I went through my own personal history of code reviews(images/code-reviews.jpeg)
 
 ---
 ## I'm gonna eat my own dogfoot
@@ -141,7 +152,7 @@ What's the problem with this?
 No backup (docs, guidelines etc.). Personal preference is not enough!
 
 ^
-How might a compassionate alternative look like?
+How might an alternative look like?
 
 ---
 # Compassionate Alternative
