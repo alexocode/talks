@@ -211,17 +211,21 @@ Because it leads to better collaboration
 Ask youself: Which of the comments above would have had more of an impact on you?
 
 ^
-Not convinced? In 20XX Google tried to find ...
+Not convinced? In 2012 Google tried to find ...
 
 ---
 ## The secret to the
 # "Perfect Team"
+#### Project Aristotle
 
 ^
 Question: What made a team successful?
 
 ^
-After X years of research they arrived at a common denominator
+2 years of research
+- 200+ interviews with Googlers
+- from 180+ active Google teams
+- looked at 250 different attributes
 
 ---
 # Emotional Safety[^2]
