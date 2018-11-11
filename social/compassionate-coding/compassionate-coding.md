@@ -1,41 +1,41 @@
-build-lists: true
 theme: Sketchnote, 1
 
+[.footer: Sascha Wolf | Backend Dev/TSA @ grandcentrix]
 # Compassionate Coding
 ### _being more humane in tech_
 
 ^
-Thank you for being here!
-I want to start this talk about ...
+Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix in cologne
+
+^
+Disclaimer:
+- strongly inspired by "April Wensel" & orga "Compassionate Coding"
+- Not affiliated with them
+- Giving credit & raising awareness for the awesome work they're doing!
+- If you like this talk = check them out!
+
+^
+With that out of the way: Let's get going!
 
 ---
-# Communication
-
 ![](images/communication.jpg)
 
 ^
-The act of ...
+Communication: Transfering information from one person to another
+
+^
+All our jobs include it:
+- Meetings: Daily/Planning/Retro
+- Digital: Jira/Confluence/Slack
+
+^
+The thing is, we in tech are all about solving problems
 
 ---
-# Communication
-### Transfering information from one person to another
+![](images/problem-solving.jpeg)
 
 ^
-All our jobs include some form of communication
-- Customer contact
-- Daily/Planning/Review/Retro etc.
-- Jira/Confluence/GitHub and of course
-
-^
-The thing is ...
-
----
-## The tech industry is about
-# Solving Problems
-## in an efficient manner
-
-^
-"Holy Grail" of the Tech Industry
+Solving problems in an efficient manner; we talk a lot about
 - Efficent Code
 - Time Management
 - High Velocity
@@ -55,80 +55,53 @@ And for a lot of people that means ...
 # Communication
 
 ^
-I would like to pose the question, if ...
+In this talk I would like to pose the question, if ...
 
 ---
-## Brisk & Direct
+##  Brisk & Direct?
 # Communication
-## = Efficient?
 
 ^
-Lot of "Bla Bla" ... Let's get more close to reality ...
+most efficient way?
+
+---
+# Let's start
+### _small_
+
+---
+![](images/code-reviews.jpeg)
+
+^
 Let me ask you a question ...
 
 ---
 # Who here had a <br/> *negative experience* <br/> in a code review?
 
-^
-Doesn't have to be @GCX
-hurt; left back a bad feeling; didn't feel quite right
+![](images/sad.jpeg)
 
 ^
-I would bet that a lot of it was about being efficient! But ...
+hurt; left back a bad feeling/bad taste; didn't feel quite right
+
+^
+So what? Some might say ...
 
 ---
-# We are not machines
+> People need a thicker skin!
+-- Somebody
 
 ---
-# People are different
-
-^
-Some of you probably now think ...
+> It's not my job to care about others feelings!
+-- Somebody
 
 ---
-![](images/duh.gif)
-
-^
-Thanks, Captain Obvious!
-
-^
-But in practice that means ...
-
----
-# The things you mean might not be the things the other person understands
-
-^
-Just because you can handle brisk critism doesn't mean the other can ...
-
-^
-Even if you mean well ...
-- They might have a difficult time in life
-- Their pet might be sick
-- They might just have a bad day
-
-^
-Maybe you think ...
-
----
-
-# They just need </br> a thicker skin!
-
-^
-I certainly did that in the past!
-
-^
-Why am I telling you all of this?
-
----
-> Does that mean <br/> I'm no longer allowed <br/> to criticise people?
+> That's the way tech works!
 -- Somebody
 
 ^
-Of course not! Feedback is important! (Mention talk on feedback?)
+I used to think like that!
 
 ^
-I'm here to suggest ...
-
+It doesn't have to be that way!
 
 ---
 # What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
@@ -138,43 +111,38 @@ I'm here to suggest ...
 ---
 # Compassion
 
-^
-Woho! Magic Sauce! Everything is saved!
+![](images/compassion.jpeg)
 
 ^
-Ofc we are not going to get there with this, so ...
+Definition: the feeling that arises when you are confronted with another’s suffering and feel motivated to relieve that suffering.
 
-![](images/rainbow.jpeg)
+^
+Compassion != Empathy != Pity
+=> You want to DO something!
+
+^
+How might that look like in Code Reviews?
 
 ---
-## How about some examples in the context of Code Reviews?
+# How about some examples?
 
 ^
-I looked at our GitHub and picked out a few comments ...
-
-^
-But no worries! I'm not gonna blame anyone! Instead ...
+I went through my own personal history of code reviews
 
 ---
-## I'm gonna eat my own dog food
-
-^
-What does that mean? You'll see in a sec ...
-
-^
-Let's start with this one ...
+## I'm gonna eat my own dogfoot
 
 ---
 # Passing of Opinion as Fact
 
 ---
-# Passing of Opinion as Fact[^2]
+# Passing of Opinion as Fact[^1]
 
 <br/><br/><br/>
 
 ![inline](images/reviews/should-should.png)
 
-[^2]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
+[^1]: https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c
 
 ^
 What's the problem with this?
@@ -183,12 +151,12 @@ What's the problem with this?
 No backup (docs, guidelines etc.). Personal preference is not enough!
 
 ^
-How might a compassionate alternative look like?
+How might an alternative look like?
 
 ---
 # Compassionate Alternative
 
-> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and I think will improve the project structure. What do you think?
+> The Phoenix docs suggest to move persistence related functionality into a so called "Context" ([see here](https://hexdocs.pm/phoenix/contexts.html)). I think that's applicable here and would improve the project structure. What do you think?
 -- A better me
 
 ^
@@ -201,7 +169,7 @@ Better!
 # Asking judgmental questions
 
 ---
-# Asking judgmental questions[^2]
+# Asking judgmental questions[^1]
 
 <br/><br/><br/>
 
@@ -220,31 +188,71 @@ Veiled demands => Instead provide recommandations (links)
 -- A better me
 
 ^
-I think you get the point
-
----
-# Is it easy? No.
-# Is it worth it? Yes!
+There are other things: Too much for this lightning talk!
 
 ^
-It leads to ...
+Some of you might ask yourself: Why should I care?
 
 ---
-# Better Collaboration
+# [fit] `¯\_(ツ)_/¯`
 
 ^
-And to have a quote in here ...
+That's certainly a valid question! Why should we?
+No Advantage = No Reason
+
+^
+Because it leads to better collaboration
 
 ---
-# Compassion - an optimization problem
-
-> Compassion presents an optimization problem — it’s about understanding and minimizing suffering. It’s not the same as politeness or niceness, and it often involves speaking honestly and assertively.
--- April Wensel (Compassionate Coding)[^1]
-
-[^1]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
+![](images/collaboration.jpeg)
 
 ^
-And we like Optimization Problems, right?
+~5 minutes
+Ask youself: Which of the comments above would have had more of an impact on you?
+
+^
+Not convinced? In 2012 Google embarked on journey to answer the following question ...
+
+---
+> What's the secret to <br/> a successful team?
+-- Google (Project Aristotle)
+
+^
+2 years of research
+- 200+ interviews (employees)
+- 180+ active teams
+- 250 different attributes
+
+^
+In the end it boiled down to something called:
+
+---
+# Psychological Safety
+
+---
+# Psychological Safety
+
+> [the] shared belief held by members of a team that the team is safe for interpersonal risk-taking. [...]
+> A sense of confidence that the team will not embarrass, reject or punish someone for speaking up.
+-- Amy Edmondson (Harvard Business School)
+
+^
+What does that mean?
+- A protected environment to exchange ideas
+- Healthy culture around failure
+- A lot more things: article from NY Times!
+
+^
+How to build it? One approaching could be COMPASSION
+
+---
+![](images/rainbow.gif)
+
+^
+Be more compassionate in code reviews and all problems are fixed?
+
+^
+Compassion in Code Reviews = Profit? No
 
 ---
 ## Of course
@@ -256,31 +264,20 @@ And we like Optimization Problems, right?
 # great start
 
 ^
-In the end it boils down to ...
+Now that you might have an impression why these ideas are important ...
 
 ---
-## Try to leave your colleagues better
+## Let's go
+# [fit] _big_
 
 ^
-If we can do that, we can talk about the bigger issue
+And by that I mean, let's talk about ...
 
 ---
-## Now that we discussed
-# Compassion
-## in Code Reviews
-
----
-## Let's talk about the
-# Big Picture
-
-^
-And by that I mean ...
-
----
-
 # The Tech Industry
 
 ^
+At large ...
 Because you see, right now ...
 
 ---
@@ -301,121 +298,124 @@ Because you see, right now ...
 Things like: "The customer requested the source code in a PDF!"
 
 ^
-It IS pretty funny but we should keep one thing in mind ...
+It IS pretty funny but let me ask you:
 
 ---
 ## But what does
 # *technical*
 ## actually mean?
 
+---
+# Technical
+
+>  having special and usually practical knowledge especially of a mechanical or scientific subject
+-- Merriam-Webster Online Dictionary
+
 ^
-I looked it up on Wiktionary and this is what came out of it
+Interesting: "especially" not "exclusively"
 
 ---
 # Technical
 
-> Of or pertaining to the useful or mechanic arts, or to any academic, legal, science, engineering, business, or the like terminology with specific and precise meaning or (frequently, as a degree of distinction) shades of meaning; specially appropriate to any art, science or engineering field, or business
--- Wiktionary
+>  having special and usually practical knowledge __especially__ of a mechanical or scientific subject
+-- Merriam-Webster Online Dictionary
 
 ^
-I'll just gonna let you read it
+Based on that: what would be some examples
 
 ---
-![](images/wat.jpg)
-
-^
-Maybe let's use some examples
-
----
-## Maybe some examples are better ...
-
----
-# Technical Examples
-
-- Programming Python
-- Using Photoshop
-- Accounting in Excel
-- Dancing Disco Fox
-- Using a Fork
-
-^
-Sooo ...
-
----
-[.build-lists: false]
+[.build-lists: true]
 
 # Technical Examples
 
 - Programming Python
+- Accounting in EXCEL
 - Using Photoshop
-- Accounting in Excel
 - Dancing Disco Fox
-- Using a Fork
 
-<br/>__Pretty much any learned skill__
+---
+
+# Technical Examples
+
+- Programming Python
+- Accounting in EXCEL
+- Using Photoshop
+- Dancing Disco Fox
+- Using chopsticks/a fork[^2]
+
+[^2]: https://medium.com/compassionate-coding/if-you-can-use-a-fork-youre-technical-352e21d92c87
 
 ^
-Also ...
+Pretty much any learned skill!
+
+^
+"Not technical" = "Not versed in MY technical stuff"
+
+^
+But as we just discussed:
 
 ---
 ## Being
 # technical & intelligent
 ## isn't everything
 
+![](images/technical.jpeg)
+
 ---
-## What about
-# Emotional Intelligence?
+## Being
+# compassionate
+## counts too
+
+![](images/compassion.jpeg)
 
 ^
-Because ... If you think about it ...
-
----
-### If you think about it
-# Compassion
-### is all about
-# Emotional Intelligence
-
----
-## It's not only about "being nice"
-
----
-## It actually leads to better
-# Collaboration
+As a rule of thumb: Avoid triggering thread responses
+- You can handle criticism? Great! Others might not!
+- Try to leave them better!
 
 ^
-Or as April Wensel put it ...
+Let's use this knowledge and ...
 
 ---
-# Smoother Interactions
-
-> Eventually, I realized that taking time to care about other people’s emotions isn’t just kind — it’s actually more efficient if it leads to smoother interactions that don’t trigger people’s threat responses.
--- April Wensel (Compassionate Coding)[^1]
-
-^
-And here we are again. Full circle back to ...
-
----
-## Efficient
-# Communication
+## Let's build
+# psychological safe
+## environments
 
 ^
-I want to close this talk with a final quote
+For ...
+- Better Teams
+- Efficient Communication
+
+^
+I want to close this talk with a quote from the person who inspired me to do this:
 
 ---
 # Be the change ❤️
 
 > The tech industry — and the world — is made up of individual humans, and a lot of those humans are suffering. Each of us has the opportunity to do something about it.
--- April Wensel (Compassionate Coding)[^1]
+-- April Wensel (Compassionate Coding)[^3]
 
----
-# Resources
-
-- [Compassionate Coding on Medium](https://medium.com/compassionate-coding/)
-- [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
-- [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
-- [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+[^3]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
 
 ---
 # 💙💜❤️🧡💛💚
 ## Thank you for listening
 # 💚💛🧡❤️💜💙
+
+[.footer: Sascha Wolf | saschawolf.me | 🐦 @wolf4earth]
+
+^
+You can find me on Twitter @wolf4earth, or visit my website
+
+^
+Links? I'll post on Slack/Twitter!
+
+---
+# Resources
+
+- [Link to the Slides](https://github.com/Zeeker/talks/tree/master/social/compassionate-coding/build)
+- [Compassionate Coding on Medium](https://medium.com/compassionate-coding/)
+- [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
+- [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
+- [Unlearning toxic behaviors in a code review culture](https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+- [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)

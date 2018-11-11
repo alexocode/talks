@@ -1,3 +1,13 @@
+# Agenda
+
+- Communication
+- Efficiency
+- Small: Code Reviews
+  - Negative Experience
+  - Excuses
+  - Who thinks that/thought that?
+
+
 # Structure
 
 - Communication is hard
