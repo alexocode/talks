@@ -10,7 +10,7 @@ Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix
 ^
 Disclaimer:
 This talk is strongly inspired by the works of April Wensel and her orga "Compassionate Coding"
-I'm not affiliated with her orga in any way, rather this is about paying credit
+I'm not affiliated with her orga in any way, rather this is about giving credit and raising awareness!
 
 ^
 Now that this is out of the way, let's get going!
@@ -124,6 +124,9 @@ No, that's not what I'm saying, I'm here to present an alternative:
 ^
 it is defined as the feeling that arises when you are confronted with another’s suffering and feel motivated to relieve that suffering.
 
+^
+How might that look like?
+
 ---
 # How about some examples?
 
@@ -235,48 +238,12 @@ What does that mean?
 One way of approaching this is COMPASSION
 
 ---
-![](images/compassion.jpeg)
-
-^
-While we might work in tech ...
-
----
-![](images/robot.jpeg)
-
-^
-We are not robots
-
----
-![](images/different.jpeg)
-
-^
-We are different
-
----
 ![](images/run-away.jpeg)
 
 ^
 Try to avoid triggering the others thread response
-
-^
-Just because you can handle brisk critism doesn't mean the other can ...
-
-^
-Even if you mean well ...
-- They might have a difficult time in life
-- Their pet might be sick
-- They might just have a bad day
-
----
-> Does that mean <br/> I'm no longer allowed <br/> to criticise people?
--- Somebody
-
-^
-Of course not! Feedback is important for growth!
-
----
-## Feedback is
-# important!
+- You can handle criticism? Great! Others might not!
+- Reiterate: Critic is okay but consider the other!
 
 ^
 Quote April Wensel: Compassion != "ruinous empathy"
