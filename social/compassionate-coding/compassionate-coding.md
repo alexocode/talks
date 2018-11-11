@@ -195,10 +195,13 @@ Veiled demands => Instead provide recommandations (links)
 There are other, would be too much for this talk ...
 
 ^
-Let's come back to our question ...
+Some of you might ask yourself: Why should I care?
 
 ---
 # [fit] `¯\_(ツ)_/¯`
+
+^
+That's certainly a valid question! Why should we?
 
 ^
 Because it leads to better collaboration
@@ -211,15 +214,11 @@ Because it leads to better collaboration
 Ask youself: Which of the comments above would have had more of an impact on you?
 
 ^
-Not convinced? In 2012 Google tried to find ...
+Not convinced? In 2012 Google embarked on journey to answer the following question ...
 
 ---
-## The secret to the
-# "Perfect Team"
-#### Project Aristotle
-
-^
-Question: What made a team successful?
+> What's the secret to <br/> a successful team?
+-- Project Aristotle
 
 ^
 2 years of research
@@ -228,9 +227,16 @@ Question: What made a team successful?
 - looked at 250 different attributes
 
 ---
-# Emotional Safety[^2]
+# Psychological Safety[^2]
 
 [^2]: https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html
+
+---
+# Psychological Safety
+
+> [the] shared belief held by members of a team that the team is safe for interpersonal risk-taking. [...]
+> A sense of confidence that the team will not embarrass, reject or punish someone for speaking up.
+-- Amy Edmondson (Harvard Business School)
 
 ^
 What does that mean?
@@ -383,7 +389,7 @@ Also ...
 So that we can create ...
 
 ---
-# Emotional Safety[^2]
+# Psychological Safety[^2]
 
 ^
 For ...
