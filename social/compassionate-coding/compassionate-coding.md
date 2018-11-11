@@ -248,20 +248,6 @@ What does that mean?
 One way of approaching this is COMPASSION
 
 ---
-![](images/run-away.jpeg)
-
-^
-Try to avoid triggering the others thread response
-- You can handle criticism? Great! Others might not!
-- Reiterate: Critic is okay but consider the other!
-
-^
-Quote April Wensel: Compassion != "ruinous empathy"
-
-^
-Next: What now?
-
----
 ![](images/rainbow.gif)
 
 ^
@@ -386,10 +372,23 @@ Also ...
 ![](images/compassion.jpeg)
 
 ^
-So that we can create ...
+As a rule of thumb: Avoid triggering thread responses
 
 ---
-# Psychological Safety[^2]
+## Avoid triggering
+# threat responses
+
+![](images/run-away.jpeg)
+
+^
+Try to avoid triggering the others thread response
+- You can handle criticism? Great! Others might not!
+- Reiterate: Critic is okay but consider the other!
+
+---
+## Let's build
+# psychological safe
+## environments
 
 ^
 For ...
