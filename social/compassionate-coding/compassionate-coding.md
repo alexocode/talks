@@ -73,9 +73,7 @@ most efficient way?
 ### _small_
 
 ---
-# _Code Reviews_
-
-<add picture here>
+![](images/code-reviews.jpeg)
 
 ^
 Let me ask you a question ...
