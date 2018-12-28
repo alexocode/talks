@@ -1,22 +1,49 @@
 theme: Courier, 7
 
-Question: "StackOverflow down -> I'm useless"
-
-^
-Get the audience enganged
+# [fit] You know nothing
+### *or do you?*
 
 ---
+[.background-color: #ffffff]
 
+![80%](images/so-logo.png)
+
+---
+[.background-color: #ffffff]
+
+![500%](images/wikipedia-logo.png)
+
+---
+# Hi, I'm Sascha
+
+- Full Stack Developer / TSA
+- @grandcentrix in Cologne, Germany
+- Tech Stack: Elixir, Elm, JS, Swift
+- I know my way around: git, CLI magic, Clean Code, DDD, TDD and more ...
+
+---
 # [fit] You Know Nothing
 ### ...
 
 ---
 # [fit] You Know Nothing
-### or do you?
+### *or do you?*
 
 ---
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.header: #ffffff, line-height(0.7), text-scale(1.2)]
+## What makes a good
+# Developer?
+
+---
+# A good Developer
+
+- Great tech skills
+- Incredible productivity
+- High quality code
+- Blazing fast learner
+- Soft skills
+
+---
+[.header: line-height(0.7), text-scale(1.2)]
 [.header-emphasis: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
 
 # [fit] A New
