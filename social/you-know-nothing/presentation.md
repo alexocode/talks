@@ -1,6 +1,39 @@
-theme: Poster, 1
+theme: Courier, 7
 
-# [fit] Template
+Question: "StackOverflow down -> I'm useless"
+
+^
+Get the audience enganged
+
+---
+
+# [fit] You Know Nothing
+### ...
+
+---
+# [fit] You Know Nothing
+### or do you?
+
+---
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.header: #ffffff, line-height(0.7), text-scale(1.2)]
+[.header-emphasis: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+
+# [fit] A New
+# [fit] *Frame of Mind*
+
+![original](images/bg-new-frame-of-mind.png)
+
+---
+[.background-color: #47B386]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
 
 ---
 [.autoscale: true]
