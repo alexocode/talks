@@ -1,4 +1,4 @@
-theme: Courier, 7
+theme: Terminal
 
 # [fit] You Know Nothing
 ### or do you?
@@ -42,11 +42,18 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 - 18.64 average revisions per article
 
 ---
-
 ![autoplay mute loop](images/phew.mp4)
 
 ^
 That's a lot of knowledg
+
+---
+# Fear
+## of making
+# __mistakes__
+
+^
+"Don't want to embarras myself"
 
 ---
 [.background-color: #ffffff]
