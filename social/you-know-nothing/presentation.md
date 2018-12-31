@@ -12,6 +12,9 @@ Give me a show of hands when the following picture gives you anxiety.
 
 ![110%](images/so-down.png)
 
+^
+Jeah, me too ...
+
 ---
 [.background-color: #ffffff]
 
@@ -19,6 +22,7 @@ Give me a show of hands when the following picture gives you anxiety.
 
 ^
 Stats (29. December 2018)
+- Over 85% of devs visit StackOverflow at least a few times a week (https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow)
 - 16,942,114 questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
 - 2,274,634 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
 - 26,041,792 answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
@@ -36,6 +40,27 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 - 46,731,930 articles (total)
 - 35,296,795 users
 - 18.64 average revisions per article
+
+---
+
+![autoplay mute loop](images/phew.mp4)
+
+^
+That's a lot of knowledg
+
+---
+[.background-color: #ffffff]
+[.header: #000000, IBM 3270 Narrow]
+
+# So Much
+# <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+# To Learn
+
+![original 20%](images/tech/angular.png)
+![original 20%](images/tech/react.png)
+![original 20%](images/tech/vue.png)
+![original 20%](images/tech/golang.png)
+![original 20%](images/tech/rustlang.png)
 
 ---
 # Hi, I'm Sascha
