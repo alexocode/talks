@@ -1,17 +1,41 @@
 theme: Courier, 7
 
-# [fit] You know nothing
-### *or do you?*
+# [fit] You Know Nothing
+### or do you?
+
+^
+Let us start this with a questions:
+Give me a show of hands when the following picture gives you anxiety.
+
+---
+[.background-color: #ffffff]
+
+![110%](images/so-down.png)
 
 ---
 [.background-color: #ffffff]
 
 ![80%](images/so-logo.png)
 
+^
+Stats (29. December 2018)
+- 16,942,114 questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
+- 2,274,634 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
+- 26,041,792 answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
+- 70,616,953 comments (https://data.stackexchange.com/stackoverflow/query/954536/number-of-comments)
+- 9,825,838 users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
+
 ---
 [.background-color: #ffffff]
 
 ![500%](images/wikipedia-logo.png)
+
+^
+Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia)
+- 5,772,326 english articles
+- 46,731,930 articles (total)
+- 35,296,795 users
+- 18.64 average revisions per article
 
 ---
 # Hi, I'm Sascha
@@ -27,14 +51,14 @@ theme: Courier, 7
 
 ---
 # [fit] You Know Nothing
-### *or do you?*
+### or do you?
 
 ---
 ## What makes a good
 # Developer?
 
 ---
-# A good Developer
+# A Good Developer
 
 - Great tech skills
 - Incredible productivity
@@ -43,7 +67,7 @@ theme: Courier, 7
 - Soft skills
 
 ---
-[.header: line-height(0.7), text-scale(1.2)]
+[.header: line-height(0.7), text-scale(1.2), IBM 3270 Narrow]
 [.header-emphasis: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
 
 # [fit] A New
