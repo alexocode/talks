@@ -61,26 +61,6 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 That's a lot of knowledg
 
 ---
-# Fear
-## of making
-# __mistakes__
-
-^
-- Colleagues smarter than me
-- Don't want to make a fool out of myself
-- Harsh responses from colleagues
-
----
-# Embarrassment
-
-^
-All boils down to this
-
----
-# Keep improving
-### so I have something to share
-
----
 [.background-color: #ffffff]
 [.header: #000000, IBM 3270 Narrow]
 
@@ -95,7 +75,27 @@ All boils down to this
 ![original 20%](images/tech/rustlang.png)
 
 ---
-# TECH BUZZWORD CLOUD?
+# So Much
+# <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+# To Learn
+
+![original 90%](images/dev-word-cloud-4.png)
+
+---
+# Fear
+## of making
+# __mistakes__
+
+^
+- Colleagues smarter than me
+- Don't want to make a fool out of myself
+- Harsh responses from colleagues
+
+---
+# Embarrassment
+
+^
+All boils down to this
 
 ---
 # Keep improving
