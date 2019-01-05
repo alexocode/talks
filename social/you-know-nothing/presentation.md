@@ -61,25 +61,24 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 That's a lot of knowledg
 
 ---
+![original](images/dev-word-cloud-4.png)
+
+^
+So. Much. To. Learn.
+
+---
 [.background-color: #ffffff]
 [.header: #000000, IBM 3270 Narrow]
 
-# So Much
+# "You're doing
 # <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-# To Learn
+# it wrong!"
 
 ![original 20%](images/tech/angular.png)
 ![original 20%](images/tech/react.png)
 ![original 20%](images/tech/vue.png)
 ![original 20%](images/tech/golang.png)
 ![original 20%](images/tech/rustlang.png)
-
----
-# So Much
-# <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-# To Learn
-
-![original 90%](images/dev-word-cloud-4.png)
 
 ---
 # Fear
