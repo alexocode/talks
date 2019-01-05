@@ -78,7 +78,7 @@ So. Much. To. Learn.
 - Incredible productivity
 - High quality code
 - Blazing fast learner
-- Soft skills
+- Some soft skills
 
 ---
 # __Fear__
