@@ -16,19 +16,6 @@ Give me a show of hands when the following picture gives you anxiety.
 Jeah, me too ...
 
 ---
-## What makes a good
-# Developer?
-
----
-# A Good Developer
-
-- Great tech skills
-- Incredible productivity
-- High quality code
-- Blazing fast learner
-- Soft skills
-
----
 [.background-color: #ffffff]
 
 ![80%](images/so-logo.png)
@@ -79,6 +66,19 @@ So. Much. To. Learn.
 ![original 20%](images/tech/vue.png)
 ![original 20%](images/tech/golang.png)
 ![original 20%](images/tech/rustlang.png)
+
+---
+## What makes a good
+# Developer?
+
+---
+# A Good Developer
+
+- Great tech skills
+- Incredible productivity
+- High quality code
+- Blazing fast learner
+- Soft skills
 
 ---
 # __Fear__
