@@ -81,7 +81,7 @@ So. Much. To. Learn.
 ![original 20%](images/tech/rustlang.png)
 
 ---
-# Fear
+# __Fear__
 ## of making
 # __mistakes__
 
@@ -91,13 +91,13 @@ So. Much. To. Learn.
 - Harsh responses from colleagues
 
 ---
-# Embarrassment
+# __Embarrassment__
 
 ^
 All boils down to this
 
 ---
-# Keep improving
+# *Keep improving*
 ### so I have something to share
 
 ---
@@ -115,10 +115,34 @@ Welcome in the club
 - I know my way around: git, CLI magic, Clean Code, DDD, TDD and more ...
 
 ---
-# <EXHAUSTION>
+# Exhaustion
+
+![](images/exhaustion.jpg)
+
+[.footer: Photo by Tim Gouw on Pexels]
+[.footer-style: alignment(right)]
+
+^
+It brought me to the brink of ...
 
 ---
-# <PSYCHOLOGIST>
+# Depression
+
+![](images/depression.jpg)
+
+[.footer: Photo by Sasha Freemind on Unsplash]
+[.footer-style: alignment(right)]
+
+^
+It was my wife which finally convinced me to go into therapy
+
+---
+# Therapy
+
+![](images/therapy.jpg)
+
+[.footer: Photo by rawpixel on Unsplash]
+[.footer-style: alignment(right)]
 
 ---
 # [fit] You Know Nothing
