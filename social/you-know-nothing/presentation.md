@@ -127,15 +127,26 @@ All boils down to this
 Welcome in the club
 
 ---
+[.autoscale: true]
+[.build-lists: true]
+
 # Hi, I'm Sascha
 
 - Full Stack Developer / TSA
 - @grandcentrix in Cologne, Germany
-- Tech Stack: Elixir, Elm, JS, Swift
-- I know my way around: git, CLI magic, Clean Code, DDD, TDD and more ...
+- During my career I:
+  + wrote backend services in Java and NodeJS
+  + created responsive websites with CSS, Vue, and Elm
+  + shaped iOS apps with Objective-C and Swift
+  + did some embedded development in C
+  + built big backend systems with Elixir
+- I know my way around: git, CLI magic, Clean Code, DDD, TDD, and more ...
 
 ^
 ??: Move this after therapy?
+
+^
+I speak on meetups, now second conference
 
 ---
 # Exhaustion
