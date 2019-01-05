@@ -78,7 +78,7 @@ So. Much. To. Learn.
 - Incredible productivity
 - High quality code
 - Blazing fast learner
-- Some soft skills
+- Some Soft skills
 
 ---
 # __Fear__
@@ -99,6 +99,17 @@ All boils down to this
 ---
 # *Keep improving*
 ### so I have something to share
+
+---
+# So you __don't__ ...
+
+- answer that StackOverflow question
+- do that talk on that meetup
+- offer that help to someone
+- prepare that workshop
+- record that video
+- write that blog post
+- give input during that meeting
 
 ---
 # ~Fast Moving Environment~
