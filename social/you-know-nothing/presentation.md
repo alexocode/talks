@@ -98,7 +98,7 @@ All boils down to this
 
 ---
 # *Keep improving*
-### so I have something to share
+### so you have something to share
 
 ---
 # So you __don't__ ...
