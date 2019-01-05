@@ -151,3 +151,25 @@ Welcome in the club
 
 ---
 # PERCENTAGE OF PEOPLE WHO CAN CODE
+
+---
+[.background-color: #47B386]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+[.autoscale: true]
+
+# Hi again, I'm still Sascha
+
+- Husband / Father / Roleplayer / Developer
+- Gamemaster for two groups, player in one
+- Atheist, very interested in theology
+- Big on bringing compassion into work and life
+- Techy, full stack dev with a love for FP
+- Read a lot: SciFi, RPGs, thought-provoking stuff
+- Interests: game design & gaming, mindfulness, philosophy, ethics, space, productivity
