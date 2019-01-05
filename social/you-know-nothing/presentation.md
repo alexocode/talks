@@ -186,7 +186,8 @@ So maybe you don't make the same mistakes
 ![original](images/bg-new-frame-of-mind.png)
 
 ---
-[.background-color: #47B386]
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
 [.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
 [.text-emphasis: #F2EEE7]
 [.text-strong: Trim Mono Bold]
@@ -195,6 +196,13 @@ So maybe you don't make the same mistakes
 [.header-strong: Trim Poster Expanded]
 [.link: #FFF186]
 [.list: bullet-character(» )]
+
+### We're more than a walking
+# Tech Stack
+
+![](images/tech-stack.jpg)
+
+[.footer: Photo by Eli Francis on Unsplash]
 
 ---
 # PERCENTAGE OF PEOPLE WHO CAN CODE
