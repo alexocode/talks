@@ -112,6 +112,9 @@ All boils down to this
 - give input during that meeting
 
 ---
+# Who could blame you?
+
+---
 # ~Fast Moving Environment~
 
 ---
