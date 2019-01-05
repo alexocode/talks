@@ -101,6 +101,12 @@ All boils down to this
 ### so I have something to share
 
 ---
+# ~Fast Moving Environment~
+
+---
+# ~Learning __and__ performing~
+
+---
 # Sounds familiar?
 
 ^
@@ -113,6 +119,9 @@ Welcome in the club
 - @grandcentrix in Cologne, Germany
 - Tech Stack: Elixir, Elm, JS, Swift
 - I know my way around: git, CLI magic, Clean Code, DDD, TDD and more ...
+
+^
+??: Move this after therapy?
 
 ---
 # Exhaustion
@@ -145,12 +154,16 @@ It was my wife which finally convinced me to go into therapy
 [.footer-style: alignment(right)]
 
 ---
-# [fit] You Know Nothing
-### ...
+# My Story
 
----
-# [fit] You Know Nothing
-### or do you?
+![](images/story.jpg)
+
+[.footer: Photo by Daniel McCullough on Unsplash]
+[.footer-style: alignment(right)]
+
+^
+So maybe you don't make the same mistakes
+??: Should this be here?
 
 ---
 [.header: line-height(0.7), text-scale(1.2), IBM 3270 Narrow]
