@@ -1,3 +1,4 @@
+build-lists: true
 theme: Terminal
 
 # [fit] You Know Nothing
@@ -128,7 +129,6 @@ Welcome in the club
 
 ---
 [.autoscale: true]
-[.build-lists: true]
 
 # Hi, I'm Sascha
 
@@ -147,6 +147,18 @@ Welcome in the club
 
 ^
 I speak on meetups, now second conference
+
+---
+# My Story
+
+![](images/story.jpg)
+
+[.footer: Photo by Daniel McCullough on Unsplash]
+[.footer-style: alignment(right)]
+
+^
+So maybe you don't make the same mistakes
+Because for me this cycle first lead to ...
 
 ---
 # Exhaustion
@@ -177,18 +189,6 @@ It was my wife which finally convinced me to go into therapy
 
 [.footer: Photo by rawpixel on Unsplash]
 [.footer-style: alignment(right)]
-
----
-# My Story
-
-![](images/story.jpg)
-
-[.footer: Photo by Daniel McCullough on Unsplash]
-[.footer-style: alignment(right)]
-
-^
-So maybe you don't make the same mistakes
-??: Should this be here?
 
 ---
 [.header: line-height(0.7), text-scale(1.2), IBM 3270 Narrow]
