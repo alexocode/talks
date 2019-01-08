@@ -211,12 +211,31 @@ It was my wife which finally convinced me to go into therapy
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-### We're more than a walking
+### You're more than a walking
 # Tech Stack
 
 ![](images/tech-stack.jpg)
 
 [.footer: Photo by Eli Francis on Unsplash]
+
+^
+- First check @GCX: Does this person fit as a person?
+- Why is that important?
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## We focus a lot on
+# Tech Skills
 
 ---
 [.background-color: #47B386]
@@ -266,12 +285,32 @@ Should have something to do with tech
 
 ## Which qualities do you respect?
 
+- Writes awesome code?
 - Great communication skills?
-- Empathy and patience?
+- Empathic and patient?
 - Fun to interact with?
-- Knowledgeable about a variety of topics?
+- Interested in a variety of topics?
+- Prompts you to learn new things?
+- Probably lots of other things!
 
-~ADD MORE~
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# Code Ninja
+## &
+# Rockstar Dev
+
+^
+That's only a small part of a person, of you
 
 ---
 [.background-color: #47B386]
