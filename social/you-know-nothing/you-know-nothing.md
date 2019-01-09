@@ -301,6 +301,63 @@ That's only a small part of a person, of you
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
+![](images/camera-small-part.jpg)
+
+[.footer: Photo by Shane Aldendorff from Pexels]
+
+^
+That's only a very small part
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+![](images/camera-all-parts.jpg)
+
+[.footer: Photo by Shane Aldendorff from Pexels]
+
+^
+We forget all the other parts which define somebody
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+![](images/camera.jpg)
+
+[.footer: Photo by Markus Spiske from Pexels]
+
+^
+To create a person greater than the sum of their parts
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
 ### We're more than a walking
 # Tech Stack
 
@@ -311,39 +368,6 @@ That's only a small part of a person, of you
 ^
 - First check @GCX: Does this person fit as a person?
 - Why is that important?
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# Let's revisit a
-# question from earlier
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## What makes a good
-# Developer?
-
-^
-But this time ...
 
 ---
 [.background-color: #47B386]
@@ -385,7 +409,69 @@ But this time ...
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
+# ~Don't believe me? Psych Safety!~
 
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~Not the smartest people are the best teams~
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~Why stop at Core Skills? What else do we have to offer?~
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# Let's revisit a
+# question
+# from earlier
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## What makes a good
+# Developer?
+
+^
+But this time ...
 
 ---
 # PERCENTAGE OF PEOPLE WHO CAN CODE
