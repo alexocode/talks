@@ -200,44 +200,6 @@ It was my wife which finally convinced me to go into therapy
 ![original](images/bg-new-frame-of-mind.png)
 
 ---
-[.background-color: #ffffff]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-### You're more than a walking
-# Tech Stack
-
-![](images/tech-stack.jpg)
-
-[.footer: Photo by Eli Francis on Unsplash]
-
-^
-- First check @GCX: Does this person fit as a person?
-- Why is that important?
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## We focus a lot on
-# Tech Skills
-
----
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
 [.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
@@ -305,12 +267,50 @@ Should have something to do with tech
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
+## We focus a lot on
+# Tech Skills
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
 # Code Ninja
 ## &
 # Rockstar Dev
 
 ^
 That's only a small part of a person, of you
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+### We're more than a walking
+# Tech Stack
+
+![](images/tech-stack.jpg)
+
+[.footer: Photo by Eli Francis on Unsplash]
+
+^
+- First check @GCX: Does this person fit as a person?
+- Why is that important?
 
 ---
 [.background-color: #47B386]
@@ -344,6 +344,48 @@ That's only a small part of a person, of you
 
 ^
 But this time ...
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~Not only tech but also soft skills~
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~Not soft skills: Core Skills~
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+
 
 ---
 # PERCENTAGE OF PEOPLE WHO CAN CODE
