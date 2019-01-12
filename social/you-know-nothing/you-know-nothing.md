@@ -117,11 +117,11 @@ All boils down to this
 
 ---
 ## We're working in a
-# fast moving
+# __fast__ moving
 ## industry
 
 ^
-We're pressured to
+Which means, we're pressured to
 
 ---
 # Perform
@@ -129,13 +129,15 @@ We're pressured to
 # Learn
 
 ^
-At the same time
+Both at the same time; this stresses us out
+So we just don't do it. Maybe we write a blog post but never publish it
 
 ---
 # Sounds familiar?
 
 ^
-Welcome in the club
+Ask to raise hands?
+Welcome to the club
 
 ---
 [.autoscale: true]
@@ -153,9 +155,6 @@ Welcome in the club
 - I know my way around: git, CLI magic, Clean Code, DDD, TDD, and more ...
 
 ^
-??: Move this after therapy?
-
-^
 I speak on meetups, now second conference
 
 ---
@@ -167,8 +166,11 @@ I speak on meetups, now second conference
 [.footer-style: alignment(right)]
 
 ^
-So maybe you don't make the same mistakes
-Because for me this cycle first lead to ...
+Because Buzzkill: This doesn't end!
+There is always something you don't know
+
+^
+Always absorbed knowledge as I could; I'm good at it
 
 ---
 # Exhaustion
@@ -179,7 +181,7 @@ Because for me this cycle first lead to ...
 [.footer-style: alignment(right)]
 
 ^
-It brought me to the brink of ...
+But I kept pushing; I put even more on my plate (MCSE certification)
 
 ---
 # Depression
@@ -190,7 +192,8 @@ It brought me to the brink of ...
 [.footer-style: alignment(right)]
 
 ^
-It was my wife which finally convinced me to go into therapy
+I came home and slumped on the couch;
+My wife repeatedly asked me to go into
 
 ---
 # Therapy
@@ -200,6 +203,10 @@ It was my wife which finally convinced me to go into therapy
 [.footer: Photo by rawpixel on Unsplash]
 [.footer-style: alignment(right)]
 
+^
+For over a year now and still working on it
+Today I'm here to tell you what I painfully learned (therapist and their pesky questions!)
+
 ---
 [.header: line-height(0.7), text-scale(1.2), IBM 3270 Narrow]
 [.header-emphasis: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
@@ -208,6 +215,9 @@ It was my wife which finally convinced me to go into therapy
 # [fit] *Frame of Mind*
 
 ![original](images/bg-new-frame-of-mind.png)
+
+^
+And maybe this will help you too
 
 ---
 [.background-color: #47B386]
