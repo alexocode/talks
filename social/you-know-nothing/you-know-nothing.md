@@ -536,7 +536,7 @@ but; and that's a darn big but
 You definitely need some tech skills to work in this industry but they don't make you necessarily a great dev
 
 ---
-[.background-color: #47b386]
+[.background-color: #ffffff]
 [.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
 [.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
 [.text-emphasis: #f2eee7]
@@ -551,10 +551,15 @@ You definitely need some tech skills to work in this industry but they don't mak
 ## &
 # Tricks
 
+![](images/trick.jpg)
+
+[.footer: Photo by Guy Kawasaki on Pexels]
+
 ^
 These helped ME; maybe they'll help you
 
 ---
+[.background-color: #ffffff]
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
 [.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
@@ -570,6 +575,15 @@ These helped ME; maybe they'll help you
 # __Journey__
 ## not the
 # __Goal__
+
+![](images/journey.jpg)
+
+[.footer: Photo by Sharefaith from Pexels]
+
+^
+- Mistakes & Pitfalls
+- Questions you had and their answers
+- Reference for you
 
 ---
 [.background-color: #47B386]
