@@ -99,10 +99,10 @@ All boils down to this
 
 ---
 # *Keep improving*
-### so you have something to share
+### so we have something to share
 
 ---
-# So you __don't__ ...
+# So we __don't__ ...
 
 - answer that StackOverflow question
 - do that talk on that meetup
@@ -113,10 +113,11 @@ All boils down to this
 - give input during that meeting
 
 ---
-# Who could blame you?
+# Who could blame us?
 
 ---
-# ~Fast Moving Environment~
+# Tech
+## is fast moving
 
 ---
 # ~Learning __and__ performing~
