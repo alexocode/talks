@@ -43,6 +43,16 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 - 18.64 average revisions per article
 
 ---
+[.background-color: #ffffff]
+
+![80%](images/github-logo.png)
+
+^
+Stats (November 2018) (https://expandedramblings.com/index.php/github-statistics/)
+- 31 million users
+- over 100 million repositories
+
+---
 ![autoplay mute loop](images/phew.mp4)
 
 ^
