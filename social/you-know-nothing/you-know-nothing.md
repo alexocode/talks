@@ -69,13 +69,13 @@ So. Much. To. Learn.
 ![original 20%](images/tech/rustlang.png)
 
 ---
-## What makes a good
+## What makes a great
 # Developer?
 
 ---
-# A Good Developer
+# A Great Developer
 
-- Great tech skills
+- Awesome tech skills
 - Incredible productivity
 - High quality code
 - Blazing fast learner
@@ -451,9 +451,10 @@ To create a person greater than the sum of their parts
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-# Let's revisit a
-# question
-# from earlier
+# ~For me: Techniques from RPG at Work~
+
+^
+=> Let's revisit a question from earlier
 
 ---
 [.background-color: #47B386]
@@ -467,14 +468,91 @@ To create a person greater than the sum of their parts
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-## What makes a good
+## What makes a great
 # Developer?
 
 ^
 But this time ...
 
 ---
-# PERCENTAGE OF PEOPLE WHO CAN CODE
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# A Great Developer
+### might ...
+
+- have solid tech skills
+- work great in a team
+- communicate clearly and concisely
+- remain calm in the face of deadlines
+- be somebody you can always rely on
+- have other qualities I can't think of!
+
+^
+Let me reiterate:
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# Tech enables us
+
+^
+but; and that's a darn big but
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# Tech does
+# __not__
+# define us
+
+^
+You definitely need some tech skills to work in this industry but they don't make you necessarily a great dev
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# Tips
+## &
+# Tricks
+
+^
+These helped ME; maybe they'll help you
 
 ---
 [.background-color: #47B386]
@@ -487,6 +565,94 @@ But this time ...
 [.header-strong: Trim Poster Expanded]
 [.link: #FFF186]
 [.list: bullet-character(» )]
+
+## Document the
+# __Journey__
+## not the
+# __Goal__
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~Ask colleagues where they think you know your stuff~
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## Start a
+# __TIL__
+## List
+
+^
+And do not focus on tech only!
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~I did the best I could with the knowledge I had~
+
+^
+Code is distilled knowledge; writing it is a learning process
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## Focus on the
+# __Learnings__
+## not the
+# __Mistakes__
+
+^
+Not “I can’t make mistakes” but “I learned X for the future!”
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+[.autoscale: true]
 
 # Hi again, I'm still Sascha
 
