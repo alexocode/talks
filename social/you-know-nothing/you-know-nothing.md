@@ -78,6 +78,12 @@ So. Much. To. Learn.
 ![original 20%](images/tech/golang.png)
 ![original 20%](images/tech/rustlang.png)
 
+^
+Seems like a good developer should know all this, right?
+
+^
+So based on that:
+
 ---
 ## What makes a great
 # Developer?
@@ -227,7 +233,14 @@ Today I'm here to tell you what I painfully learned (therapist and their pesky q
 ![original](images/bg-new-frame-of-mind.png)
 
 ^
-And maybe this will help you too
+- I didn't suddenly know everything
+- I changed my perspective on my work
+- In the next few slides I'm gonna try to convey it
+- We're gonna make some small detours
+- Stick with me it's all gonna come back to Knowledge Sharing
+
+^
+LEEEEEROY JEEEENKIIIIIINS!
 
 ---
 [.background-color: #47B386]
