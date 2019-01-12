@@ -254,6 +254,106 @@ LEEEEEROY JEEEENKIIIIIINS!
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
+## We focus a lot on
+# Tech Skills
+
+^
+It's no wonder: easy to measure; GitHub and Co
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# Code Ninja
+## &
+# Rockstar Dev
+
+^
+But what does that actually tells us about a person?
+
+^
+See, we look at this tiny part
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+![](images/camera-small-part.jpg)
+
+[.footer: Photo by Shane Aldendorff from Pexels]
+
+^
+Based on that we come to a judgement: "This is a great dev, he really knows his JS!"
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+![](images/camera-all-parts.jpg)
+
+[.footer: Photo by Shane Aldendorff from Pexels]
+
+^
+But there is more to a person than just his ability to write JS!
+
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+![](images/camera.jpg)
+
+[.footer: Photo by Markus Spiske from Pexels]
+
+^
+And only put together they form a person greater than the sum of their parts
+
+^
+What might this parts be?
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
 ### Think of somebody you
 # respect
 
@@ -298,96 +398,8 @@ Should have something to do with tech
 - Prompts you to learn new things?
 - Probably lots of other things!
 
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## We focus a lot on
-# Tech Skills
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# Code Ninja
-## &
-# Rockstar Dev
-
 ^
-That's only a small part of a person, of you
-
----
-[.background-color: #ffffff]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-![](images/camera-small-part.jpg)
-
-[.footer: Photo by Shane Aldendorff from Pexels]
-
-^
-That's only a very small part
-
----
-[.background-color: #ffffff]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-![](images/camera-all-parts.jpg)
-
-[.footer: Photo by Shane Aldendorff from Pexels]
-
-^
-We forget all the other parts which define somebody
-
----
-[.background-color: #ffffff]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-![](images/camera.jpg)
-
-[.footer: Photo by Markus Spiske from Pexels]
-
-^
-To create a person greater than the sum of their parts
+The point I'm trying to make, is this:
 
 ---
 [.background-color: #ffffff]
@@ -410,35 +422,7 @@ To create a person greater than the sum of their parts
 
 ^
 - First check @GCX: Does this person fit as a person?
-- Why is that important?
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# ~Not only tech but also soft skills~
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# ~Not soft skills: Core Skills~
+=> Soft Skills
 
 ---
 [.background-color: #47B386]
