@@ -421,8 +421,54 @@ The point I'm trying to make, is this:
 [.footer: Photo by Eli Francis on Unsplash]
 
 ^
-- First check @GCX: Does this person fit as a person?
-=> Soft Skills
+First check @GCX: Does this person fit as a person?
+??? ADD MORE ???
+
+---
+[.background-color: #ffffff]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+![100%](images/google.gif)
+
+^
+- Google had the same realization!
+- Teams with super-smart people, they didn't perform
+- Why? Research project in 2012, asking a simple question:
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.quote: #2C3850, line-height(0.7), text-scale(0.9), Trim Mono]
+[.quote-author: #FFF186, line-height(0.7), text-scale(1.0), Trim Mono]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+> What's the secret to a successful team?
+-- Google (Project Aristotle)
+
+^
+2 years of research
+- 200+ interviews (employees)
+- 180+ active teams
+- 250 different attributes
+
+^
+In the end it boiled down to something called:
+
 
 ---
 [.background-color: #47B386]
