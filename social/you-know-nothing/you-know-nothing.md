@@ -116,11 +116,20 @@ All boils down to this
 # Who could blame us?
 
 ---
-# Tech
-## is fast moving
+## We're working in a
+# fast moving
+## industry
+
+^
+We're pressured to
 
 ---
-# ~Learning __and__ performing~
+# Perform
+# __and__
+# Learn
+
+^
+At the same time
 
 ---
 # Sounds familiar?
