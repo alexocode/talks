@@ -469,7 +469,6 @@ First check @GCX: Does this person fit as a person?
 ^
 In the end it boiled down to something called:
 
-
 ---
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
@@ -482,7 +481,39 @@ In the end it boiled down to something called:
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-# ~Don't believe me? Psych Safety!~
+# Psychological
+# Safety
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.quote: #2C3850, line-height(1.0), text-scale(1.3), Trim Mono]
+[.quote-author: #FFF186, line-height(1.3), text-scale(1.0), Trim Mono]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# Psychological Safety
+
+> [the] shared belief held by members of a team that the team is safe for interpersonal risk-taking. [...]
+> A sense of confidence that the team will not embarrass, reject or punish someone for speaking up.
+-- Amy Edmondson (Harvard Business School)
+
+~LINK TO ARTICLE?~
+
+^
+What does that mean?
+- A protected environment to exchange ideas
+- Healthy culture around failure
+- A lot more things: article from NY Times!
+
+^
+=> Soft Skills matter, that's why they should be called Core Skills
 
 ---
 [.background-color: #47B386]
