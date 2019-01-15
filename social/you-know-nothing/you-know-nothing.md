@@ -487,6 +487,7 @@ In the end it boiled down to something called:
 ---
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
 [.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
 [.text-emphasis: #F2EEE7]
 [.text-strong: Trim Mono Bold]
@@ -502,9 +503,9 @@ In the end it boiled down to something called:
 
 > [the] shared belief held by members of a team that the team is safe for interpersonal risk-taking. [...]
 > A sense of confidence that the team will not embarrass, reject or punish someone for speaking up.
--- Amy Edmondson (Harvard Business School)
+-- Amy Edmondson (Harvard Business School)[^1]
 
-~LINK TO ARTICLE?~
+[^1]: https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html
 
 ^
 What does that mean?
@@ -513,7 +514,32 @@ What does that mean?
 - A lot more things: article from NY Times!
 
 ^
-=> Soft Skills matter, that's why they should be called Core Skills
+Great article from the NYT
+
+^
+Not the smartest people build the best teams!
+=> Soft Skills matter!
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono Bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+![50%](images/core-skills.png)
+
+^
+Pretty much everybody needs them and you need them for pretty much everything
+
+^
+So, Core Skills matter but ...
 
 ---
 [.background-color: #47B386]
@@ -527,35 +553,34 @@ What does that mean?
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-# ~Not the smartest people are the best teams~
+# Why stop here?
+
+^
+What other skills might potentially matter?
+
+^
+For me:
+- RPG/GMing (communicate clearly; group engagement)
+- Online Games (more calm etc.)
 
 ---
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.background-color: #ffffff]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
 [.header-emphasis: Trim Poster ExtraCompressed]
 [.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
+[.link: #fff186]
 [.list: bullet-character(» )]
 
-# ~Why stop at Core Skills? What else do we have to offer?~
+![](images/house-on-stilts.jpg)
 
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
+[.footer: Photo by Arnold Dogelis on Unsplash]
 
-# ~For me: Techniques from RPG at Work~
+^
+Ofc you can build a house on stilts but it will always be more stable when you build it on the ground!
 
 ^
 => Let's revisit a question from earlier
