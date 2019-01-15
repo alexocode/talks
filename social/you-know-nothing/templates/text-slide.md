@@ -2,13 +2,14 @@
 
 ---
 [.background-color: #47b386]
-[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
 [.text-emphasis: #f2eee7]
-[.text-strong: trim mono bold]
-[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
-[.header-emphasis: trim poster extracompressed]
-[.header-strong: trim poster expanded]
+[.text-strong: Trim Mono Bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
 [.link: #fff186]
 [.list: bullet-character(» )]
 
