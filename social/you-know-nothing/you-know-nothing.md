@@ -539,6 +539,9 @@ Not the smartest people build the best teams!
 Pretty much everybody needs them and you need them for pretty much everything
 
 ^
+Most projects fail due to human reasons
+
+^
 So, Core Skills matter but ...
 
 ---
@@ -563,24 +566,44 @@ For me:
 - RPG/GMing (communicate clearly; group engagement)
 - Online Games (more calm etc.)
 
+^
+Let me reiterate:
+
 ---
-[.background-color: #ffffff]
-[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
 [.text-emphasis: #f2eee7]
-[.text-strong: Trim Mono bold]
-[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
 [.link: #fff186]
 [.list: bullet-character(» )]
 
-![](images/house-on-stilts.jpg)
-
-[.footer: Photo by Arnold Dogelis on Unsplash]
+# Tech enables us
 
 ^
-Ofc you can build a house on stilts but it will always be more stable when you build it on the ground!
+but; and that's a darn big but
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: trim mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
+[.header-emphasis: trim poster extracompressed]
+[.header-strong: trim poster expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# Tech does
+# __not__
+# define us
+
+^
+You definitely need some tech skills to work in this industry but they don't make you necessarily a great dev
 
 ^
 => Let's revisit a question from earlier
@@ -621,48 +644,58 @@ But this time ...
 - have solid tech skills
 - work great in a team
 - communicate clearly and concisely
-- remain calm in the face of deadlines
+- remain calm under pressure
 - be somebody you can always rely on
 - have other qualities I can't think of!
 
 ^
-Let me reiterate:
+- team = sports (e- or real)
+- communicate = rpgs, theater
+- calm = dancer, "blitzschach"
+- rely = raids in WoW
 
 ---
-[.background-color: #47b386]
-[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.background-color: #ffffff]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
 [.text-emphasis: #f2eee7]
-[.text-strong: trim mono bold]
-[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
-[.header-emphasis: trim poster extracompressed]
-[.header-strong: trim poster expanded]
+[.text-strong: Trim Mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
 [.link: #fff186]
 [.list: bullet-character(» )]
 
-# Tech enables us
+![](images/house-on-stilts.jpg)
+
+[.footer: Photo by Arnold Dogelis on Unsplash]
 
 ^
-but; and that's a darn big but
+Ofc you can build a house on stilts but it will always be more stable when you build it on the ground!
+
+^
+Recognize = All your skills are potentially important!
+=> When you share, and it's wrong, it's not so bad!
 
 ---
-[.background-color: #47b386]
-[.footer-style: #fff186, trim poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2c3850, line-height(1.1), text-scale(1.0), trim mono]
+[.background-color: #ffffff]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
 [.text-emphasis: #f2eee7]
-[.text-strong: trim mono bold]
-[.header: #2c3850, line-height(0.7), text-scale(1.2), trim poster]
-[.header-emphasis: trim poster extracompressed]
-[.header-strong: trim poster expanded]
+[.text-strong: Trim Mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
 [.link: #fff186]
 [.list: bullet-character(» )]
 
-# Tech does
-# __not__
-# define us
+![](images/stable-house.jpg)
 
-^
-You definitely need some tech skills to work in this industry but they don't make you necessarily a great dev
+# Wholesome
+# Person
+
+[.footer: ]
 
 ---
 [.background-color: #ffffff]
