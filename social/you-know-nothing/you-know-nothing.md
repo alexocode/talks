@@ -5,35 +5,42 @@ theme: Terminal
 ### or do you?
 
 ^
+Ask: Who in this room is not a dev?
 Talk: From a perspective of a dev; gist is applicable regardless of profession, don't feel excluded!
 
 ^
-Let us start this with a questions:
-Give me a show of hands when the following picture gives you anxiety.
+Roughly split into 3 parts
 
 ---
-[.background-color: #ffffff]
-
-# ~Remove this? It's exclusive ...~
-
-![110%](images/so-down.png)
+# Knowledge Sharing
 
 ^
-Jeah, me too ...
+- Writing blog posts
+- Answering Questions
+- Recording videos or podcasts
+- Speaking on conferences
+- Teaching your colleagues
 
 ---
-[.background-color: #ffffff]
-
-![80%](images/so-logo.png)
+# 1. The Problem
 
 ^
-Stats (29. December 2018)
-- Over 85% of devs visit StackOverflow at least a few times a week (https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow)
-- 16,942,114 questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
-- 2,274,634 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
-- 26,041,792 answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
-- 70,616,953 comments (https://data.stackexchange.com/stackoverflow/query/954536/number-of-comments)
-- 9,825,838 users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
+I'm gonna try to explain why we might refrain from doing all that
+
+---
+# 2. A Solution
+
+^
+Present a different approach to mitigate the mentioned issues
+
+---
+# 3. Tips & Tricks
+
+^
+Close with some things which helped me with that
+
+^
+Can't talk about knowledge sharing without mentioning:
 
 ---
 [.background-color: #ffffff]
@@ -45,17 +52,20 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 - 5,772,326 english articles
 - 46,731,930 articles (total)
 - 35,296,795 users
-- 18.64 average revisions per article
 
 ---
 [.background-color: #ffffff]
 
-![80%](images/github-logo.png)
+![80%](images/so-logo.png)
 
 ^
-Stats (November 2018) (https://expandedramblings.com/index.php/github-statistics/)
-- 31 million users
-- over 100 million repositories
+Stats (29. December 2018)
+- Over 85% of devs visit StackOverflow at least a few times a week (https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow)
+- 9,825,838 users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
+- 26,041,792 answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
+- 16,942,114 questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
+- 2,274,634 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
+
 
 ---
 ![autoplay mute loop](images/phew.mp4)
