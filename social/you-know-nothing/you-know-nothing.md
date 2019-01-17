@@ -386,20 +386,8 @@ What might this parts be?
 Can be a colleague, blogger, etc.
 Should have something to do with tech
 
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# Which qualities
-# do you respect?
+^
+Ask yourself: What exactly do you respect about him?
 
 ---
 [.background-color: #47B386]
@@ -700,7 +688,28 @@ Ofc you can build a house on stilts but it will always be more stable when you b
 
 ^
 Recognize = All your skills are potentially important!
-=> When you share, and it's wrong, it's not so bad!
+
+---
+[.background-color: #ffffff]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+![](images/stable-house.jpg)
+
+^
+Stable foundation: It's harder to shake you!
+When you share, and it's wrong, it's not so bad!
+
+^
+=> Be a "Wholesome Dev"
 
 ---
 [.background-color: #ffffff]
@@ -718,9 +727,7 @@ Recognize = All your skills are potentially important!
 ![](images/stable-house.jpg)
 
 # Wholesome
-# Person
-
-[.footer: ]
+# Developer
 
 ---
 [.background-color: #ffffff]
@@ -744,6 +751,46 @@ Recognize = All your skills are potentially important!
 
 ^
 These helped ME; maybe they'll help you
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## Focus on the
+# __Learnings__
+## not the
+# __Mistakes__
+
+^
+Not “I can’t make mistakes” but “I learned X for the future!”
+
+^
+Old Code = What did I learn till then? (Maybe eben worthy of a blog post?)
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+# ~I did the best I could with the knowledge I had~
+
+^
+Code is distilled knowledge; writing it is a learning process
 
 ---
 [.background-color: #ffffff]
@@ -804,43 +851,6 @@ These helped ME; maybe they'll help you
 
 ^
 And do not focus on tech only!
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# ~I did the best I could with the knowledge I had~
-
-^
-Code is distilled knowledge; writing it is a learning process
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## Focus on the
-# __Learnings__
-## not the
-# __Mistakes__
-
-^
-Not “I can’t make mistakes” but “I learned X for the future!”
 
 ---
 [.background-color: #47B386]
