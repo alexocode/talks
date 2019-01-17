@@ -5,11 +5,16 @@ theme: Terminal
 ### or do you?
 
 ^
+Talk: From a perspective of a dev; gist is applicable regardless of profession, don't feel excluded!
+
+^
 Let us start this with a questions:
 Give me a show of hands when the following picture gives you anxiety.
 
 ---
 [.background-color: #ffffff]
+
+# ~Remove this? It's exclusive ...~
 
 ![110%](images/so-down.png)
 
@@ -58,51 +63,18 @@ Stats (November 2018) (https://expandedramblings.com/index.php/github-statistics
 ^
 That's a lot of knowledg
 
----
-
-```js
-
-
-
-function isEven(a) {
-  if (a == 0) return true;
-  if (a == 2) return true;
-  if (a == 4) return true;
-  if (a == 6) return true;
-  if (a == 8) return true;
-  if (a == 10) return true;
-  if (a == 12) return true;
-  if (a == 14) return true;
-  // TODO: Add more checks.
-  return false;
-}
-```
-
 ^
-Or somebody was trying to be overly clever:
-
----
-
-```js
-
-
-
-
-
-function isEven(a) {
-  if (a == 0) return true;
-  if (a == 1) return false;
-
-  if (a < 0) return isEven(a + 2);
-  return isEven(a - 2);
-}
-```
+But at the same time, we have these moments:
 
 ---
 > "Who wrote that code?!"
 
 ^
-And you furiosly type 'git blame' only to realise ...
+- Files with over 10k loc (my top record: 30k, used to be 60k)
+- Endless nested if-else-statements
+
+^
+Maybe even in your own company? So you furiosly type 'git blame' ...
 
 ---
 > "Oh ... me ..."
