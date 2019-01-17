@@ -59,6 +59,62 @@ Stats (November 2018) (https://expandedramblings.com/index.php/github-statistics
 That's a lot of knowledg
 
 ---
+
+```js
+
+
+
+function isEven(a) {
+  if (a == 0) return true;
+  if (a == 2) return true;
+  if (a == 4) return true;
+  if (a == 6) return true;
+  if (a == 8) return true;
+  if (a == 10) return true;
+  if (a == 12) return true;
+  if (a == 14) return true;
+  // TODO: Add more checks.
+  return false;
+}
+```
+
+^
+Or somebody was trying to be overly clever:
+
+---
+
+```js
+
+
+
+
+
+function isEven(a) {
+  if (a == 0) return true;
+  if (a == 1) return false;
+
+  if (a < 0) return isEven(a + 2);
+  return isEven(a - 2);
+}
+```
+
+---
+> "Who wrote that code?!"
+
+^
+And you furiosly type 'git blame' only to realise ...
+
+---
+> "Oh ... me ..."
+
+^
+From my experience: every dev has a story like this
+And if not: the day will come ...
+
+^
+At the same time there are all these topics we have to learn
+
+---
 ![original](images/dev-word-cloud-4.png)
 
 ^
@@ -80,9 +136,6 @@ So. Much. To. Learn.
 
 ^
 Seems like a good developer should know all this, right?
-
-^
-So based on that:
 
 ---
 ## What makes a great
