@@ -268,7 +268,10 @@ My wife repeatedly asked me to go into
 
 ^
 For over a year now and still working on it
-Today I'm here to tell you what I painfully learned (therapist and their pesky questions!)
+Today I'm here to tell you what I painfully learned, so you don't make the same mistakes
+
+^
+See, I didn't suddenly know everything but instead I developed ...
 
 ---
 [.header: line-height(0.7), text-scale(1.2), IBM 3270 Narrow]
@@ -280,7 +283,6 @@ Today I'm here to tell you what I painfully learned (therapist and their pesky q
 ![original](images/bg-new-frame-of-mind.png)
 
 ^
-- I didn't suddenly know everything
 - I changed my perspective on my work
 - In the next few slides I'm gonna try to convey it
 - We're gonna make some small detours
@@ -412,7 +414,7 @@ Let's do a little experiment
 Can be a colleague, blogger, youtuber, etc.
 
 ^
-Ask yourself: What exactly do you respect about him?
+Ask yourself: What exactly do you respect about them?
 
 ---
 [.background-color: #47B386]
@@ -1059,4 +1061,7 @@ And I'm 100% certain: There is a lot more to all of you
 [.footer: 🐦 wolf4earth | saschawolf.me]
 
 ^
-Now go answer some questions on StackOverflow!
+Please tweet me the skills you've aquired in your freetime!
+
+^
+Now go off and write some blog posts!
