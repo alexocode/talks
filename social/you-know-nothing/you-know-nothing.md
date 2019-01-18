@@ -76,9 +76,10 @@ Devs here: I think we all rely on it
 ^
 Stats (29. December 2018)
 - nearly 10 mil users
-- 26 mil answers
-- nearly 17 mil questions
-- ~2.3 questions without a single answer
+- 26 mil answers for nearly 17 mil questions
+
+^
+Lots of volunteers who share their knowledge; or close your question as a duplicate
 
 <!--
 Users: https://data.stackexchange.com/stackoverflow/query/954537/number-of-users
@@ -767,7 +768,10 @@ During therapy I've realized that I:
 I hold myself to unatainable standards
 
 ^
-Based on conversations I had with friends and colleagues, a lot see themself in a similar light
+Conversations with colleagues = similar, maybe you too?
+
+^
+There is a consequence to this:
 
 ---
 [.background-color: #47b386]
@@ -784,8 +788,12 @@ Based on conversations I had with friends and colleagues, a lot see themself in 
 [.link: #fff186]
 [.list: bullet-character(» )]
 
-> When you define your worth by your tech skills, every critique directly undermines your self-confidence
+> When we define our worth by our tech skills, every critique directly undermines our self-confidence
 -- My realization
+
+^
+Knowledge Share = Risky
+We put ourself out there
 
 ---
 [.background-color: #ffffff]
@@ -804,10 +812,10 @@ Based on conversations I had with friends and colleagues, a lot see themself in 
 [.footer: Photo by Arnold Dogelis on Unsplash]
 
 ^
-Ofc you can build a house on stilts but it will always be more stable when you build it on the ground!
+Ofc you can build a house on stilts and it might even hold!
 
 ^
-Recognize = All your skills are potentially important!
+But when we recognize = All our skills are important!
 
 ---
 [.background-color: #ffffff]
@@ -829,6 +837,8 @@ Stable foundation: It's harder to shake you!
 When you share, and it's wrong, it's not so bad!
 
 ^
+I urge you:
+Don't try to be a "Rockstar Dev"
 => Be a "Wholesome Dev"
 
 ---
@@ -846,8 +856,13 @@ When you share, and it's wrong, it's not so bad!
 
 ![](images/stable-house.jpg)
 
-# Wholesome
-# Developer
+# Wholesome Dev
+
+^
+Or designer, or whatever
+
+^
+But how?
 
 ---
 [.background-color: #ffffff]
@@ -960,8 +975,8 @@ And now to a fun one:
 
 ^
 Again: Don't focus on tech only!
-Me: Elixir, Git, Productivity Tooling, Games in general, EventStorming
 Funny: Ruby on Rails, wat?
+New: Productivity Tooling
 
 ^
 This teaches us two things:
@@ -999,6 +1014,9 @@ There is no "ultimate version"!
 - Questions you had and their answers
 - Reference for you
 
+^
+To close my talk: I would like to introduce myself again, the wholesome me
+
 ---
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
@@ -1020,7 +1038,13 @@ There is no "ultimate version"!
 - Big on bringing compassion into work and life
 - Techy, full stack dev with a love for FP
 - Read a lot: SciFi, RPGs, thought-provoking stuff
-- Interests: game design & gaming, mindfulness, philosophy, ethics, space, productivity
+- Interests: game design & gaming, mindfulness, ethics, space exploration, productivity
+
+^
+There is a lot more to me than being a dev from cologne who builds stuff with elixir
+
+^
+And I'm 100% certain: There is a lot more to all of you
 
 ---
 [.footer-style: #fff186, Trim Poster, alignment(center), line-height(0.8), text-scale(3)]
@@ -1033,3 +1057,6 @@ There is no "ultimate version"!
 # for listening
 
 [.footer: 🐦 wolf4earth | saschawolf.me]
+
+^
+Now go answer some questions on StackOverflow!
