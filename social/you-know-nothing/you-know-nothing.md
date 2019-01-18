@@ -34,35 +34,9 @@ What is it?
 - Speaking on conferences
 - Teaching your colleagues
 
-
 ^
-Roughly split into 3 parts
-
----
-# 1. The Problem
-
-^
-We tend to not do it as often for a variety of reasons
-I'm gonna try to explain why we might refrain from it
-
----
-# 2. A Solution
-
-^
-Present a different perspective to mitigate the mentioned issues
-
-^
-And I'm gonna close with:
-
----
-# 3. Tips & Tricks
-
-^
-They helped me, maybe they help you
-
-^
-So, Knowledge Sharing; we can all agree it's important, right?
-Without people sharing we wouldn't have ...
+Agree that it's important
+We all rely on it, colleagues, or through platforms such as ...
 
 ---
 [.background-color: #ffffff]
@@ -71,9 +45,13 @@ Without people sharing we wouldn't have ...
 
 ^
 Stats (2016)
-- 140k stories per week
 - 7.5 mil posts
-- 60 mil monthly readers (2017)
+
+^
+A lot of them are free
+
+^
+We all found a helpful article on medium
 
 ---
 [.background-color: #ffffff]
@@ -82,9 +60,9 @@ Stats (2016)
 
 ^
 Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia)
-- 35.3 mil registered users
-- 46.7 mil articles (total)
-- 5.8 mil english articles
+- ~35 mil registered users
+- nearly 47 mil articles (total)
+- nearly 6 mil english articles
 
 ---
 [.background-color: #ffffff]
@@ -92,12 +70,23 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 ![80%](images/so-logo.png)
 
 ^
+Devs here: I think we all rely on it
+85% of devs say they visit StackOverflow at least a few times a week
+
+^
 Stats (29. December 2018)
-- nearly 10 mil users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
-- 26 mil answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
-- nearly 17 mil questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
-- Over 85% of devs visit StackOverflow at least a few times a week (https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow)
-- ~2.3 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
+- nearly 10 mil users
+- 26 mil answers
+- nearly 17 mil questions
+- ~2.3 questions without a single answer
+
+<!--
+Users: https://data.stackexchange.com/stackoverflow/query/954537/number-of-users
+Answers: https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers
+Questions: https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions
+Dev Usage: https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow
+Questions without answers: https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer
+-->
 
 ---
 ![autoplay mute loop](images/phew.mp4)
@@ -105,34 +94,24 @@ Stats (29. December 2018)
 ^
 That's a lot of knowledge
 
-^
-But at the same time, we have these moments:
-
 ---
-> "Who wrote that code?!"
+# __Intimidating__
 
 ^
-- Files with over 10k loc (my top record: 30k, used to be 60k)
-- Endless nested if-else-statements
+You read these articles or answers and these people seem so smart.
+What could we possibly contribute? Right?
 
 ^
-Maybe even in your own company? So you furiosly type 'git blame' ...
-
----
-> "Oh ... me ..."
-
-^
-From my experience: every dev has a story like this
-And if not: the day will come ...
-
-^
-At the same time there are all these topics we have to learn
+We already struggle to keep up
 
 ---
 ![original](images/dev-word-cloud-4.png)
 
 ^
 So. Much. To. Learn.
+
+^
+Then we try to keep up and maybe ask people questions and they tell us:
 
 ---
 [.background-color: #ffffff]
@@ -149,11 +128,7 @@ So. Much. To. Learn.
 ![original 20%](images/tech/rustlang.png)
 
 ^
-Seems like a good developer should know all this, right?
-
----
-## What makes a great
-# Developer?
+This forms our perception of the job as a dev; we could come to the conclusion that a great dev knows all that
 
 ---
 # A Great Developer
@@ -164,25 +139,29 @@ Seems like a good developer should know all this, right?
 - Blazing fast learner
 - Some Soft skills
 
----
-# __Fear__
-## of making
-# __mistakes__
+^
+At the end it's all about the output, right?
 
 ^
-- Colleagues smarter than me
-- Don't want to make a fool out of myself
-- Harsh responses from colleagues
+So we're thinking ...
 
 ---
+# *Keep learning*
+
+^
+So we can become great devs and at some point have something to share
+
+^
+When we're doing that, we're trying to avoid ...
+
+---
+## We're afraid of
 # __Embarrassment__
 
 ^
 All boils down to this
+We don't want to be "that person"
 
----
-# *Keep improving*
-### so we have something to share
 
 ---
 # So we __don't__ ...
@@ -238,7 +217,7 @@ Welcome to the club
 - I know my way around: git, CLI magic, Clean Code, DDD, TDD, and more ...
 
 ^
-I speak on meetups, now second conference
+Few facts about me
 
 ---
 # My Story
@@ -306,9 +285,6 @@ Today I'm here to tell you what I painfully learned (therapist and their pesky q
 - We're gonna make some small detours
 - Stick with me it's all gonna come back to Knowledge Sharing
 
-^
-LEEEEEROY JEEEENKIIIIIINS!
-
 ---
 [.background-color: #47B386]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
@@ -325,7 +301,7 @@ LEEEEEROY JEEEENKIIIIIINS!
 # Tech Skills
 
 ^
-It's no wonder: easy to measure; GitHub and Co
+Patterns, Languages, Performance etc. etc.
 
 ---
 [.background-color: #47B386]
@@ -368,6 +344,9 @@ See, we look at this tiny part
 ^
 Based on that we come to a judgement: "This is a great dev, he really knows his JS!"
 
+^
+We lose sight of the other parts ...
+
 ---
 [.background-color: #ffffff]
 [.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
@@ -386,6 +365,7 @@ Based on that we come to a judgement: "This is a great dev, he really knows his 
 
 ^
 But there is more to a person than just his ability to write JS!
+And only everything put together forms a whole person!
 
 ---
 [.background-color: #ffffff]
@@ -407,7 +387,10 @@ But there is more to a person than just his ability to write JS!
 And only put together they form a person greater than the sum of their parts
 
 ^
-What might this parts be?
+Prepackaged; all together
+
+^
+Let's do a little experiment
 
 ---
 [.background-color: #47B386]
@@ -425,8 +408,7 @@ What might this parts be?
 # respect
 
 ^
-Can be a colleague, blogger, etc.
-Should have something to do with tech
+Can be a colleague, blogger, youtuber, etc.
 
 ^
 Ask yourself: What exactly do you respect about him?
@@ -454,7 +436,10 @@ Ask yourself: What exactly do you respect about him?
 - Probably lots of other things!
 
 ^
-The point I'm trying to make, is this:
+Code: Only that? Or maybe more?
+
+^
+The point I'm trying to make: Rarely only tech skills which we respect!
 
 ---
 [.background-color: #ffffff]
@@ -477,7 +462,10 @@ The point I'm trying to make, is this:
 
 ^
 First check @GCX: Does this person fit as a person?
-??? ADD MORE ???
+Tech also important, but secondary
+
+^
+We are a small company but there is a big one who also found that out:
 
 ---
 [.background-color: #ffffff]
@@ -573,7 +561,28 @@ Great article from the NYT
 
 ^
 Not the smartest people build the best teams!
-=> Soft Skills matter!
+But teams with strong:
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono Bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# Soft Skills
+
+^
+Not only in tech! This applies to every industry!
+
+^
+When these skills are so important, maybe we should call them:
 
 ---
 [.background-color: #47b386]
@@ -614,7 +623,11 @@ So, Core Skills matter but ...
 # Why stop here?
 
 ^
-What other skills might potentially matter?
+Core Skills, Tech Skills, why not other skills?
+
+^
+I'm talking about skills aquired through things we in our freetime.
+For me:
 
 ---
 [.background-color: #ffffff]
@@ -635,6 +648,9 @@ What other skills might potentially matter?
 
 ^
 Played a lot of LoL: Learned to be more calm in a team and stress situations
+
+^
+Another area: RPGs
 
 ---
 [.background-color: #ffffff]
@@ -659,7 +675,7 @@ Played a lot of LoL: Learned to be more calm in a team and stress situations
 - Organization
 
 ^
-And other things, but I don't wanna bore you
+Think about it: What skills did you aquire? I would love to hear about it!
 
 ^
 Let me reiterate:
@@ -679,7 +695,10 @@ Let me reiterate:
 # Tech enables us
 
 ^
-but; and that's a darn big but
+You definitely need some tech skills to work in this industry
+
+^
+BUT
 
 ---
 [.background-color: #47b386]
@@ -698,9 +717,7 @@ but; and that's a darn big but
 # define us
 
 ^
-You definitely need some tech skills to work in this industry but they don't make you necessarily a great dev
-
-^
+But they don't make you necessarily a great dev
 => Let's revisit a question from earlier
 
 ---
@@ -719,7 +736,7 @@ You definitely need some tech skills to work in this industry but they don't mak
 # Developer?
 
 ^
-But this time ...
+Based on what we just learned
 
 ---
 [.background-color: #47B386]
@@ -736,11 +753,11 @@ But this time ...
 # A Great Developer
 ### might ...
 
-- have solid tech skills
 - work great in a team
-- communicate clearly and concisely
 - remain calm under pressure
+- communicate clearly and concisely
 - be somebody you can always rely on
+- have solid tech skills
 - have other qualities I can't think of!
 
 ^
