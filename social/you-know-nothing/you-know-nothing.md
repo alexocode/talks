@@ -790,7 +790,7 @@ There is a consequence to this:
 [.link: #fff186]
 [.list: bullet-character(» )]
 
-> When we define our worth by our tech skills, every critique directly undermines our self-confidence
+> When we define our worth by our tech skills, every critique strongly undermines our self-confidence
 -- My realization
 
 ^
