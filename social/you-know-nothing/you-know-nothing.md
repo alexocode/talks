@@ -5,6 +5,9 @@ theme: Terminal
 ### or do you?
 
 ^
+Tried to make accessible: Give me feedback! (Thanks to organizers!)
+
+^
 Ask: Who in this room is not a dev?
 Talk: From a perspective of a dev; gist is applicable regardless of profession, don't feel excluded!
 
@@ -24,32 +27,49 @@ No I'm kidding of course. Obligatory GoT joke.
 # Knowledge Sharing
 
 ^
+What is it?
 - Writing blog posts
 - Answering Questions
 - Recording videos or podcasts
 - Speaking on conferences
 - Teaching your colleagues
 
+
+^
+Roughly split into 3 parts
+
 ---
 # 1. The Problem
 
 ^
-I'm gonna try to explain why we might refrain from doing all that
+We tend to not do it as often for a variety of reasons
+I'm gonna try to explain why we might refrain from it
 
 ---
 # 2. A Solution
 
 ^
-Present a different approach to mitigate the mentioned issues
+Present a different perspective to mitigate the mentioned issues
+
+^
+And I'm gonna close with:
 
 ---
 # 3. Tips & Tricks
 
 ^
-Close with some things which helped me with that
+They helped me, maybe they help you
+
+---
+[.background-color: #ffffff]
+
+![100%](images/medium.png)
 
 ^
-Can't talk about knowledge sharing without mentioning:
+Stats (2016)
+- 140k stories per week
+- 7.5 mil posts
+- 60 mil monthly readers (2017)
 
 ---
 [.background-color: #ffffff]
@@ -58,9 +78,9 @@ Can't talk about knowledge sharing without mentioning:
 
 ^
 Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia)
-- 5,772,326 english articles
-- 46,731,930 articles (total)
-- 35,296,795 users
+- 35.3 mil registered users
+- 46.7 mil articles (total)
+- 5.8 mil english articles
 
 ---
 [.background-color: #ffffff]
@@ -69,18 +89,17 @@ Stats (December 2018) (https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia
 
 ^
 Stats (29. December 2018)
+- nearly 10 mil users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
+- 26 mil answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
+- nearly 17 mil questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
 - Over 85% of devs visit StackOverflow at least a few times a week (https://insights.stackoverflow.com/survey/2018/#community-visiting-stack-overflow)
-- 9,825,838 users (https://data.stackexchange.com/stackoverflow/query/954537/number-of-users)
-- 26,041,792 answers (https://data.stackexchange.com/stackoverflow/query/954535/number-of-answers)
-- 16,942,114 questions (https://data.stackexchange.com/stackoverflow/query/954525/number-of-questions)
-- 2,274,634 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
-
+- ~2.3 questions without a single answer (https://data.stackexchange.com/stackoverflow/query/954533/number-of-questions-without-a-single-answer)
 
 ---
 ![autoplay mute loop](images/phew.mp4)
 
 ^
-That's a lot of knowledg
+That's a lot of knowledge
 
 ^
 But at the same time, we have these moments:
