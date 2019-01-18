@@ -18,10 +18,10 @@ This is a talk about ...
 ![](images/jon-snow.jpeg)
 
 ^
-John Snow and his tragic love to a wildling girl ...
+Jon Snow and how he knew nothing ...
 
 ^
-No I'm kidding of course. Obligatory GoT joke.
+No I'm kidding of course. You knew there would be a GoT joke.
 
 ---
 # Knowledge Sharing
@@ -59,6 +59,10 @@ And I'm gonna close with:
 
 ^
 They helped me, maybe they help you
+
+^
+So, Knowledge Sharing; we can all agree it's important, right?
+Without people sharing we wouldn't have ...
 
 ---
 [.background-color: #ffffff]
