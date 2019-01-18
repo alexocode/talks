@@ -823,6 +823,29 @@ These helped ME; maybe they'll help you
 Not “I can’t make mistakes” but “I learned X for the future!”
 
 ^
+On the same note:
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## We did the
+# __best__
+## we could
+
+^
+... with the knowledge we had
+
+^
+Code is distilled knowledge; writing it is a learning process
 Old Code = What did I learn till then? (Maybe eben worthy of a blog post?)
 
 ---
@@ -837,10 +860,43 @@ Old Code = What did I learn till then? (Maybe eben worthy of a blog post?)
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
-# ~I did the best I could with the knowledge I had~
+## Keep a
+# __TIL__
+## Record
 
 ^
-Code is distilled knowledge; writing it is a learning process
+And do not focus on tech only!
+They're great seeds for future talks, blog posts etc.
+
+^
+And now to a fun one:
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## Ask
+# __colleagues__
+## what they would
+# __ask you__
+
+^
+Again: Don't focus on tech only!
+Me: Elixir, Git, Productivity Tooling, Games in general, EventStorming
+Funny: Ruby on Rails, wat?
+
+^
+This teaches us two things:
+1. You seem knowledgeable to people
+2. Our perception of knowledge might be faulty
 
 ---
 [.background-color: #ffffff]
@@ -855,6 +911,7 @@ Code is distilled knowledge; writing it is a learning process
 [.link: #FFF186]
 [.list: bullet-character(» )]
 
+## <br/>
 ## Document the
 # __Journey__
 ## not the
@@ -865,42 +922,12 @@ Code is distilled knowledge; writing it is a learning process
 [.footer: Photo by Sharefaith from Pexels]
 
 ^
+There is no "ultimate version"!
+
+^
 - Mistakes & Pitfalls
 - Questions you had and their answers
 - Reference for you
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-# ~Ask colleagues where they think you know your stuff~
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## Start a
-# __TIL__
-## List
-
-^
-And do not focus on tech only!
 
 ---
 [.background-color: #47B386]
