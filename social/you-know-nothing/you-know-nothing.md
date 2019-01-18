@@ -718,53 +718,74 @@ BUT
 
 ^
 But they don't make you necessarily a great dev
-=> Let's revisit a question from earlier
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## What makes a great
-# Developer?
 
 ^
-Based on what we just learned
+Okay, you might now be asking yourself:
 
 ---
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
+[.background-color: #47b386]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.quote: #2C3850, line-height(0.8), text-scale(0.8), Trim Mono]
+[.quote-author: #FFF186, line-height(0.7), text-scale(1.0), Trim Mono]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
 [.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
 [.header-emphasis: Trim Poster ExtraCompressed]
 [.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
+[.link: #fff186]
 [.list: bullet-character(» )]
 
-# A Great Developer
-### might ...
-
-- work great in a team
-- remain calm under pressure
-- communicate clearly and concisely
-- be somebody you can always rely on
-- have solid tech skills
-- have other qualities I can't think of!
+> Why is this guy telling me all of this?
+-- Maybe you right now?
 
 ^
-- team = sports (e- or real)
-- communicate = rpgs, theater
-- calm = dancer, "blitzschach"
-- rely = raids in WoW
+What does that have to do with knowledge sharing?
+
+^
+During therapy I've realized that I:
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono Bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+# My value
+# =
+# My tech skills?
+
+^
+I hold myself to unatainable standards
+
+^
+Based on conversations I had with friends and colleagues, a lot see themself in a similar light
+
+---
+[.background-color: #47b386]
+[.footer-style: #fff186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.footnote: #FFF186, Trim Mono, line-height(0.8), text-scale(0.8)]
+[.quote: #2C3850, line-height(0.8), text-scale(0.8), Trim Mono]
+[.quote-author: #FFF186, line-height(1.3), text-scale(1.0), Trim Mono]
+[.text: #2c3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #f2eee7]
+[.text-strong: Trim Mono Bold]
+[.header: #2c3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #fff186]
+[.list: bullet-character(» )]
+
+> When you define your worth by your tech skills, every critique directly undermines your self-confidence
+-- My realization
 
 ---
 [.background-color: #ffffff]
