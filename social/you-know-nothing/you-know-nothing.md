@@ -1035,7 +1035,7 @@ To close my talk: I would like to introduce myself again, the wholesome me
 # Hi again, I'm still Sascha
 
 - Husband / Father / Roleplayer / Developer
-- Gamemaster for two groups, player in one
+- Vegan for nearly 6 years
 - Atheist, very interested in theology
 - Big on bringing compassion into work and life
 - Techy, full stack dev with a love for FP
