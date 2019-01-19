@@ -12,6 +12,7 @@ Each talk follows this basic file and structure:
 ## [Social](social)
 - [Compassionate Coding](social/compassionate-coding)
 - [What Roleplaying Games can teach us about Collaboration](social/roleplaying-games-and-collaboration)
+- [You Know Nothing ... or do you?](social/you-know-nothing)
 
 ## [Misc](tech/misc)
 - [git gud](tech/misc/git-gud)
