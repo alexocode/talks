@@ -1013,6 +1013,25 @@ There is no "ultimate version"!
 - Questions you had and their answers
 - Reference for you
 
+---
+[.background-color: #ffffff]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+[.autoscale: true]
+
+# Meditation
+
+![](images/meditation.jpg)
+
+[.footer: Photo by Simon Migaj on Unsplash]
+
 ^
 To close my talk: I would like to introduce myself again, the wholesome me
 
