@@ -887,6 +887,34 @@ But how?
 
 ^
 These helped ME; maybe they'll help you
+Let's start with a fun one:
+
+---
+[.background-color: #47B386]
+[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
+[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
+[.text-emphasis: #F2EEE7]
+[.text-strong: Trim Mono Bold]
+[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
+[.header-emphasis: Trim Poster ExtraCompressed]
+[.header-strong: Trim Poster Expanded]
+[.link: #FFF186]
+[.list: bullet-character(» )]
+
+## Ask
+# __colleagues__
+## what they would
+# __ask you__
+
+^
+Again: Don't focus on tech only!
+Funny: Ruby on Rails, wat?
+New: Productivity Tooling
+
+^
+This teaches us two things:
+1. You seem knowledgeable to people
+2. Our perception of knowledge might be faulty
 
 ---
 [.background-color: #47B386]
@@ -953,36 +981,6 @@ Old Code = What did I learn till then? (Maybe eben worthy of a blog post?)
 ^
 And do not focus on tech only!
 They're great seeds for future talks, blog posts etc.
-
-^
-And now to a fun one:
-
----
-[.background-color: #47B386]
-[.footer-style: #FFF186, Trim Poster, alignment(right), line-height(0.8), text-scale(1.0)]
-[.text: #2C3850, line-height(1.1), text-scale(1.0), Trim Mono]
-[.text-emphasis: #F2EEE7]
-[.text-strong: Trim Mono Bold]
-[.header: #2C3850, line-height(0.7), text-scale(1.2), Trim Poster]
-[.header-emphasis: Trim Poster ExtraCompressed]
-[.header-strong: Trim Poster Expanded]
-[.link: #FFF186]
-[.list: bullet-character(» )]
-
-## Ask
-# __colleagues__
-## what they would
-# __ask you__
-
-^
-Again: Don't focus on tech only!
-Funny: Ruby on Rails, wat?
-New: Productivity Tooling
-
-^
-This teaches us two things:
-1. You seem knowledgeable to people
-2. Our perception of knowledge might be faulty
 
 ---
 [.background-color: #ffffff]
