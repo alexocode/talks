@@ -11,6 +11,23 @@ Tried to make accessible: Give me feedback! (Thanks to organizers!)
 Ask: Who in this room is not a dev?
 Talk: From a perspective of a dev; gist is applicable regardless of profession, don't feel excluded!
 
+---
+[.autoscale: true]
+[.footer-style: alignment(center), text-scale(1.5)]
+
+# Hi, I'm Sascha
+
+- Full Stack Developer / TSA
+- @grandcentrix in Cologne, Germany
+- During my career I:
+  + wrote backend services in Java and NodeJS
+  + created responsive websites with CSS, Vue, and Elm
+  + shaped iOS apps with Objective-C and Swift
+  + did some embedded development in C
+  + built big backend systems with Elixir
+
+[.footer: 🐦 wolf4earth | saschawolf.me]
+
 ^
 This is a talk about ...
 
@@ -201,24 +218,6 @@ So we just don't do it. Maybe we write a blog post but never publish it
 ^
 Ask to raise hands?
 Welcome to the club
-
----
-[.autoscale: true]
-
-# Hi, I'm Sascha
-
-- Full Stack Developer / TSA
-- @grandcentrix in Cologne, Germany
-- During my career I:
-  + wrote backend services in Java and NodeJS
-  + created responsive websites with CSS, Vue, and Elm
-  + shaped iOS apps with Objective-C and Swift
-  + did some embedded development in C
-  + built big backend systems with Elixir
-- I know my way around: git, CLI magic, Clean Code, DDD, TDD, and more ...
-
-^
-Few facts about me
 
 ---
 # My Story
