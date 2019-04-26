@@ -1,8 +1,10 @@
-theme: Sketchnote, 1
+theme: Ostrich, 3
 
-[.footer: Sascha Wolf | Domain Linguist // Fullstack Engineer | 🐦 @wolf4earth]
-# Compassionate Coding
-### _being more humane in tech_
+[.footer: Sascha Wolf __|__ Domain Linguist // Fullstack Engineer __|__ 🐦 @wolf4earth]
+### Being more
+## __Humane__
+### in
+## __Tech__
 
 ^
 Thank you for being here! My name is Sascha, backend dev/tsa @grandcentrix in cologne
@@ -44,22 +46,22 @@ Solving problems in an efficient manner; we talk a lot about
 Of course that also means we want to have ...
 
 ---
-## Efficient
-# Communication
+### Efficient
+## Communication
 
 ^
 And for a lot of people that means ...
 
 ---
-## Brisk & Direct
-# Communication
+### __Brisk & Direct__
+## Communication
 
 ^
 In this talk I would like to pose the question, if ...
 
 ---
-##  Brisk & Direct?
-# Communication
+### __Brisk & Direct?__
+## Communication
 
 ^
 most efficient way?
@@ -75,7 +77,9 @@ most efficient way?
 Let me ask you a question ...
 
 ---
-# Who here had a <br/> *negative experience* <br/> in a code review?
+## Who here had a
+##__negative__ experience
+## in a code review?
 
 ![](images/sad.jpeg)
 
@@ -104,7 +108,9 @@ I used to think like that!
 It doesn't have to be that way!
 
 ---
-# What if I told you <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> There is an *alternative*
+## What if I told you
+# <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+## There is an __alternative__
 
 ![](images/what-if-I-told-you.jpg)
 
@@ -124,16 +130,20 @@ Compassion != Empathy != Pity
 How might that look like in Code Reviews?
 
 ---
-# How about some examples?
+## How about
+## some examples?
 
 ^
 I went through my own personal history of code reviews
 
 ---
-## I'm gonna eat my own dogfoot
+### I'm gonna eat my own dogfood
 
 ---
-# Passing of Opinion as Fact
+### Passing of
+## Opinion
+### as
+## Fact
 
 ---
 # Passing of Opinion as Fact[^1]
@@ -166,7 +176,9 @@ Better!
 - Asks for feedback
 
 ---
-# Asking judgmental questions
+## Asking
+## judgmental
+## questions
 
 ---
 # Asking judgmental questions[^1]
@@ -227,7 +239,8 @@ Not convinced? In 2012 Google embarked on journey to answer the following questi
 In the end it boiled down to something called:
 
 ---
-# Psychological Safety
+## Psychological
+## Safety
 
 ---
 # Psychological Safety
@@ -255,20 +268,20 @@ Be more compassionate in code reviews and all problems are fixed?
 Compassion in Code Reviews = Profit? No
 
 ---
-## Of course
-# Code Reviews
-## are just a small part
+### Of course
+## __Code Reviews__
+### are just a small part
 
 ---
-## But they are a
-# great start
+### But they are a
+## __great__ start
 
 ^
 Now that you might have an impression why these ideas are important ...
 
 ---
 ## Let's go
-# [fit] _big_
+# [fit] __big__
 
 ^
 And by that I mean, let's talk about ...
@@ -281,18 +294,18 @@ At large ...
 Because you see, right now ...
 
 ---
-## We in the tech industry value
-# intelligence
+### We in the tech industry value
+## _intelligence_
 
 ---
 ### We talk about
-# ROCKSTAR DEVS
+## _ROCKSTAR DEVS_
 ### and
-# CODE NINJAS
+## _CODE NINJAS_
 
 ---
-## We make fun of
-# "untechnical" people
+### We make fun of
+## "__untechnical__" people
 
 ^
 Things like: "The customer requested the source code in a PDF!"
@@ -301,9 +314,9 @@ Things like: "The customer requested the source code in a PDF!"
 It IS pretty funny but let me ask you:
 
 ---
-## But what does
-# *technical*
-## actually mean?
+### But what does
+## `TECHNICAL`
+### actually mean?
 
 ---
 # Technical
@@ -317,7 +330,7 @@ Interesting: "especially" not "exclusively"
 ---
 # Technical
 
->  having special and usually practical knowledge __especially__ of a mechanical or scientific subject
+>  _having special and usually practical knowledge_ <br/>especially _of a mechanical or scientific subject_
 -- Merriam-Webster Online Dictionary
 
 ^
@@ -355,16 +368,16 @@ Pretty much any learned skill!
 But as we just discussed:
 
 ---
-## Being
-# technical & intelligent
-## isn't everything
+### Being
+## technical & intelligent
+### isn't everything
 
 ![](images/technical.jpeg)
 
 ---
-## Being
-# compassionate
-## counts too
+### Being
+## __compassionate__
+### counts too
 
 ![](images/compassion.jpeg)
 
@@ -377,9 +390,9 @@ As a rule of thumb: Avoid triggering thread responses
 Let's use this knowledge and ...
 
 ---
-## Let's build
-# psychological safe
-## environments
+### Let's build
+## __psychological safe__
+### environments
 
 ^
 For ...
@@ -398,9 +411,7 @@ I want to close this talk with a quote from the person who inspired me to do thi
 [^3]: https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9
 
 ---
-# 💙💜❤️🧡💛💚
-## Thank you for listening
-# 💚💛🧡❤️💜💙
+### Thank you for listening
 
 [.footer: Sascha Wolf | saschawolf.me | 🐦 @wolf4earth]
 
@@ -413,7 +424,6 @@ Links? I'll post on Slack/Twitter!
 ---
 # Resources
 
-- [Link to the Slides](https://github.com/Zeeker/talks/tree/master/social/compassionate-coding/build)
 - [Compassionate Coding on Medium](https://medium.com/compassionate-coding/)
 - [Confessions of a Recovering Jerk Programmer](https://medium.com/compassionate-coding/confessions-of-a-recovering-jerk-programmer-b9d531a05ea9)
 - [Tech has a Toxic Tone Problem — Let’s Fix It!](https://blog.techinclusion.co/tech-has-a-toxic-tone-problem-lets-fix-it-37bb3517ab97)
