@@ -1,6 +1,6 @@
 theme: Sketchnote, 1
 
-[.footer: Sascha Wolf | Backend Dev/TSA @ grandcentrix]
+[.footer: Sascha Wolf | Domain Linguist // Fullstack Engineer | 🐦 @wolf4earth]
 # Compassionate Coding
 ### _being more humane in tech_
 
