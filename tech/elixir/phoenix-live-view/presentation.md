@@ -218,13 +218,23 @@ Examples:
 
 ## Isn't there an __alternative__?
 
+^
+There might be ...
+
 ---
+[.background-color: #000000]
 
-# [fit] <picture: phoenix live view>
+![](images/phoenix-live-view.png)
+
+# __Phoenix__
+# Live View
 
 ---
+[.background-color: #000000]
 
-# [fit] <gif: demo time>
+# Demo
+
+![](images/excited.gif)
 
 ^
 - LiveRetro
@@ -440,8 +450,7 @@ And now just "join"
 
 ---
 
-## [fit] What about updating
-# __the DOM__
+## Isn't this __slow__?
 
 ^
 This must be slow, right?
@@ -492,21 +501,32 @@ morphdom updates the DOM smartly
 
 ---
 
-## What about
-# __nested__
-## views?
+# __Wait!__
+### There's more
+
+---
+[.build-lists: true]
+
+- Nested views are possible
+- `for`-comprehensions are optimized
+- Optimized data transfer
+- Isolation of views
+
+^
+2. Static data is only sent once
+3. Roadmap, use something else then JSON
 
 ---
 
-```javascript
-{
-  0: {
-    0: "foo",
-    1: "bar",
-    // ...
-  }
-}
-```
+## Isolation of views?
+
+---
+
+## __Isolation__ of views?
+
+---
+
+# DEMO
 
 ---
 
