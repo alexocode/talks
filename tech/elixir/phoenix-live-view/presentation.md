@@ -155,9 +155,11 @@ And that's not even considering:
 - routing (if SPA)
 - thousands of other packages
 
+---
+# #__JS__Fatigue
+
 ^
-Hashtag: JS Fatigue
-Slide on Webpack?
+And the fun only began:
 
 ---
 
@@ -171,9 +173,7 @@ Slide on Webpack?
 ---
 
 > Is all of this *really* necessary?
--- An overwealmed dev
-
-<!-- TODO: Check if spelling correct! -->
+-- An overwhelmed dev
 
 ^
 - Huge additional tech stack
@@ -181,7 +181,13 @@ Slide on Webpack?
 
 ---
 
-# [fit] <quote on complexity?>
+> Simplicity is prerequisite for reliability.
+-- E. W. Dijkstra
+
+---
+
+> I hate code, and I want as little of it as possible in our product.
+-- Jack Diederich
 
 ---
 
