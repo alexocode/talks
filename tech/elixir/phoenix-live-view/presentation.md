@@ -247,8 +247,10 @@ There might be ...
 -- Probably you right now
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <graph: lifecycle - request, render, socket>
+![inline](images/live-view/livecycle.png)
 
 ^
 Initial render means it's super SEO friendly
@@ -262,15 +264,15 @@ Initial render means it's super SEO friendly
 # __Change__ Tracking
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <screenshot: card of LiveView>
+![inline](images/live-retro/card.png)
 
 ---
 [.code-highlight: 1-11]
 [.code-highlight: 2, 5, 7]
 [.code-highlight: 1, 3-4, 6, 8-11]
-
-<!-- TODO: Check if there is highlighting for eex -->
 
 ```html
 <item>
