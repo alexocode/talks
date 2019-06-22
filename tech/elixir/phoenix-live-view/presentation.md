@@ -4,28 +4,6 @@ footer: `🐦 wolf4earth | saschawolf.me`
 # [fit] Beyond the SPA
 ## [fit] __Interactive web apps without writing JS__
 
-<!--
-- Static vs dynamic web sites (left static, right google maps)
-- "So we have to write JS"
-- What technology to chose? React, Vue, Angular, Svelte ...
-- There is even a website to help you choose
-- What else to consider? State handling, routing etc.
-- Webpack ...
-- Communication between front- and backend: API definitions, websockets for realtime etc.
-- Sometimes this complexity makes sense but sometimes ... (Admin Dashboard, Fun Retro)
-- Enter Phoenix LiveView
-- DEMO
-- How does it work?
-- Initial full render (SEO-friendly), socket connection afterwards
-- Change Tracking via Live EEX, tech agnostic (static and dynamic)
-- Efficient DOM updates (morphdom)
-- Phoenix Sockets scale very well (2 mio connections, link to blogpost)
-- OTP's actor model uniquely suited
-- When to use: Anything with simple interactivity and realtime updates, MVPs, reduction of complexity
-- When not to use: offline capability, lots of "client-side" logic
-- Conclusion: Phoenix LiveView fills a gap between static and full blown SPA
--->
-
 ---
 
 <!-- ## In the
@@ -195,9 +173,9 @@ Initial render means it's super SEO friendly
 # [fit] <screenshot: card of LiveView>
 
 ---
-[.code-highlight: 1-11]
-[.code-highlight: 2-3, 6]
-[.code-highlight: 1, 4-5, 7-11]
+[.code-highlight: 1-10]
+[.code-highlight: 2-3, 5]
+[.code-highlight: 1, 4, 6-10]
 
 <!-- TODO: Check if there is highlighting for eex -->
 
@@ -206,9 +184,7 @@ Initial render means it's super SEO friendly
   <div class="card <%= color_for(@type) %> darken-1">
     <a href="#" phx-click="edit" phx-value="<%= @id %>">
       <div class="card-content white-text">
-        <p style="white-space: pre;">
-          <%= @text %>
-        </p>
+        <%= @text %>
       </div>
     </a>
   </div>
@@ -216,19 +192,53 @@ Initial render means it's super SEO friendly
 ```
 
 ---
+[.code-highlight: 1-11]
+[.code-highlight: 2-4]
+
+<!-- TODO: Verify data structure -->
 
 ```javascript
 {
+  0: "red",
+  1: "A0202252-7778-440A-A117-9C2476D418AF",
+  2: "My great card!",
   "static": [
     "<item><div class=\"card ",
     " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
-    "\"><div class=\"card-content white-text\"><p style=\"white-space: pre;\">",
-    "</p></div></a></div></item>"
-  ],
-  0: "red",
-  1: "A0202252-7778-440A-A117-9C2476D418AF",
-  2: "My great card!"
+    "\"><div class=\"card-content white-text\">",
+    "</div></a></div></item>"
+  ]
 }
+```
+
+---
+[.code-highlight: 2-4]
+[.code-highlight: 5-10]
+
+<!-- TODO: Verify data structure -->
+
+```javascript
+{
+  0: "red", // color_for(@type)
+  1: "A0202252-7778-440A-A117-9C2476D418AF", // @id
+  2: "My great card!", // @text
+  "static": [
+    "<item><div class=\"card ",
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "\"><div class=\"card-content white-text\">",
+    "</div></a></div></item>"
+  ]
+}
+```
+
+^
+What happens when somebody changes the text of the card?
+
+---
+<!-- TODO: Verify data structure -->
+
+```javascript
+{ 2: "My changed card!" }
 ```
 
 ---
