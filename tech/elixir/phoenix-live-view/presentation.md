@@ -11,60 +11,134 @@ footer: `🐦 wolf4earth | saschawolf.me`
 ## past -->
 ## A __long__ time ago ...
 
+^
+In an web far away ...
+
 ---
 
-# [fit] <picture: static web pages>
-# Web __1.0__
+![](images/early-lifeforms.jpeg)
 
 ^
+The early lifeforms on earth were using something called:
+
+---
+[.background-color: #476DA1]
+
+![inline](images/web1.png)
+
+^
+WEB 1.0:
 - everything was static
-- nothing reacted
+- read some text, clicked some links
 - nothing happened
 
 ---
 
-# [fit] <picture: early earth lifeforms>
-
-^
-real footage of users
+![inline](images/interactivity.gif)
 
 ---
 
-# [fit] <gif: interactive web page>
-# Web __2.0__
+![inline](images/jquery-animation.gif)
 
 ^
-- suddenly things get moving!
-- interactivity!!!
+Things got moving!
 
 ---
 
-# [fit] <picture: web 3.0 - machine interaction>
-# Web __3.0__
-
-^
-Machines understand the data? TODO: VERIFY
-not relevant for us
-
----
-
-```js
-$("#submit").onClick(...)
+```javascript
+$("#search-submit").click(function() {
+  $("#search form").submit()
+});
 ```
 
-<look for funny jQuery snippet>
+^
+And some awesome code was written!
+
+^
+We used jQuery for everything!
 
 ---
+[.background-color: #FFFFFF]
+[.footer-style: #000000]
 
-# [fit] <screenshot: jQuery for addition screen from SO>
+![inline](images/so-jquery.gif)
+
+^
+From here web development evolved further
 
 ---
+[.background-color: #FFFFFF]
+[.footer-style: #000000]
 
-# [fit] <logos: angular, react, vue, etc. - each slide one more>
+![inline](images/evolving-no-loop.gif)
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <screenshot: the help-me-choose-my-framework website>
+![inline](images/frameworks/1.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/2.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/3.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/4.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/5.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/6.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/7.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/8.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/9.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![inline](images/frameworks/10.png)
+
+^
+There is even a website to help you decide
+
+---
+[.footer: ""]
+
+![](images/frameworks/website-decision-help.png)
 
 ^
 And that's not even considering:
