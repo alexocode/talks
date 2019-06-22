@@ -1,0 +1,19 @@
+- Static vs dynamic web sites (left static, right google maps)
+- "So we have to write JS"
+- What technology to chose? React, Vue, Angular, Svelte ...
+- There is even a website to help you choose
+- What else to consider? State handling, routing etc.
+- Webpack ...
+- Communication between front- and backend: API definitions, websockets for realtime etc.
+- Sometimes this complexity makes sense but sometimes ... (Admin Dashboard, Fun Retro)
+- Enter Phoenix LiveView
+- DEMO
+- How does it work?
+- Initial full render (SEO-friendly), socket connection afterwards
+- Change Tracking via Live EEX, tech agnostic (static and dynamic)
+- Efficient DOM updates (morphdom)
+- Phoenix Sockets scale very well (2 mio connections, link to blogpost)
+- OTP's actor model uniquely suited
+- When to use: Anything with simple interactivity and realtime updates, MVPs, reduction of complexity
+- When not to use: offline capability, lots of "client-side" logic
+- Conclusion: Phoenix LiveView fills a gap between static and full blown SPA
