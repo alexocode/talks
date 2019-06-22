@@ -173,16 +173,18 @@ Initial render means it's super SEO friendly
 # [fit] <screenshot: card of LiveView>
 
 ---
-[.code-highlight: 1-10]
-[.code-highlight: 2-3, 5]
-[.code-highlight: 1, 4, 6-10]
+[.code-highlight: 1-11]
+[.code-highlight: 2, 5, 7]
+[.code-highlight: 1, 3-4, 6, 8-11]
 
 <!-- TODO: Check if there is highlighting for eex -->
 
 ```html
 <item>
   <div class="card <%= color_for(@type) %> darken-1">
-    <a href="#" phx-click="edit" phx-value="<%= @id %>">
+    <a href="#"
+       phx-click="edit"
+       phx-value="<%= @id %>">
       <div class="card-content white-text">
         <%= @text %>
       </div>
@@ -194,8 +196,6 @@ Initial render means it's super SEO friendly
 ---
 [.code-highlight: 1-11]
 [.code-highlight: 2-4]
-
-<!-- TODO: Verify data structure -->
 
 ```javascript
 {
@@ -214,8 +214,6 @@ Initial render means it's super SEO friendly
 ---
 [.code-highlight: 2-4]
 [.code-highlight: 5-10]
-
-<!-- TODO: Verify data structure -->
 
 ```javascript
 {
@@ -239,6 +237,192 @@ What happens when somebody changes the text of the card?
 
 ```javascript
 { 2: "My changed card!" }
+```
+
+^
+What happens on the client?
+
+---
+[.code-highlight: 4]
+
+```javascript
+{
+  0: "red",
+  1: "A0202252-7778-440A-A117-9C2476D418AF",
+  2: "My changed card!",
+  "static": [
+    "<item><div class=\"card ",
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "\"><div class=\"card-content white-text\">",
+    "</div></a></div></item>"
+  ]
+}
+```
+
+^
+Okay but how do we get from here to there:
+
+---
+
+# [fit] <screenshot: card with changed text>
+
+^
+Surprisingly simple! It taskes this:
+
+---
+[.code-highlight: 1-11]
+[.code-highlight: 2-4]
+[.code-highlight: 5-10]
+
+```javascript
+{
+  0: "red",
+  1: "A0202252-7778-440A-A117-9C2476D418AF",
+  2: "My changed card!",
+  "static": [
+    "<item><div class=\"card ",
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "\"><div class=\"card-content white-text\">",
+    "</div></a></div></item>"
+  ]
+}
+```
+
+^
+Zips dynamic with static
+
+---
+
+```javascript
+[
+    "<item><div class=\"card ",
+    "red",
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "A0202252-7778-440A-A117-9C2476D418AF",
+    "\"><div class=\"card-content white-text\">",
+    "My great card!",
+    "</div></a></div></item>"
+]
+```
+
+---
+[.code-highlight: 3, 5, 7]
+[.code-highlight: 2, 4, 6, 8]
+
+```javascript
+[
+    "<item><div class=\"card ",
+    "red", // Index 0
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "A0202252-7778-440A-A117-9C2476D418AF", // Index 1
+    "\"><div class=\"card-content white-text\">",
+    "My great card!", // Index 2
+    "</div></a></div></item>"
+]
+```
+
+^
+And now just "join"
+
+---
+[.code-highlight: 9]
+
+```javascript
+[
+    "<item><div class=\"card ",
+    "red",
+    " darken-1\"><a href=\"#\" phx-click=\"edit\" phx-value=\"",
+    "A0202252-7778-440A-A117-9C2476D418AF",
+    "\"><div class=\"card-content white-text\">",
+    "My great card!",
+    "</div></a></div></item>"
+].join("")
+```
+
+---
+
+```html
+<item>
+  <div class="card red darken-1">
+    <a href="#"
+       phx-click="edit"
+       phx-value="A0202252-7778-440A-A117-9C2476D418AF">
+      <div class="card-content white-text">
+        My changed card!
+      </div>
+    </a>
+  </div>
+</item>
+```
+
+---
+
+## [fit] What about updating
+# __the DOM__
+
+^
+This must be slow, right?
+
+---
+
+# `morph`__`dom`__ [^1]
+
+[^1]: https://github.com/patrick-steele-idem/morphdom
+
+^
+morphdom updates the DOM smartly
+
+---
+[.code-highlight: 1-11]
+[.code-highlight: 7]
+
+```html
+<item>
+  <div class="card red darken-1">
+    <a href="#"
+       phx-click="edit"
+       phx-value="A0202252-7778-440A-A117-9C2476D418AF">
+      <div class="card-content white-text">
+        My great card!
+      </div>
+    </a>
+  </div>
+</item>
+```
+
+---
+[.code-highlight: 7]
+
+```html
+<item>
+  <div class="card red darken-1">
+    <a href="#"
+       phx-click="edit"
+       phx-value="A0202252-7778-440A-A117-9C2476D418AF">
+      <div class="card-content white-text">
+        My changed card!
+      </div>
+    </a>
+  </div>
+</item>
+```
+
+---
+
+## What about
+# __nested__
+## views?
+
+---
+
+```javascript
+{
+  0: {
+    0: "foo",
+    1: "bar",
+    // ...
+  }
+}
 ```
 
 ---
