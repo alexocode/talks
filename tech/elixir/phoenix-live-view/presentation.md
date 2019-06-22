@@ -144,8 +144,11 @@ There is even a website to help you decide
 And that's not even considering:
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+[.footer: `source: http://www.modulecounts.com/`]
 
-# [fit] <video: number of packages on npm growing over the years>
+![inline](images/packages-over-time.png)
 
 ^
 - state handling
