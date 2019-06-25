@@ -243,6 +243,26 @@ There might be ...
 
 ---
 
+```
+$ wc -l ...
+ 37 lib/live_retro/board/board.ex
+ 13 lib/live_retro/board/card.ex
+ 39 lib/live_retro/board/registry.ex
+ 15 lib/live_retro/board/storage.ex
+ 20 lib/live_retro_web/controllers/board_controller.ex
+ 44 lib/live_retro_web/views/board_view.ex
+ 81 lib/live_retro_web/live/board_live.ex
+249 total
+```
+
+^
+The code I've actually written!
+
+^
+Other code: generated boilerplate, config ...
+
+---
+
 > How does this work?
 -- Probably you right now
 
@@ -254,6 +274,7 @@ There might be ...
 
 ^
 Initial render means it's super SEO friendly
+=> <TODO: GET SOME DATA HERE>
 
 ---
 
@@ -500,6 +521,134 @@ morphdom updates the DOM smartly
   </div>
 </item>
 ```
+
+---
+
+- Efficent change tracking
+- SEO-friendly initial render
+- Very small payloads
+- Fast and simple DOM updates
+
+^
+Efficient on the: server, wire, client
+
+^
+A question might remain though
+
+---
+
+## But why
+# __Elixir__?
+
+^
+Couldn't we just build this with X?
+Yes we could, but Elixir is uniquely suited!
+
+---
+
+# Reason __1__
+
+---
+
+# __Phoenix__
+# is _fast_
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![fit](images/live-retro/board.png)
+
+---
+
+```
+[info] GET /board/decline-crouch-ordinary-sea-brain-round
+[info] Sent 200 in 627µs
+```
+
+---
+
+# `627`__`µs`__
+
+---
+
+# `0.627`__`ms`__
+
+^
+To explain a little detour ...
+
+---
+# __BEAM__
+##### <br/>
+---
+# __BEAM__
+##### Erlang VM
+
+---
+
+# [fit] <gif: beam me up scotty>
+
+---
+
+# [fit] <History of the BEAM>
+
+^
+Battle Tested in over 30 years
+
+---
+
+# __Actor__ Model
+
+---
+
+# [fit] <Definition Actor Model>
+
+---
+
+## Each __Live View__
+## is a __separate__
+## __process__
+
+^
+Processes:
+- Web Request
+- DB Connections
+- State Machines
+
+^
+One huge benefit this brings is:
+
+---
+
+# __Isolation__
+
+^
+Okay, what do I mean by that
+
+---
+
+> Let it crash!
+-- Old Erlang Wisdom
+
+^
+DEMO
+
+---
+
+# __Supervisors__
+
+---
+
+# [fit] <graph: supervision tree>
+# [fit] <screenshot: observer of LiveRetro>
+
+---
+
+https://phoenixframework.org/blog/the-road-to-2-million-websocket-connections
+
+---
+
+# [fit] <image: Supervision Trees>
 
 ---
 
