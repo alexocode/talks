@@ -1,4 +1,5 @@
 theme: Ostrich, 3
+build-lists: true
 footer: `🐦 wolf4earth | saschawolf.me`
 
 # [fit] Beyond the SPA
@@ -136,7 +137,7 @@ From here web development evolved further
 There is even a website to help you decide
 
 ---
-[.footer: ""]
+[.footer: ]
 
 ![](images/frameworks/website-decision-help.png)
 
@@ -546,6 +547,7 @@ Yes we could, but Elixir is uniquely suited!
 
 ---
 
+#### Why Elixir?
 # Reason __1__
 
 ---
@@ -574,34 +576,117 @@ Yes we could, but Elixir is uniquely suited!
 
 # `0.627`__`ms`__
 
+---
+
+#### Why Elixir?
+# Reason __2__
+
+---
+
+# __Phoenix__
+# scales
+
+---
+[.background-color: #000000]
+[.footer: ]
+
+![](images/phoenix-2-million.png)
+
+# Vertically*[^2]*
+
+[^2]: https://phoenixframework.org/blog/the-road-to-2-million-websocket-connections
+
+---
+[.footer: ]
+
+# Horizontally*[^3]*
+
+[^3]: http://erlang.org/doc/reference_manual/distributed.html
+
+^
+Built-in distribution in the VM
+
 ^
 To explain a little detour ...
+
+^
+You see, Elixir is ...
+
+---
+
+## __Standing__ on
+## the __shoulders__
+## of __giants__
 
 ---
 # __BEAM__
 ##### <br/>
+
 ---
 # __BEAM__
 ##### Erlang VM
 
 ---
 
-# [fit] <gif: beam me up scotty>
+![inline](images/beam-me-up.gif)
+
+^
+Let's BEAM some knowledge in our heads
 
 ---
 
-# [fit] <History of the BEAM>
+## __Erlang__ was created
+## at __Ericsson__ for
+## __telephony switches__
+
+---
+
+- Distributed
+- Fault-tolerant
+- Soft real-time
+- High-availability
 
 ^
-Battle Tested in over 30 years
+- Light processes
+- Hot-code reloading
+- self-recovering
+
+---
+
+## Work on
+## __Erlang__ started
+## in __1987__
+
+---
+
+## It went
+## __open-source__
+## in __1998__
+
+---
+
+## __Battle-tested__
+## in over __30 years__
+## of __usage__
 
 ---
 
 # __Actor__ Model
 
----
+^
+Q: Familiarity
 
-# [fit] <Definition Actor Model>
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+[.footer: `source: https://www.brianstorti.com/the-actor-model/`]
+
+![inline](images/actor-model.png)
+
+^
+- Isolation (shared nothing)
+- Message passing
+- Sequential processing
 
 ---
 
@@ -611,9 +696,15 @@ Battle Tested in over 30 years
 
 ^
 Processes:
+- Websocket
 - Web Request
 - DB Connections
 - State Machines
+
+---
+
+#### Why Elixir?
+# Reason __3__
 
 ^
 One huge benefit this brings is:
@@ -635,49 +726,47 @@ DEMO
 
 ---
 
-# __Supervisors__
+# __Supervison__
+# Trees
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <graph: supervision tree>
-# [fit] <screenshot: observer of LiveRetro>
-
----
-
-https://phoenixframework.org/blog/the-road-to-2-million-websocket-connections
-
----
-
-# [fit] <image: Supervision Trees>
-
----
-
-# __Wait!__
-### There's more
-
----
-[.build-lists: true]
-
-- Nested views are possible
-- `for`-comprehensions are optimized
-- Optimized data transfer
-- Isolation of views
+![inline](images/live-retro/supervision-tree.png)
 
 ^
-2. Static data is only sent once
-3. Roadmap, use something else then JSON
+Actual screenshot: 5 tabs open
+
+^
+Other benefits - too much for this talk
 
 ---
 
-## Isolation of views?
+![](images/tip-of-the-iceberg.jpeg)
+
+^
+- for-comprehensions: Static data only sent once
+- Not limited to JSON
+- Of course only one TechStack
 
 ---
+## When to use __LiveView__?
 
-## __Isolation__ of views?
+- "Real-time" collaboration
+- Admin Dashboards
+- Autocompletion
+- Multi-step forms
+- And probably more
 
 ---
+## When to __not__ use __LiveView__?
 
-# DEMO
+- Desktop-like (Google Docs, Maps ...)
+- Offload Heavy computing
+- Offline capabilities
+- Zero latency
+- And probably more
 
 ---
 
