@@ -291,7 +291,7 @@ Other code: generated boilerplate, config ...
 [.background-color: #ffffff]
 [.footer-style: #000000]
 
-![inline](images/live-view/livecycle.png)
+![inline](images/live-view/lifecycle.png)
 
 ^
 Initial render means it's super SEO friendly
