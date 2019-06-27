@@ -1,6 +1,6 @@
 theme: Ostrich, 3
 build-lists: true
-footer: `🐦 wolf4earth | saschawolf.me`
+footer: `BetterDoc | 🐦 wolf4earth | saschawolf.me`
 
 # [fit] Beyond the SPA
 ## [fit] __Interactive web apps without writing JS__
@@ -191,29 +191,49 @@ And the fun only began:
 -- Jack Diederich
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <graph: static to dynamic>
-
----
-
-# [fit] <graph: static to dynamic - annotated with static stuff>
+![](images/static-to-dynamic/1.png)
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <graph: static to dynamic - annotated with static and dynamic stuff>
+![](images/static-to-dynamic/2.png)
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![](images/static-to-dynamic/3.png)
 
 ^
-Sometimes it makes sense: Google Docs, Maps, Games, etc.
+Games too
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <graph: static to dynamic - what about the middle?>
+![](images/static-to-dynamic/4.png)
+
+^
+Throw jQuery on it
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+
+![](images/static-to-dynamic/5.png)
 
 ^
 Examples:
 - Dashboards
 - Trello, Fun Retro
 - Pushing updates from the server
+
+^
+Do you really wanna use React for this?
 
 ---
 
@@ -238,9 +258,9 @@ There might be ...
 ![](images/excited.gif)
 
 ^
-- LiveRetro
+- LiveRetro (pj \_learning\_/live_retro)
 - Flappy Bird
-- TODO: More demos
+- LiveView Examples (pg elixir/phoenix_live_view_example)
 
 ---
 
@@ -275,11 +295,10 @@ Other code: generated boilerplate, config ...
 
 ^
 Initial render means it's super SEO friendly
-=> <TODO: GET SOME DATA HERE>
+Static is indexed faster, easier to control SEO
 
----
-
-# [fit] <graph: lifecycle - highlight socket>
+^
+static/dynamic: we'll see what that means
 
 ---
 
@@ -380,8 +399,10 @@ What happens on the client?
 Okay but how do we get from here to there:
 
 ---
+[.background-color: #ffffff]
+[.footer-style: #000000]
 
-# [fit] <screenshot: card with changed text>
+![inline](images/live-retro/card-changed.png)
 
 ^
 Surprisingly simple! It taskes this:
