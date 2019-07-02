@@ -4,7 +4,7 @@ theme: Poster, 1
 # with *Elixir*
 #### Slides on GitHub[^1]
 
-[^1]: https://github.com/Zeeker/talks
+[^1]: https://github.com/sascha-wolf/talks
 
 ---
 
@@ -204,7 +204,7 @@ If you know about Erlang you might have heard about OTP
 
 ---
 
-#### *Follow us on Twitter @ZeekerDev, @JanFornoff*
+#### *Follow us on Twitter @wolf4earth, @JanFornoff*
 # Coding
 # Dojo
 #### <br/> *`git clone https://github.com/jfornoff/elixir-ug-rover`*

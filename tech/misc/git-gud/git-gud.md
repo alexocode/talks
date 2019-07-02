@@ -203,7 +203,7 @@ You might have heard to never change commits after pushing: Hash changes when pr
 
 ## Clone workshop repository
 ### `git clone`
-### `git@github.com:Zeeker/git-workshop.git`
+### `git@github.com:sascha-wolf/git-workshop.git`
 
 
 ---
