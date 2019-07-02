@@ -44,6 +44,9 @@ WEB 1.0:
 ^
 Things got moving!
 
+^
+We used jQuery for everything!
+
 ---
 
 ```javascript
@@ -54,9 +57,6 @@ $("#search-submit").click(function() {
 
 ^
 And some awesome code was written!
-
-^
-We used jQuery for everything!
 
 ---
 [.background-color: #FFFFFF]
@@ -72,6 +72,10 @@ From here web development evolved further
 [.footer-style: #000000]
 
 ![inline](images/evolving-no-loop.gif)
+
+^
+Applications more complex
+jQuery no longer good enough
 
 ---
 [.background-color: #ffffff]
@@ -185,16 +189,31 @@ And the fun only began:
 > Simplicity is prerequisite for reliability.
 -- E. W. Dijkstra
 
+^
+To put it in simpler terms
+
 ---
 
 > I hate code, and I want as little of it as possible in our product.
 -- Jack Diederich
+
+^
+TBH IDK that guy, googled for quotes on simplicity
+
+^
+Lets consider something
 
 ---
 [.background-color: #ffffff]
 [.footer-style: #000000]
 
 ![](images/static-to-dynamic/1.png)
+
+^
+Lets consider something
+
+^
+Applications can be placed
 
 ---
 [.background-color: #ffffff]
@@ -218,7 +237,7 @@ Games too
 ![](images/static-to-dynamic/4.png)
 
 ^
-Throw jQuery on it
+Throw jQuery at it
 
 ---
 [.background-color: #ffffff]

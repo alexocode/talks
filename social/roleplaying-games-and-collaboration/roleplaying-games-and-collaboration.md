@@ -170,8 +170,8 @@ But it's more
 
 # *__Slides__*
 ## on GitHub[^4]
-#### *Twitter @ZeekerDev*
+#### *Twitter @wolf4earth*
 
 ![right 180%](images/slides.png)
 
-[^4]: https://github.com/Zeeker/talks
+[^4]: https://github.com/sascha-wolf/talks
