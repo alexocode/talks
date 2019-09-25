@@ -1,5 +1,6 @@
-build-lists: true
 theme: Poster, 1
+build-lists: true
+footer: _`BetterDoc | 🐦 wolf4earth | saschawolf.me`_
 
 [.background-color: #1F233D]
 [.header-strong: #1F223D]
@@ -42,14 +43,133 @@ Great sales pitch, right?
 ---
 # José _Valim_
 
-- _Rails_ (Contributor)
-- _Devise_
-- _Simple Form_
+__A well-known Rubyist__
+
+- _Rails_ 44.2k ⭐ (Contributor)
+- _Devise_ 20.2k ⭐
+- _Simple Form_ 7.5k ⭐
 - And more ...
 
----
+^
+He became frustrated with ...
 
-- 2012 José started working on Elixir (part time)
+---
+# _Concurrency_
+
+---
+![](images/lookout.gif)
+
+^
+Compared different concurreny models
+
+---
+# _Erlang_
+
+^
+Running in ...
+
+---
+# _BEAM_
+#### _Erlang_ VM
+
+^
+Concurrency: Using the ...
+
+---
+# _Actor_ Model
+
+^
+Q: Familiarity
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+[.footer: `source: https://www.brianstorti.com/the-actor-model/`]
+
+![inline](images/actor-model.png)
+
+^
+- Isolation (shared nothing)
+- Message passing
+- Sequential processing
+
+---
+## _Erlang_ was created
+## at _Ericsson_ for
+## _telephony switches_
+
+---
+- Distributed
+- Fault-tolerant
+- Soft real-time
+- High-availability
+
+^
+- Light processes
+- Hot-code reloading
+- self-recovering
+
+---
+## Work on
+## _Erlang_ started
+## in _1987_
+
+---
+## It went
+## _open-source_
+## in _1998_
+
+---
+## _Battle-tested_
+## in over _30 years_
+## of _usage_
+
+^
+Sounds pretty good, right?
+
+^
+BUT ...
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+---
+### _Ruby_
+#### +
+### _Erlang_
+#### ?
+
+---
+![](images/cant-we-have-both.gif)
+
+^
+Remember, Erlang runs in a VM
+
+---
+# _BEAM_
+
+---
+### _Ruby_
+#### +
+### _Erlang_
+#### =
+## **_Elixir_**
+
+---
+```elixir
+defmodule Greetings do
+  def hello(name) do
+    IO.puts("Hello #{name}")
+  end
+end
+```
 
 ---
 [.autoscale: true]
