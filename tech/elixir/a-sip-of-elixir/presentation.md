@@ -461,3 +461,35 @@ Clauses are "tried" in order of declaration
 ^
 Pretty common pattern (not the stupid greetings):
 Multiple clauses matching and calling each other
+
+^
+I could talk more about pattern matching but we have limited time ...
+
+---
+# _Syntactic_
+# Macros
+
+^
+Q: Who knows what that is?
+Q2: Who knows what macros are?
+
+---
+
+### Transform the
+# _AST_
+#### _A_bstract _S_yntax _T_ree
+
+^
+C-Macros: Fancy string replacement
+
+^
+Languages: Lisp (most well-known), Rust, Elixir, and more
+Lisp: Basically write the AST directly
+
+^
+Why is that cool?
+
+---
+
+## Use the _full_
+## power of _Elixir_
