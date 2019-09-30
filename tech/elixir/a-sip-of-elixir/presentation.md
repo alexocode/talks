@@ -315,16 +315,18 @@ Tells us about the code, the left value, the right value etc.
 Syntactic Macro System - `assert` is a macro
 
 ---
-```elixir
-defmodule GreetingsTest do
-  use ExUnit.Case, async: true
+## First-Class _Documentation_
 
-  doctest Greetings
-end
-```
+^
+Okay, what does that mean?
 
 ---
-## First-Class _Documentation_
+[.hide-footer]
+
+![](images/writing-docs.png)
+
+^
+Elixir takes good docs seriously
 
 ---
 ```elixir
@@ -343,8 +345,35 @@ defmodule Greetings do
 end
 ```
 
+^
+First: docs are **not** comments
+
+^
+`@doc` is a **module attribute**; basically a module-level constant
+
 ---
 [.background-color: #191918]
 
-## Unit Testing Framework - _ExUnit_
+![inline](images/iex-docs.png)
+
+^
+Neat but not **that** impressive
+
+---
+[.hide-footer]
+
+![](images/exdoc.png)
+
+---
+```elixir
+defmodule GreetingsTest do
+  use ExUnit.Case, async: true
+
+  doctest Greetings
+end
+```
+
+---
+[.background-color: #191918]
+
 ![inline](images/exunit-doctest-test-failure.png)
