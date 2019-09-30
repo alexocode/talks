@@ -207,6 +207,9 @@ defmodule Greetings do
 end
 ```
 
+^
+`#{name}` = string interpolation
+
 ---
 ### _Ruby_
 #### +
