@@ -1,6 +1,6 @@
 theme: Poster, 1
 build-lists: true
-footer: _`BetterDoc | 🐦 wolf4earth | saschawolf.me`_
+footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 
 [.background-color: #1F233D]
 [.header-strong: #1F223D]
@@ -94,7 +94,7 @@ Concurrency: Using the ...
 Q: Familiarity
 
 ^
-Why almost? Not quite as defined in papers etc.
+Why almost? According to Dr. Carl Hewitt (inventor of the actor model in 1973)
 Why? Because Erlang was designed without it's knowledge
 
 ---
@@ -105,6 +105,7 @@ Why? Because Erlang was designed without it's knowledge
 ![inline](images/actor-model.png)
 
 ^
+- Actor = fundamental unit of computation
 - Isolation (shared nothing)
 - Message passing
 - Sequential processing
