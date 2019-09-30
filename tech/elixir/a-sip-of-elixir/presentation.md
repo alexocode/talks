@@ -23,11 +23,11 @@ Great sales pitch, right?
 
 ---
 ### To understand
-## _Elixir_[^*]
+## _Elixir_[^1]
 ### we need to understand its
 ## _History_
 
-[^*]: and the problems it tries to solve
+[^1]: and the problems it tries to solve
 
 ---
 ## The year is
@@ -63,6 +63,9 @@ He became frustrated with ...
 ---
 # _Concurrency_
 
+^
+Why? CPUs don't get much faster, instead multiple CPUs
+
 ---
 ![](images/lookout.gif)
 
@@ -83,10 +86,16 @@ Running in ...
 Concurrency: Using the ...
 
 ---
-# _Actor_ Model
+# _Actor_ Model[^2]
+
+[^2]: `Technically almost-actor (https://www.youtube.com/watch?v=_0m0_qtfzLs)`
 
 ^
 Q: Familiarity
+
+^
+Why almost? Not quite as defined in papers etc.
+Why? Because Erlang was designed without it's knowledge
 
 ---
 [.background-color: #ffffff]
@@ -99,6 +108,12 @@ Q: Familiarity
 - Isolation (shared nothing)
 - Message passing
 - Sequential processing
+
+^
+When message arrives (one of):
+- Create more actors
+- Send messages to other actors
+- Designate what to do with the next message = Mutate State
 
 ---
 ## _Erlang_ was created
@@ -142,17 +157,24 @@ BUT ...
 -module(greetings).
 -export([hello/1]).
 
-
 hello(Name) ->
     io:format("Hello ~s~n", [Name]).
 ```
 
+^
+Syntax: Prolog-inspired
+Not a bad language, but takes some getting used to
+Old language which you notice
+
 ---
-### _Ruby_
-#### +
-### _Erlang_
-#### =
-### _?_
+## ` `Ruby `       ` _Erlang_
+![original](images/ruby-and-erlang.png)
+
+^
+Ruby = Developer productivity and happyness
+
+^
+Erlang = Powerful and battle-hardened concurrency
 
 ---
 ![](images/cant-we-have-both.gif)
@@ -163,12 +185,18 @@ Remember, Erlang runs in a VM
 ---
 # _BEAM_
 
+^
+A VM; just like the JVM
+
 ---
-### _Ruby_
-#### +
-### _Erlang_
-#### =
-## **_Elixir_**
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
 
 ---
 ```elixir
@@ -178,6 +206,13 @@ defmodule Greetings do
   end
 end
 ```
+
+---
+### _Ruby_
+#### +
+### _Erlang_
+#### =
+## **_Elixir_**
 
 ---
 [.autoscale: true]
