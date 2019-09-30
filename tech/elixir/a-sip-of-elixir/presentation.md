@@ -37,8 +37,7 @@ Great sales pitch, right?
 # José _Valim_
 
 ^
-- Well-known Rubyist
-- Frustrated with the concurrency in Ruby
+Well-known Rubyist
 
 ---
 # José _Valim_
@@ -58,7 +57,7 @@ __A well-known Rubyist__
 - And more ...
 
 ^
-He became frustrated with ...
+He became frustrated with Rubys approach to ...
 
 ---
 # _Concurrency_
