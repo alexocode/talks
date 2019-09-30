@@ -42,6 +42,13 @@ Great sales pitch, right?
 
 ---
 # José _Valim_
+![](images/jose-valim.jpg)
+
+` `
+
+---
+# José _Valim_
+![](images/jose-valim.jpg)
 
 __A well-known Rubyist__
 
@@ -144,7 +151,8 @@ hello(Name) ->
 ### _Ruby_
 #### +
 ### _Erlang_
-#### ?
+#### =
+### _?_
 
 ---
 ![](images/cant-we-have-both.gif)
