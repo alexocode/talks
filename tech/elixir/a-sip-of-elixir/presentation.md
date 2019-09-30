@@ -171,7 +171,7 @@ Old language which you notice
 ![original](images/ruby-and-erlang.png)
 
 ^
-Ruby = Developer productivity and happyness
+Ruby = Developer productivity and happiness
 
 ^
 Erlang = Powerful and battle-hardened concurrency
@@ -213,6 +213,104 @@ end
 ### _Erlang_
 #### =
 ## **_Elixir_**
+
+^
+With the history out of the way, let's talk specifics
+
+---
+# **_Elixir_**
+
+- Erlang compatibility
+- developer happiness
+- pattern-matching
+- syntactic macro system
+
+---
+# _Erlang_ compatibily
+
+^
+What does that mean?
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+---
+```elixir
+defmodule Greetings do
+  def hello(name) do
+    :greetings.hello(name)
+  end
+end
+```
+
+^
+A lot of Elixirs std just delegates to Erlang
+Example: Enum.reverse
+
+^
+Not unlike the state of languages on the JVM
+
+---
+# _Developer_ Happiness
+
+---
+## _Great_ Tooling
+
+- build tool `mix`
+- code formatter
+- unit testing framework
+- first-class documentation
+- and more ...
+
+^
+All maintained by the core team
+
+^
+Not gonna talk about `mix` and formatter
+
+---
+## Unit Testing Framework - _ExUnit_
+
+[.code-highlight: all]
+[.code-highlight: 6]
+```elixir
+defmodule GreetingsTest do
+  use ExUnit.Case, async: true
+
+  test "it greets friendly" do
+    assert Greetings.hello("Lambda Cologne") ==
+             "Hello Lambda Cologne!"
+  end
+end
+```
+
+^
+`async: true` because code is pure
+
+^
+*Highlight change with laser: "!" at the end*
+
+^
+Test failure looks like this:
+
+---
+[.background-color: #191918]
+
+## Unit Testing Framework - _ExUnit_
+![inline](images/exunit-test-failure.png)
+
+^
+Tells us about the code, the left value, the right value etc.
+
+^
+"Knows" we used `==`: How?
+Syntactic Macro System - `assert` is a macro
 
 ---
 [.autoscale: true]
