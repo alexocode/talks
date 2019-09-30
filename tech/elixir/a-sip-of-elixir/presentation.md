@@ -276,8 +276,10 @@ All maintained by the core team
 Not gonna talk about `mix` and formatter
 
 ---
-## Unit Testing Framework - _ExUnit_
+## Unit Testing Framework
+### _`ExUnit`_
 
+---
 [.code-highlight: all]
 [.code-highlight: 6]
 ```elixir
@@ -303,7 +305,6 @@ Test failure looks like this:
 ---
 [.background-color: #191918]
 
-## Unit Testing Framework - _ExUnit_
 ![inline](images/exunit-test-failure.png)
 
 ^
@@ -312,3 +313,38 @@ Tells us about the code, the left value, the right value etc.
 ^
 "Knows" we used `==`: How?
 Syntactic Macro System - `assert` is a macro
+
+---
+```elixir
+defmodule GreetingsTest do
+  use ExUnit.Case, async: true
+
+  doctest Greetings
+end
+```
+
+---
+## First-Class _Documentation_
+
+---
+```elixir
+defmodule Greetings do
+  @doc """
+  Prints a friendly greeting.
+
+  ## Examples
+
+      iex> Greetings.hello("Lambda Cologne")
+      "Hello Lambda Cologne!"
+  """
+  def hello(name) do
+    IO.puts("Hello #{name}")
+  end
+end
+```
+
+---
+[.background-color: #191918]
+
+## Unit Testing Framework - _ExUnit_
+![inline](images/exunit-doctest-test-failure.png)
