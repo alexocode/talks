@@ -376,3 +376,85 @@ end
 [.background-color: #191918]
 
 ![inline](images/exunit-doctest-test-failure.png)
+
+---
+# And _more_ ...
+
+- Powerful interactive console (`iex`)
+- "Batteries included" web framework (Phoenix)
+- A bunch more neat Erlang/OTP things:
+- Supervision trees, observer, remote debugging, hot code upgrades ...
+
+^
+iex: Auto-complete, great data inspection, docs, command history etc.
+
+^
+Phoenix: We're gonna hear a bit more about this from Peter, I think
+
+---
+# _Pattern_
+# Matching
+
+^
+Q: Who here is familiar with pattern matching? (FP-ler should?)
+
+^
+Similar: Destructuring?
+
+---
+```elixir
+iex> my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+iex> [first, second | rest] = my_list
+iex> first
+3
+iex> second
+1
+iex> rest
+[4, 1, 5, 9, 2, 6, 5]
+```
+
+---
+```elixir
+iex> my_map = %{a: 1, b: 2, c: 3}
+iex> %{a: a, b: b} = my_map
+iex> a
+1
+iex> b
+2
+```
+
+---
+```elixir
+iex> greeting = "Hello Lambda Cologne"
+iex> "Hello " <> name = greeting
+iex> name
+"Lambda Cologne"
+```
+
+---
+## _Pattern_ Matching
+## is everywhere
+
+---
+```elixir
+defmodule Greetings do
+  def hello("") do
+    hello("anonymous")
+  end
+
+  def hello("Lambda " <> city) do
+    hello("FP-Enthusiast from #{city}")
+  end
+
+  def hello(name) do
+    "Hello #{name}!"
+  end
+end
+```
+
+^
+Clauses are "tried" in order of declaration
+
+^
+Pretty common pattern (not the stupid greetings):
+Multiple clauses matching and calling each other
