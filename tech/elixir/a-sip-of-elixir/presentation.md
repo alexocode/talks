@@ -1,4 +1,4 @@
-theme: Poster, 1
+theme: Poster (Quote)
 build-lists: true
 footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 
@@ -274,6 +274,12 @@ Not unlike the state of languages on the JVM
 
 [^3]: https://learnyousomeerlang.com/what-is-otp
 
+^
+At the core of most Elixir applications
+
+^
+If we have time, I'll talk about these at the end
+
 ---
 # _Developer_ Happiness
 
@@ -419,6 +425,9 @@ Q: Who here is familiar with pattern matching? (FP-ler should?)
 ^
 Similar: Destructuring?
 
+^
+Example: List
+
 ---
 ```elixir
 iex> my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5]
@@ -431,6 +440,9 @@ iex> rest
 [4, 1, 5, 9, 2, 6, 5]
 ```
 
+^
+Example: Map (or Dict/Hash)
+
 ---
 ```elixir
 iex> my_map = %{a: 1, b: 2, c: 3}
@@ -440,6 +452,9 @@ iex> a
 iex> b
 2
 ```
+
+^
+Example: Strings
 
 ---
 ```elixir
