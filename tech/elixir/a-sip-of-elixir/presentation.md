@@ -15,6 +15,9 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 ## What is *Elixir*?
 
 ---
+# What is *Elixir*?
+
+<br/>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 -- elixir-lang.org
 
@@ -258,6 +261,18 @@ Example: Enum.reverse
 
 ^
 Not unlike the state of languages on the JVM
+
+---
+# _OTP_
+#### _O_pen _T_elecom _P_latform
+
+---
+# _O_pen _T_elecom _P_latform
+
+> If half of Erlang's greatness comes from its concurrency and distribution and the other half comes from its error handling capabilities, then the OTP framework is the third half of it.
+-- Learn You Some Erlang for Great Good! (Frederic Trottier-Hebert)[^3]
+
+[^3]: https://learnyousomeerlang.com/what-is-otp
 
 ---
 # _Developer_ Happiness
