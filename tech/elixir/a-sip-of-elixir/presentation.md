@@ -5,8 +5,8 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 [.background-color: #1F233D]
 [.header-strong: #1F223D]
 
-## **l**A**i**_Sip_**lll.**
-## of _Elixir_
+## **il**A**i**_Sip_**lll.**
+## of **_Elixir_**
 
 ---
 ![](images/a-sip.gif)
@@ -491,5 +491,7 @@ Why is that cool?
 
 ---
 
-## Use the _full_
-## power of _Elixir_
+### Use the
+##_full power_
+### of
+## **_Elixir_**
