@@ -227,13 +227,13 @@ With the history out of the way, let's talk specifics
 First: Whirlwind tour of syntax
 
 ---
-# _Syntax_ Crashcurse
+# _Syntax_ Crash Course
 
 ---
 [.autoscale: true]
 [.list: alignment(left)]
 
-# _Syntax_ Crashcurse - Basic Types
+# _Syntax_ Crash Course - Basic Types
 
 - _List:_ `[3, 1, 4, 1, 5]`
 - _Map:_ `%{key: "value"}`
@@ -256,7 +256,7 @@ Functions = Anonymous functions
 [.autoscale: true]
 [.list: alignment(left)]
 
-# _Syntax_ Crashcurse - Operators
+# _Syntax_ Crash Course - Operators
 
 - _Basics:_ `+, -, *, /, ==, <, >, &&, ||`
 - _String Concatination:_ `"Hello" <> " Lambda Cologne"`
@@ -264,7 +264,7 @@ Functions = Anonymous functions
 - _Pipe:_ `[3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()`
 
 ---
-# _Syntax_ Crashcurse - Pipe
+# _Syntax_ Crash Course - Pipe
 <br/>
 
 [.code-highlight: 1-2]
