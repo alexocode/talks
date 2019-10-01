@@ -223,13 +223,13 @@ With the history out of the way, let's talk specifics
 ---
 # **_Elixir_**
 
-- Erlang compatibility
+- Erlang goodness
 - developer happiness
 - pattern-matching
 - syntactic macro system
 
 ---
-# _Erlang_ compatibily
+# _Erlang_ goodness
 
 ^
 What does that mean?
