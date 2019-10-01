@@ -519,10 +519,14 @@ iex> name
 "Lambda Cologne"
 ```
 
+^
+Usually you think of `=` as the "Assignment Operator"
+
 ---
 # _`=`_
-### is the
-## _Match Operator_
+#### is the
+## ~~_Assignment_ Operator~~
+## _Match_ Operator
 
 ^
 Match left side against right side
@@ -576,6 +580,10 @@ I could talk more about pattern matching but we have limited time ...
 ---
 # _Syntactic_
 # Macros
+
+^
+Depending on time ...
+Q: Macros or high-level patterns?
 
 ^
 Q: Who knows what that is?
