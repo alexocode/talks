@@ -543,8 +543,79 @@ Lisp: Basically write the AST directly
 Why is that cool?
 
 ---
-
 ### Use the
 ##_full power_
 ### of
 ## **_Elixir_**
+
+^
+Let's have an example ...
+
+---
+```elixir
+defmodule Conditional do
+  defmacro if(condition, do: true_block, else: false_block) do
+    quote do
+      case unquote(condition) do
+        true -> unquote(true_block)
+        false -> unquote(false_block)
+      end
+    end
+  end
+end
+```
+
+^
+`quote` and `unquote` = string + interpolation for code (AST)
+
+---
+```elixir
+iex> import Conditional
+iex> if true do
+...>   "dis is true"
+...> else
+...>   "dis is false"
+...> end
+"dis is true"
+```
+
+^
+Elixir has an `if` and it's a macro
+
+---
+```
+application/andrew-inset      ez
+application/applixware        aw
+application/atom+xml        atom
+application/atomcat+xml       atomcat
+application/atomsvc+xml       atomsvc
+application/ccxml+xml       ccxml
+application/cdmi-capability     cdmia
+application/cdmi-container      cdmic
+application/cdmi-domain       cdmid
+application/cdmi-object       cdmio
+application/cdmi-queue        cdmiq
+application/cu-seeme        cu
+```
+
+^
+Left: Mime Type | Right: Extension
+
+---
+```elixir
+defmodule MimeType do
+  "path/to/mime-types.txt"
+  |> File.read!()
+  |> Enum.map(fn line ->
+    [mime_type, extension] = String.split(line, " ", trim: true)
+
+    def to_extension(unquote(mime_type)), do: unquote(extension)
+  end)
+end
+```
+
+---
+```elixir
+iex> MimeType.to_extension("application/applixware")
+"aw"
+```
