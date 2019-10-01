@@ -441,6 +441,9 @@ iex: Auto-complete, great data inspection, docs, command history etc.
 ^
 Phoenix: We're gonna hear a bit more about this from Peter, I think
 
+^
+Erlang/OTP: Later
+
 ---
 # _Pattern_
 # Matching
@@ -885,7 +888,7 @@ Can't possibly protect against everything
 Handle **expected** issues
 
 ^
-Ofc you don't want your system to go down: OTP
+Great, we're very good at bringing everything down! Now what?
 
 ---
 # _Supervisors_
@@ -897,6 +900,9 @@ Ofc you don't want your system to go down: OTP
 -- Erlang Documentation[^5]
 
 [^5]: http://erlang.org/doc/man/supervisor.html#supervision-principles
+
+^
+The programmer's version of "have you tried restarting it?"
 
 ^
 Child Process: Worker or another Supervisor
