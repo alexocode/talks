@@ -465,6 +465,29 @@ iex> name
 ```
 
 ---
+# _`=`_
+### is the
+## _Match Operator_
+
+^
+Match left side against right side
+
+^
+What happens when it can't match?
+
+---
+```elixir
+iex> "Hello " <> name = "Salut Lambda Cologne"
+** (MatchError) no match of right hand side value: "Salut Lambda Cologne"
+    (stdlib) erl_eval.erl:453: :erl_eval.expr/5
+    (iex) lib/iex/evaluator.ex:257: IEx.Evaluator.handle_eval/5
+    (iex) lib/iex/evaluator.ex:237: IEx.Evaluator.do_eval/3
+    (iex) lib/iex/evaluator.ex:215: IEx.Evaluator.eval/3
+    (iex) lib/iex/evaluator.ex:103: IEx.Evaluator.loop/1
+    (iex) lib/iex/evaluator.ex:27: IEx.Evaluator.init/4
+```
+
+---
 ## _Pattern_ Matching
 ## is everywhere
 
