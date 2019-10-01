@@ -264,12 +264,11 @@ Functions = Anonymous functions
 - _Pipe:_ `[3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()`
 
 ---
-[.code-highlight: 1-2]
-[.code-highlight: 4-5]
-
 # _Syntax_ Crashcurse - Pipe
 <br/>
 
+[.code-highlight: 1-2]
+[.code-highlight: 4-5]
 ```elixir
 iex> [3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()
 28
@@ -690,5 +689,4 @@ Not unlike the state of languages on the JVM
 ^
 At the core of most Elixir applications
 
-^
-If we have time, I'll talk about these at the end
+---
