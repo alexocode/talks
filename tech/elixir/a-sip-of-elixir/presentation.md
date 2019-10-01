@@ -894,3 +894,63 @@ Child Process: Worker or another Supervisor
 
 ^
 Strategies: :one_for_one, :one_for_all, :rest_for_one
+
+---
+```elixir
+defmodule MyApp.Application do
+  # See https://hexdocs.pm/elixir/Application.html
+  # for more information on OTP Applications
+  use Application
+
+  def start(_type, _args) do
+    # List all child processes to be supervised
+    children = [
+      MyApp.Repo,
+      MyApp.Endpoint
+    ]
+
+    # See https://hexdocs.pm/elixir/Supervisor.html
+    # for other strategies and supported options
+    opts = [strategy: :one_for_one, name: MyApp.Supervisor]
+    Supervisor.start_link(children, opts)
+  end
+end
+```
+
+---
+# Standing on the _shoulders_ of _Giants_
+
+- _`Agent`_ - keep and manipulate state
+- _`Task`_ - easy asynchronous processing
+- _`GenStage`_ - exchange events with back-pressure between producer and consumer processes
+
+---
+# There's _more_ ...
+
+- remote debugging
+- built-in support for node clustering
+- hot code upgrades (upgrade while running)
+- great support for metrics and introspection
+- ...
+
+---
+# _Summary_
+
+---
+# **_Elixir_**
+
+- functional and dynamically typed
+- focusses on developer happiness
+- considers documentation a first-class citizen
+- provides a full syntactic macro system
+- stands on the shoulders of giants (_Erlang_/_OTP_)
+
+^
+Erlang/OTP: easily build resilient systems
+
+---
+## _Thank you_
+## for listening
+
+---
+# _Questions_?
