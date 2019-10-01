@@ -108,7 +108,7 @@ Why? Because Erlang was designed without it's knowledge
 
 ^
 - Actor = fundamental unit of computation
-- Isolation (shared nothing)
+- Isolation (shared nothing) - immutable data
 - Message passing
 - Sequential processing
 
@@ -276,6 +276,12 @@ iex> [3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()
 iex> Enum.sum(Enum.map([3, 1, 4, 1, 5], fn x -> x * 2 end))
 28
 ```
+
+^
+Remember? Immutable data! That's why pipe is so useful
+
+^
+Alternative: variables, variables, variables (which is what you see in Erlang)
 
 ---
 # **_Elixir_**
