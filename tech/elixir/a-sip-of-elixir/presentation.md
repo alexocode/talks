@@ -12,6 +12,21 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 ![](images/a-sip.gif)
 
 ---
+# _Agenda_
+
+- The _History_ of **_Elixir_**
+- _Syntax_ Crash Course
+- _Design_ Aspects
+
+^
+History: The Why
+Syntax: The What
+Design: The How
+
+^
+This **won't** be a detailed introduction
+
+---
 ## What is *Elixir*?
 
 ---
