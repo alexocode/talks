@@ -223,6 +223,61 @@ end
 ^
 With the history out of the way, let's talk specifics
 
+^
+First: Whirlwind tour of syntax
+
+---
+# _Syntax_ Crashcurse
+
+---
+[.autoscale: true]
+[.list: alignment(left)]
+
+# _Syntax_ Crashcurse - Basic Types
+
+- _List:_ `[3, 1, 4, 1, 5]`
+- _Map:_ `%{key: "value"}`
+- _Atom:_ `:an_atom`
+- _Boolean:_ `true || false`
+- _Tuple:_ `{"have some PI", 3.1415, :the_pi_is_a_lie}`
+- _Function:_ `fn x, y -> x * y end`
+
+^
+Excluded the "obvious" stuff: numbers, strings, etc.
+
+^
+Atoms: Constants, some languages call them symbols (like Ruby) - booleans are atoms
+Useful for pattern matching
+
+^
+Functions = Anonymous functions
+
+---
+[.autoscale: true]
+[.list: alignment(left)]
+
+# _Syntax_ Crashcurse - Operators
+
+- _Basics:_ `+, -, *, /, ==, <, >, &&, ||`
+- _String Concatination:_ `"Hello" <> " Lambda Cologne"`
+- _List Concatination:_ `[3, 1, 4] ++ [1, 5]`
+- _Pipe:_ `[3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()`
+
+---
+[.code-highlight: 1-2]
+[.code-highlight: 4-5]
+
+# _Syntax_ Crashcurse - Pipe
+<br/>
+
+```elixir
+iex> [3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()
+28
+
+iex> Enum.sum(Enum.map([3, 1, 4, 1, 5], fn x -> x * 2 end))
+28
+```
+
 ---
 # **_Elixir_**
 
@@ -619,3 +674,13 @@ end
 iex> MimeType.to_extension("application/applixware")
 "aw"
 ```
+
+---
+## **_Elixir_** Macros
+## are _hygenic_
+
+^
+Hygenic: Variables declared in Macros don't pollute the caller context
+
+^
+Example: x in caller, x in macro, doesn't override
