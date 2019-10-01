@@ -281,59 +281,10 @@ iex> Enum.sum(Enum.map([3, 1, 4, 1, 5], fn x -> x * 2 end))
 ---
 # **_Elixir_**
 
-- Erlang goodness
 - developer happiness
 - pattern-matching
 - syntactic macro system
-
----
-# _Erlang_ goodness
-
-^
-What does that mean?
-
----
-```erlang
--module(greetings).
--export([hello/1]).
-
-hello(Name) ->
-    io:format("Hello ~s~n", [Name]).
-```
-
----
-```elixir
-defmodule Greetings do
-  def hello(name) do
-    :greetings.hello(name)
-  end
-end
-```
-
-^
-A lot of Elixirs std just delegates to Erlang
-Example: Enum.reverse
-
-^
-Not unlike the state of languages on the JVM
-
----
-# _OTP_
-#### _O_pen _T_elecom _P_latform
-
----
-# _O_pen _T_elecom _P_latform
-
-> If half of Erlang's greatness comes from its concurrency and distribution and the other half comes from its error handling capabilities, then the OTP framework is the third half of it.
--- Learn You Some Erlang for Great Good! (Frederic Trottier-Hebert)[^3]
-
-[^3]: https://learnyousomeerlang.com/what-is-otp
-
-^
-At the core of most Elixir applications
-
-^
-If we have time, I'll talk about these at the end
+- Erlang goodness
 
 ---
 # _Developer_ Happiness
@@ -692,3 +643,52 @@ Hygenic: Variables declared in Macros don't pollute the caller context
 
 ^
 Example: x in caller, x in macro, doesn't override
+
+---
+# _Erlang_ goodness
+
+^
+What does that mean?
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+---
+```elixir
+defmodule Greetings do
+  def hello(name) do
+    :greetings.hello(name)
+  end
+end
+```
+
+^
+A lot of Elixirs std just delegates to Erlang
+Example: Enum.reverse
+
+^
+Not unlike the state of languages on the JVM
+
+---
+# _OTP_
+#### _O_pen _T_elecom _P_latform
+
+---
+# _O_pen _T_elecom _P_latform
+
+> If half of Erlang's greatness comes from its concurrency and distribution and the other half comes from its error handling capabilities, then the OTP framework is the third half of it.
+-- Learn You Some Erlang for Great Good! (Frederic Trottier-Hebert)[^3]
+
+[^3]: https://learnyousomeerlang.com/what-is-otp
+
+^
+At the core of most Elixir applications
+
+^
+If we have time, I'll talk about these at the end
