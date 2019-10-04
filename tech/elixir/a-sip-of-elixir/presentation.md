@@ -24,7 +24,7 @@ Syntax: The What
 Design: The How
 
 ^
-This **won't** be a detailed introduction
+Goal: Help you understand "what makes Elixir tick"
 
 ---
 ## What is *Elixir*?
@@ -39,6 +39,9 @@ This **won't** be a detailed introduction
 ^
 Great sales pitch, right?
 
+^
+What does that mean in practice?
+
 ---
 ### To understand
 ## _Elixir_[^1]
@@ -47,12 +50,22 @@ Great sales pitch, right?
 
 [^1]: and the problems it tries to solve
 
+^
+Where does it come from?
+What problems does it try to solve?
+
 ---
 ## The year is
 # _2012_
 
+^
+and a guy named ...
+
 ---
 # José _Valim_
+
+^
+starts to work on a side-project ... a new language called Elixir
 
 ^
 Well-known Rubyist
@@ -61,18 +74,15 @@ Well-known Rubyist
 # José _Valim_
 ![](images/jose-valim.jpg)
 
-` `
-
----
-# José _Valim_
-![](images/jose-valim.jpg)
-
-__A well-known Rubyist__
+__A well-known *Rubyist*__
 
 - _Rails_ 44.2k ⭐ (Contributor)
 - _Devise_ 20.2k ⭐
 - _Simple Form_ 7.5k ⭐
 - And more ...
+
+^
+You can say he really likes Ruby
 
 ^
 He became frustrated with Rubys approach to ...
@@ -137,6 +147,9 @@ When message arrives (one of):
 ## _Erlang_ was created
 ## at _Ericsson_ for
 ## _telephony switches_
+
+^
+It was designed for ...
 
 ---
 - Distributed
