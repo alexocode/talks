@@ -19,9 +19,14 @@ Each talk follows this basic file and structure:
 
 ## [Tech](tech)
 ### [Elixir](tech/elixir)
+- [A Sip of Elixir](tech/elixir/a-sip-of-elixir)
+- [Beyond the Single Page Application](tech/elixir/phoenix-live-view)
 - [ESpec](tech/elixir/espec)
 - [Getting started with Elixir](tech/elixir/getting-started-with-elixir)
 - [Tracing in Elixir](tech/elixir/tracing-in-elixir)
+
+### [Quality](tech/quality)
+- [Why automated Testing matters](tech/quality/testing)
 
 ### Tooling
 
