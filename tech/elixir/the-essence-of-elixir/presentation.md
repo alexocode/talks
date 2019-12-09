@@ -8,8 +8,14 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 ## The _Essence_
 ## of **_Elixir_****ll.**
 
+^
+Or rather, it's DNA
+
 ---
-![](images/a-sip.gif)
+![](images/dna.jpg)
+
+[.footer: _Image by Gerd Altmann from Pixabay_]
+[.footer-style: alignment(right)]
 
 ---
 # _Agenda_
@@ -102,54 +108,22 @@ Compared different concurreny models
 ---
 # _Erlang_
 
-^
-Running in ...
-
----
-# _BEAM_
-#### _Erlang_ VM
-
-^
-Concurrency: Using the ...
-
----
-# _Actor_ Model[^2]
-
-[^2]: `Technically almost-actor (https://www.youtube.com/watch?v=_0m0_qtfzLs)`
-
-^
-Q: Familiarity
-
-^
-Why almost? According to Dr. Carl Hewitt (inventor of the actor model in 1973)
-Why? Because Erlang was designed without it's knowledge
-
----
-[.background-color: #ffffff]
-[.footer-style: #000000]
-[.footer: `source: https://www.brianstorti.com/the-actor-model/`]
-
-![inline](images/actor-model.png)
-
-^
-- Actor = fundamental unit of computation
-- Isolation (shared nothing) - immutable data
-- Message passing
-- Sequential processing
-
-^
-When message arrives (one of):
-- Create more actors
-- Send messages to other actors
-- Designate what to do with the next message = Mutate State
-
 ---
 ## _Erlang_ was created
 ## at _Ericsson_ for
 ## _telephony switches_
 
 ^
-It was designed for ...
+People behind it ...
+
+---
+
+- _Joe_ Armstrong
+- _Robert_ Virding
+- _Mike_ Williams
+
+^
+Looking for a better way to build ...
 
 ---
 - Distributed
@@ -158,27 +132,46 @@ It was designed for ...
 - High-availability
 
 ^
-- Light processes
-- Hot-code reloading
-- self-recovering
+Looked at a bunch of languages (Lisp, Prolog, Smalltalk)
+Nothing quite right
+
+^
+Ancient?
+
+^
+Inspired by them, they created Erlang
 
 ---
 ## Work on
 ## _Erlang_ started
 ## in _1987_
 
----
-## It went
-## _open-source_
-## in _1998_
+^
+With it they created the ...
 
 ---
-## _Battle-tested_
-## in over _30 years_
-## of _usage_
+# _AXD301_
+# switch
+
+![](images/axd301-blurry.jpg)
 
 ^
-Sounds pretty good, right?
+Over 1.5 million lines of Erlang
+
+^
+One of the most stable products ever released by Ericsson
+
+^
+High availability:
+9 9s (31ms per year)
+More realistic:
+5-6 9s (< 5m)
+
+^
+(We will explore later how!)
+
+^
+Huge success, impressive as hell!
 
 ^
 BUT ...
@@ -194,8 +187,13 @@ hello(Name) ->
 
 ^
 Syntax: Prolog-inspired
-Not a bad language, but takes some getting used to
 Old language which you notice
+
+^
+Not a bad language, but takes some getting used to
+
+^
+José saw all that goodness!
 
 ---
 ## ` `Ruby `       ` _Erlang_
@@ -215,9 +213,17 @@ Remember, Erlang runs in a VM
 
 ---
 # _BEAM_
+#### _Erlang_ VM
 
 ^
 A VM; just like the JVM
+
+^
+So he created Elixir.
+
+^
+And THIS (Erlang)
+Became THIS (Elixir)
 
 ---
 ```erlang
@@ -685,6 +691,45 @@ Example: x in caller, x in macro, doesn't override
 
 ^
 What does that mean?
+
+---
+# _BEAM_
+#### _Erlang_ VM
+
+^
+Concurrency: Using the ...
+
+---
+# _Actor_ Model[^2]
+
+[^2]: `Technically almost-actor (https://www.youtube.com/watch?v=_0m0_qtfzLs)`
+
+^
+Q: Familiarity
+
+^
+Why almost? According to Dr. Carl Hewitt (inventor of the actor model in 1973)
+Why? Because Erlang was designed without it's knowledge
+
+---
+[.background-color: #ffffff]
+[.footer-style: #000000]
+[.footer: `source: https://www.brianstorti.com/the-actor-model/`]
+
+![inline](images/actor-model.png)
+
+^
+- Actor = fundamental unit of computation
+- Isolation (shared nothing) - immutable data
+- Message passing
+- Sequential processing
+
+^
+When message arrives (one of):
+- Create more actors
+- Send messages to other actors
+- Designate what to do with the next message = Mutate State
+
 
 ---
 ```erlang
