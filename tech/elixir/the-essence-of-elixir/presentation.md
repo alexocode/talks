@@ -5,8 +5,8 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 [.background-color: #1F233D]
 [.header-strong: #1F223D]
 
-## **il**A**i**_Sip_**lll.**
-## of **_Elixir_**
+## The _Essence_
+## of **_Elixir_****ll.**
 
 ---
 ![](images/a-sip.gif)
