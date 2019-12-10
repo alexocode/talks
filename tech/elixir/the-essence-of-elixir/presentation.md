@@ -209,7 +209,22 @@ Erlang = Powerful and battle-hardened concurrency
 ![](images/cant-we-have-both.gif)
 
 ^
-Remember, Erlang runs in a VM
+But how?
+
+^
+Well, Erlang is a compiled language
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+^
+This compiles to Bytecode which runs on the ...
 
 ---
 # _BEAM_
@@ -219,7 +234,7 @@ Remember, Erlang runs in a VM
 A VM; just like the JVM
 
 ^
-So he created Elixir.
+All the cool concurrency stuff happens here!
 
 ^
 And THIS (Erlang)
@@ -233,7 +248,6 @@ Became THIS (Elixir)
 hello(Name) ->
     io:format("Hello ~s~n", [Name]).
 ```
-
 
 ---
 ```elixir
@@ -255,10 +269,14 @@ end
 ## **_Elixir_**
 
 ^
-With the history out of the way, let's talk specifics
+Combining:
+Ruby's Expressiveness
+Erlang's Robustness and Concurrency
 
 ^
-First: Whirlwind tour of syntax
+Possible how?
+Erlang runs in a VM
+
 
 ---
 # _Syntax_ Crash Course
