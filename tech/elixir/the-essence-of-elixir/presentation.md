@@ -20,9 +20,9 @@ Or rather, it's DNA
 ---
 # _Agenda_
 
-- The _History_ of **_Elixir_**
-- _Syntax_ Crash Course
-- _Design_ Aspects
+- _History_ of **_Elixir_**
+- _Introduction_ to **_Elixir_**
+- _Design Aspects_ of **_Elixir_**
 
 ^
 History: The Why
@@ -273,10 +273,37 @@ Combining:
 Ruby's Expressiveness
 Erlang's Robustness and Concurrency
 
-^
-Possible how?
-Erlang runs in a VM
+---
+## _Introduction_
+#### to
+## **_Elixir_**
 
+---
+
+<br/>
+> _Elixir_ is a dynamic, functional language designed for building scalable and maintainable applications.
+-- elixir-lang.org
+
+---
+[.text-strong: #626577, League Gothic]
+
+<br/>
+> __Elixir is a__ dynamic__, functional language designed for building scalable and maintainable applications.__
+-- elixir-lang.org
+
+^
+Strong, dynamic typing
+
+---
+[.text-strong: #626577, League Gothic]
+
+<br/>
+> __Elixir is a dynamic,__ functional __language designed for building scalable and maintainable applications.__
+-- elixir-lang.org
+
+^
+Most notable: Immutability
+We're gonna explore that in a bit
 
 ---
 # _Syntax_ Crash Course
