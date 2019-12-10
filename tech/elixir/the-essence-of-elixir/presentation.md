@@ -306,6 +306,41 @@ Most notable: Immutability
 We're gonna explore that in a bit
 
 ---
+# **_Elixir_**
+
+- _functional_ language
+- _developer_ happiness
+- _pattern_ matching
+- _syntactic_ macros
+- _Erlang_ goodness
+
+---
+# _Functional_
+# Language
+
+^
+What defines a functional programming language?
+
+^
+First-class functions? = Java
+Pure functions? != OCaml? Clojure?
+
+---
+# _Functional_ Language
+
+<br/>
+> Avoid mutation and side effects.
+-- Richard Feldmann[^1]
+
+[^1]: https://youtu.be/QyJZzq0v7Z4
+
+^
+How well does the language support this style?
+
+---
+# _Immutability_
+
+---
 # _Syntax_ Crash Course
 
 ---
@@ -362,13 +397,6 @@ Remember? Immutable data! That's why pipe is so useful
 ^
 Alternative: variables, variables, variables (which is what you see in Erlang)
 
----
-# **_Elixir_**
-
-- developer happiness
-- pattern-matching
-- syntactic macro system
-- Erlang goodness
 
 ---
 # _Developer_ Happiness
