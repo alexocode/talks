@@ -444,7 +444,7 @@ Optimizations: pointing to old data (can't change!)
 ---
 ## _Great_ Tooling
 
-- build tool `mix`
+- build tool _`mix`_
 - code formatter
 - unit testing framework
 - first-class documentation
@@ -468,8 +468,8 @@ defmodule GreetingsTest do
   use ExUnit.Case, async: true
 
   test "it greets friendly" do
-    assert Greetings.hello("Lambda Cologne") ==
-             "Hello Lambda Cologne!"
+    assert Greetings.hello("Web Engineering Düsseldorf") ==
+             "Hello Web Engineering Düsseldorf!"
   end
 end
 ```
@@ -517,8 +517,8 @@ defmodule Greetings do
 
   ## Examples
 
-      iex> Greetings.hello("Lambda Cologne")
-      "Hello Lambda Cologne!"
+      iex> Greetings.hello("Web Engineering Düsseldorf")
+      "Hello Web Engineering Düsseldorf!"
   """
   def hello(name) do
     IO.puts("Hello #{name}")
@@ -543,7 +543,13 @@ Neat but not **that** impressive
 ---
 [.hide-footer]
 
-![](images/exdoc.png)
+![fill](images/exdoc.png)
+
+^
+All published packages get their docs automatically generated that way
+
+^
+https://hexdocs.pm/
 
 ---
 ```elixir
@@ -619,10 +625,10 @@ Example: Strings
 
 ---
 ```elixir
-iex> greeting = "Hello Lambda Cologne"
+iex> greeting = "Hello Web Engineering Düsseldorf"
 iex> "Hello " <> name = greeting
 iex> name
-"Lambda Cologne"
+"Web Engineering Düsseldorf"
 ```
 
 ^
@@ -642,8 +648,8 @@ What happens when it can't match?
 
 ---
 ```elixir
-iex> "Hello " <> name = "Salut Lambda Cologne"
-** (MatchError) no match of right hand side value: "Salut Lambda Cologne"
+iex> "Hello " <> name = "Salut Web Engineering Düsseldorf"
+** (MatchError) no match of right hand side value: "Salut Web Engineering Düsseldorf"
     (stdlib) erl_eval.erl:453: :erl_eval.expr/5
     (iex) lib/iex/evaluator.ex:257: IEx.Evaluator.handle_eval/5
     (iex) lib/iex/evaluator.ex:237: IEx.Evaluator.do_eval/3
