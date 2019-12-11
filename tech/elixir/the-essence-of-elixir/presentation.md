@@ -340,63 +340,103 @@ How well does the language support this style?
 ---
 # _Immutability_
 
----
-# _Syntax_ Crash Course
-
----
-[.autoscale: true]
-[.list: alignment(left)]
-
-# _Syntax_ Crash Course - Basic Types
-
-- _List:_ `[3, 1, 4, 1, 5]`
-- _Map:_ `%{key: "value"}`
-- _Atom:_ `:an_atom`
-- _Boolean:_ `true || false`
-- _Tuple:_ `{"have some PI", 3.1415, :the_pi_is_a_lie}`
-- _Function:_ `fn x, y -> x * y end`
+^
+Absence of mutation (duh)
 
 ^
-Excluded the "obvious" stuff: numbers, strings, etc.
-
-^
-Atoms: Constants, some languages call them symbols (like Ruby) - booleans are atoms
-Useful for pattern matching
-
-^
-Functions = Anonymous functions
+Let's look at a simple example
 
 ---
-[.autoscale: true]
-[.list: alignment(left)]
+```ruby
+my_list = [1, 2, 3]
+my_list.concat([4, 5, 6])
+puts(my_list.inspect)
 
-# _Syntax_ Crash Course - Operators
 
-- _Basics:_ `+, -, *, /, ==, <, >, &&, ||`
-- _String Concatination:_ `"Hello" <> " Lambda Cologne"`
-- _List Concatination:_ `[3, 1, 4] ++ [1, 5]`
-- _Pipe:_ `[3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()`
-
----
-# _Syntax_ Crash Course - Pipe
-<br/>
-
-[.code-highlight: 1-2]
-[.code-highlight: 4-5]
-```elixir
-iex> [3, 1, 4, 1, 5] |> Enum.map(fn x -> x * 2 end) |> Enum.sum()
-28
-
-iex> Enum.sum(Enum.map([3, 1, 4, 1, 5], fn x -> x * 2 end))
-28
+=> [1, 2, 3, 4, 5, 6]
 ```
 
 ^
-Remember? Immutable data! That's why pipe is so useful
+Same piece of code in Elixir
+
+---
+```elixir
+my_list = [1, 2, 3]
+Enum.concat(my_list, [4, 5, 6])
+IO.inspect(my_list)
+
+
+=> [1, 2, 3]
+```
 
 ^
-Alternative: variables, variables, variables (which is what you see in Erlang)
+What you actually need to do
 
+---
+```elixir
+my_list = [1, 2, 3]
+my_list2 = Enum.concat(my_list, [4, 5, 6])
+IO.inspect(my_list2)
+
+
+=> [1, 2, 3, 4, 5, 6]
+```
+
+^
+Some of you might now ask themselves:
+
+---
+# But _why_?
+
+^
+Highest source of concurrency bugs?
+
+^
+Erlang highly concurrent
+Concurrency + Immutability = Perfect Match
+
+^
+There is some mutation (later!)
+
+---
+```elixir
+my_list = [1, 2, 3]
+my_list2 = Enum.concat(my_list, [4, 5, 6])
+my_list3 = Enum.concat(my_list2, [7, 8, 9])
+IO.inspect(my_list3)
+
+
+=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+^
+Variables all over the place = annoying
+
+^
+(actually what Erlang code looks like)
+
+---
+### Enter the
+## _Pipe_
+### Operator
+
+---
+```elixir
+[1, 2, 3]
+|> Enum.concat([4, 5, 6])
+|> Enum.concat([7, 8, 9])
+|> IO.inspect()
+
+
+=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+---
+## What about
+# _Performance_
+
+^
+Optimizations: pointing to old data (can't change!)
 
 ---
 # _Developer_ Happiness
