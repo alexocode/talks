@@ -1177,6 +1177,9 @@ Serice crash recovery: Supervisors
 ^
 Phoenix abstracts a **lot** of OTP stuff for you
 
+^
+Each request a process
+
 ---
 # _Summary_
 
