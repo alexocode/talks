@@ -807,9 +807,6 @@ Example: x in caller, x in macro, doesn't override
 ---
 # _Erlang_ goodness
 
-^
-What does that mean?
-
 ---
 # _BEAM_
 #### _Erlang_ VM
@@ -848,6 +845,21 @@ When message arrives (one of):
 - Send messages to other actors
 - Designate what to do with the next message = Mutate State
 
+---
+```elixir
+{:ok, process_id} = Agent.start_link(fn -> [1, 2, 3] end)
+Agent.update(process_id, fn list -> Enum.concat(list, [4, 5, 6]) end)
+my_list = Agent.get(process_id, fn list -> list end)
+IO.inspect(my_list)
+
+=> [1, 2, 3, 4, 5, 6]
+```
+
+^
+Agent = simple process keeping state
+
+^
+Ignore `start_link`, we'll explore it later
 
 ---
 ```erlang
