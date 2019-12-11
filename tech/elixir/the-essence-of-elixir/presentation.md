@@ -1193,9 +1193,11 @@ Phoenix abstracts a **lot** of OTP stuff for you
 Erlang/OTP: easily build resilient systems
 
 ---
-# _Further_ Reading
+# _Further_ Reading[^3]
 
-TODO: ADD
+![inline](images/reading/all.png)
+
+[^3]: https://elixir-lang.org/learning.html
 
 ---
 ## _Thank you_
