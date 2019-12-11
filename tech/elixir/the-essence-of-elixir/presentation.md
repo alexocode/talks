@@ -568,19 +568,16 @@ end
 ---
 # And _more_ ...
 
-- Powerful interactive console (`iex`)
-- "Batteries included" web framework (Phoenix)
-- A bunch more neat Erlang/OTP things:
+- Powerful interactive console (_`iex`_)
+- "Batteries included" web framework (_Phoenix_)
+- A bunch more neat _Erlang/OTP_ things:
 - Supervision trees, observer, remote debugging, hot code upgrades ...
 
 ^
 iex: Auto-complete, great data inspection, docs, command history etc.
 
 ^
-Phoenix: We're gonna hear a bit more about this from Peter, I think
-
-^
-Erlang/OTP: Later
+Erlang/OTP: Later (but not everything)
 
 ---
 # _Pattern_
@@ -660,7 +657,7 @@ iex> "Hello " <> name = "Salut Web Engineering Düsseldorf"
 
 ---
 ## _Pattern_ Matching
-## is everywhere
+## is _everywhere_
 
 ---
 ```elixir
