@@ -794,6 +794,9 @@ iex> MimeType.to_extension("application/applixware")
 "aw"
 ```
 
+^
+Other examples: Phoenix tlmplates => inlined
+
 ---
 ## **_Elixir_** Macros
 ## are _hygenic_
@@ -1134,6 +1137,20 @@ end
 - _`GenStage`_ - exchange events with back-pressure between producer and consumer processes
 
 ---
+[.background-color: #ffffff]
+
+# Scaling down with Erlang
+
+![inline](images/erlang-all-the-things.jpeg)
+
+^
+HTTP Server: Cowboy
+Server-wide state: ETS / Mnesia / Process
+Persistable data: Mnesia (semi serious)
+Background jobs: Processes
+Serice crash recovery: Supervisors
+
+---
 # There's _more_ ...
 
 - remote debugging
@@ -1141,6 +1158,24 @@ end
 - hot code upgrades (upgrade while running)
 - great support for metrics and introspection
 - ...
+
+---
+## A lot of
+# _stuff_?
+
+---
+### No need to know
+## _everything_
+### from the start!
+
+---
+[.hide-footer]
+[.background-color: #ffffff]
+
+![inline](images/phoenix.png)
+
+^
+Phoenix abstracts a **lot** of OTP stuff for you
 
 ---
 # _Summary_
