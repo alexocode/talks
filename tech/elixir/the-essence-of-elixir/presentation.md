@@ -742,17 +742,19 @@ end
 
 ---
 ```elixir
-iex> import Conditional
-iex> if true do
-...>   "dis is true"
-...> else
-...>   "dis is false"
-...> end
-"dis is true"
+import Conditional
+if Date.utc_today() == ~D[2019-12-12] do
+  IO.puts("Meetup time!")
+else
+  IO.puts("No meetup :("))
+end
+
+=> Meetup time!
 ```
 
 ^
 Elixir has an `if` and it's a macro
+as is the pipe operator
 
 ---
 ```
