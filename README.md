@@ -23,6 +23,7 @@ Each talk follows this basic file and structure:
 - [Beyond the Single Page Application](tech/elixir/phoenix-live-view)
 - [ESpec](tech/elixir/espec)
 - [Getting started with Elixir](tech/elixir/getting-started-with-elixir)
+- [The Essence of Elixir](tech/elixir/the-essence-of-elixir)
 - [Tracing in Elixir](tech/elixir/tracing-in-elixir)
 
 ### [Quality](tech/quality)
