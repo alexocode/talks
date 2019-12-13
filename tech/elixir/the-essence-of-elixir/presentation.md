@@ -78,9 +78,6 @@ and a guy named ...
 # José _Valim_
 
 ^
-starts to work on a side-project ... a new language called Elixir
-
-^
 Well-known Rubyist
 
 ---
@@ -104,7 +101,8 @@ He became frustrated with Rubys approach to ...
 # _Concurrency_
 
 ^
-Why? CPUs don't get much faster, instead multiple CPUs
+CPUs used to get faster, they don't do anymore
+Instead: multiple CPUs
 
 ---
 ![](images/lookout.gif)
@@ -121,7 +119,7 @@ Compared different concurreny models
 ## _telephony switches_
 
 ^
-People behind it ...
+People behind it (so you've heard their names)
 
 ---
 
@@ -139,14 +137,11 @@ Looking for a better way to build ...
 - High-availability
 
 ^
+Similar to todays requirements for bigger systems
+
+^
 Looked at a bunch of languages (Lisp, Prolog, Smalltalk)
 Nothing quite right
-
-^
-Ancient?
-
-^
-Inspired by them, they created Erlang
 
 ---
 ## Work on
@@ -175,10 +170,7 @@ More realistic:
 5-6 9s (< 5m)
 
 ^
-(We will explore later how!)
-
-^
-Huge success, impressive as hell!
+In this talk we will explore how!
 
 ^
 BUT ...
@@ -195,9 +187,6 @@ hello(Name) ->
 ^
 Syntax: Prolog-inspired
 Old language which you notice
-
-^
-Not a bad language, but takes some getting used to
 
 ^
 José saw all that goodness!
@@ -222,26 +211,11 @@ But how?
 Well, Erlang is a compiled language
 
 ---
-```erlang
--module(greetings).
--export([hello/1]).
-
-hello(Name) ->
-    io:format("Hello ~s~n", [Name]).
-```
-
-^
-This compiles to Bytecode which runs on the ...
-
----
 # _BEAM_
 #### _Erlang_ VM
 
 ^
 A VM; just like the JVM
-
-^
-All the cool concurrency stuff happens here!
 
 ^
 And THIS (Erlang)
@@ -309,23 +283,6 @@ Strong, dynamic typing
 -- elixir-lang.org
 
 ^
-Most notable: Immutability
-We're gonna explore that in a bit
-
----
-# **_Elixir_**
-
-- _functional_ language
-- _developer_ happiness
-- _pattern_ matching
-- _syntactic_ macros
-- _Erlang_ goodness
-
----
-# _Functional_
-# Language
-
-^
 What defines a functional programming language?
 
 ^
@@ -344,11 +301,11 @@ Pure functions? != OCaml? Clojure?
 ^
 How well does the language support this style?
 
+^
+How to avoid mutation?
+
 ---
 # _Immutability_
-
-^
-Absence of mutation (duh)
 
 ^
 Let's look at a simple example
@@ -446,22 +403,51 @@ Variables all over the place = annoying
 Optimizations: pointing to old data (can't change!)
 
 ---
+# _Syntax_?
+
+^
+I had some more slides but BORING
+
+^
+Stop me immediately when some language construct is unfamiliar! I'll explain
+
+---
+## _Design Aspects_
+### of
+## _**Elixir**_
+
+---
+# _Design Aspects_
+
+- _functional_ language
+- _developer_ happiness
+- _pattern_ matching
+- _syntactic_ macros
+- _Erlang_ goodness
+
+^
+We already covered "functional"
+
+---
 # _Developer_ Happiness
 
 ---
+[.autoscale: true]
+
 ## _Great_ Tooling
 
 - build tool _`mix`_
 - code formatter
+- interactive console (_`iex`_)
 - unit testing framework
 - first-class documentation
-- and more ...
 
 ^
 All maintained by the core team
 
 ^
 Not gonna talk about `mix` and formatter
+iex: Auto-complete, great data inspection, docs, command history etc.
 
 ---
 ## Unit Testing Framework
@@ -503,7 +489,8 @@ Tells us about the code, the left value, the right value etc.
 Syntactic Macro System - `assert` is a macro
 
 ---
-## First-Class _Documentation_
+# First-Class
+# _Documentation_
 
 ^
 Okay, what does that mean?
@@ -518,17 +505,17 @@ Elixir takes good docs seriously
 
 ---
 ```elixir
-defmodule Greetings do
+defmodule greetings do
   @doc """
-  Prints a friendly greeting.
+  prints a friendly greeting.
 
-  ## Examples
+  ## examples
 
-      iex> Greetings.hello("Web Engineering Düsseldorf")
-      "Hello Web Engineering Düsseldorf!"
+      iex> greetings.hello("web engineering düsseldorf")
+      "hello web engineering düsseldorf!"
   """
   def hello(name) do
-    IO.puts("Hello #{name}")
+    io.puts("hello #{name}")
   end
 end
 ```
@@ -538,6 +525,9 @@ First: docs are **not** comments
 
 ^
 `@doc` is a **module attribute**; basically a module-level constant
+
+^
+Can be accessed easily
 
 ---
 [.background-color: #191918]
@@ -554,9 +544,26 @@ Neat but not **that** impressive
 
 ^
 All published packages get their docs automatically generated that way
-
-^
 https://hexdocs.pm/
+
+---
+[.code-highlight: all]
+[.code-highlight: 7-8]
+```elixir
+defmodule Greetings do
+  @doc """
+  prints a friendly greeting.
+
+  ## Examples
+
+      iex> greetings.hello("web engineering düsseldorf")
+      "hello web engineering düsseldorf!"
+  """
+  def hello(name) do
+    Io.puts("hello #{name}")
+  end
+end
+```
 
 ---
 ```elixir
@@ -571,20 +578,6 @@ end
 [.background-color: #191918]
 
 ![inline](images/exunit-doctest-test-failure.png)
-
----
-# And _more_ ...
-
-- Powerful interactive console (_`iex`_)
-- "Batteries included" web framework (_Phoenix_)
-- A bunch more neat _Erlang/OTP_ things:
-- Supervision trees, observer, remote debugging, hot code upgrades ...
-
-^
-iex: Auto-complete, great data inspection, docs, command history etc.
-
-^
-Erlang/OTP: Later (but not everything)
 
 ---
 # _Pattern_
@@ -673,8 +666,8 @@ defmodule Greetings do
     hello("anonymous")
   end
 
-  def hello("Lambda " <> city) do
-    hello("FP-Enthusiast from #{city}")
+  def hello("Web Engineering " <> city) do
+    hello("Web Folks from #{city}")
   end
 
   def hello(name) do
