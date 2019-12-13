@@ -1313,6 +1313,14 @@ Ecosystem: REPOS -> 20k Erlang, 36k Elixir, 1.5mi Ruby
 Hiring: Not many Elixir developers, but it's easy enough to pick up
 
 ---
+# Raw _Speed_
+
+> "Performance" isn’t a good reason to choose @elixirphoenix.
+>
+> "I don’t have to use caching for sub 200ms responses" is a _very_ good reason.
+-- Devon C. Estes (@devoncestes)
+
+---
 # _Summary_
 
 ---
