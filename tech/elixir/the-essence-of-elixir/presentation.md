@@ -30,6 +30,7 @@ Or rather, it's DNA
 - _History_ of **_Elixir_**
 - _Introduction_ to **_Elixir_**
 - _Design Aspects_ of **_Elixir_**
+- _Disadvantages_ of **_Elixir_**
 
 ^
 History: The Why
@@ -973,6 +974,9 @@ When message arrives (one of):
 # _Process_
 #### Actor
 
+^
+Not OS level process but a lot more lightweight
+
 ---
 ```elixir
 pid = spawn(fn ->
@@ -1020,12 +1024,19 @@ Example:
 What would be tasks?
 
 ---
+[.text-strong: #1F223D, League Gothic]
+
 # _Database_ Connection
 <br/>
 
 - establish a connection
-- do some work*
+- run a query__*__
 - disconnect
+
+^
+INIT: establish a connection
+SYNC: run a query*
+ASYNC: disconnect
 
 ---
 [.build-lists: false]
@@ -1036,20 +1047,17 @@ What would be tasks?
 - establish a connection
 - run a query*
 - disconnect
-<br/>
 
-<sup>* Usually you would have some kind of checkout/checkin mechanism</sup>
-
-^
-INIT: establish a connection
-SYNC: run a query*
-ASYNC: disconnect
+<br/><sup>* Usually you would have some kind of checkout/checkin mechanism</sup>
 
 ^
 OTP Abstraction:
 
 ---
 # _Gen_Server
+
+^
+Name is fitting
 
 ---
 [.code-highlight: all]
@@ -1235,11 +1243,12 @@ end
 - _`GenStage`_ - exchange events with back-pressure between producer and consumer processes
 
 ---
+[.hide-footer]
 [.background-color: #ffffff]
 
 # Scaling down with Erlang
 
-![inline](images/erlang-all-the-things.jpeg)
+![inline](images/erlang-all-the-things.png)
 
 ^
 HTTP Server: Cowboy
