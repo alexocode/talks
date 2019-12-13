@@ -699,7 +699,6 @@ Q: Who knows what that is?
 Q2: Who knows what macros are?
 
 ---
-
 ### Transform the
 # _AST_
 #### _A_bstract _S_yntax _T_ree
@@ -711,8 +710,58 @@ C-Macros: Fancy string replacement
 Languages: Lisp (most well-known), Rust, Elixir, and more
 Lisp: Basically write the AST directly
 
+---
+```elixir
+iex> quote do
+...>   IO.puts("Hello " <> name)
+...> end
+{{:., [], [{:__aliases__, [alias: false], [:IO]}, :puts]}, [],
+ [{:<>, [context: Elixir, import: Kernel], ["Hello ", {:name, [], Elixir}]}]}
+```
+
 ^
-Why is that cool?
+Elixir code represented as Elixir data structures
+
+^
+Let's unwrap this
+
+---
+[.code-highlight: all]
+[.code-highlight: 2]
+[.code-highlight: 3]
+[.code-highlight: 4]
+```elixir
+{
+  :my_function, # Function name
+  [], # Context (import, alias, line number, etc.)
+  ["argument1", :argument2, 42] # Arguments
+}
+```
+
+^
+With that new knowledge let's look at the previous pattern again
+
+---
+```elixir
+{
+  {
+    :.,
+    [],
+    [
+      {:__aliases__, [alias: false], [:IO]},
+      :puts
+    ]
+  },
+  [],
+  [
+    {
+      :<>,
+      [context: Elixir, import: Kernel],
+      ["Hello ", {:name, [], Elixir}]
+    }
+  ]
+}
+```
 
 ---
 ### Use the
@@ -795,7 +844,7 @@ iex> MimeType.to_extension("application/applixware")
 ```
 
 ^
-Other examples: Phoenix tlmplates => inlined
+Other examples: Phoenix templates => inlined
 
 ---
 ## **_Elixir_** Macros
@@ -806,6 +855,38 @@ Hygenic: Variables declared in Macros don't pollute the caller context
 
 ^
 Example: x in caller, x in macro, doesn't override
+
+---
+```elixir
+defmodule MyMacros do
+  def define_x(value) do
+    quote do
+      x = unquote(value)
+    end
+  end
+end
+
+iex> import MyMacros
+iex> x = 42
+iex> define_x(1337) # x = 1337
+iex> IO.puts(x)
+
+=> 42
+```
+
+^
+Macros are very powerful, but ...
+
+---
+[.hide-footer]
+
+![](images/great-power.gif)
+
+^
+The Community agrees: Use Macros sparingly
+
+^
+They can make code imcomprehensible
 
 ---
 # _Erlang_ goodness
