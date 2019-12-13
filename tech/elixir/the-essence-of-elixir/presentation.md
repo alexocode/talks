@@ -12,6 +12,13 @@ footer: _`Sascha Wolf | 🐦 wolf4earth | saschawolf.me`_
 Or rather, it's DNA
 
 ---
+## Hey ho!
+## I'm _Sascha_
+
+^
+28, Full-Stack, FP-Fan, BetterDoc
+
+---
 ![](images/dna.jpg)
 
 [.footer: _Image by Gerd Altmann from Pixabay_]
