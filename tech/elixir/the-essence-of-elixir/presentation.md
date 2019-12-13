@@ -1248,7 +1248,9 @@ end
 
 # Scaling down with Erlang
 
-![inline](images/erlang-all-the-things.png)
+![280%](images/erlang-all-the-things.png)[^6]
+
+[^6]: https://livebook.manning.com/book/elixir-in-action-second-edition/chapter-1/43
 
 ^
 HTTP Server: Cowboy
@@ -1286,6 +1288,29 @@ Phoenix abstracts a **lot** of OTP stuff for you
 
 ^
 Each request a process
+
+---
+# _Disadvantages_
+## of
+# _**Elixir**_
+
+---
+# _Disadvantages_ of _**Elixir**_
+
+<br/>
+
+- Raw _Speed_
+- Smallish _Ecosystem_
+- Challenging _Hiring_
+
+^
+Speed: faster than Ruby, slower than C
+
+^
+Ecosystem: REPOS -> 20k Erlang, 36k Elixir, 1.5mi Ruby
+
+^
+Hiring: Not many Elixir developers, but it's easy enough to pick up
 
 ---
 # _Summary_
