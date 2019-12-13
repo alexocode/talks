@@ -132,10 +132,10 @@ People behind it (so you've heard their names)
 Looking for a better way to build ...
 
 ---
-- Distributed
-- Fault-tolerant
-- Soft real-time
-- High-availability
+- _Distributed_
+- _Fault-tolerant_
+- _Soft real-time_
+- _High-availability_
 
 ^
 Similar to todays requirements for bigger systems
@@ -438,10 +438,10 @@ We already covered "functional"
 ## _Great_ Tooling
 
 - build tool _`mix`_
-- code formatter
+- code _formatter_
 - interactive console (_`iex`_)
 - unit testing framework
-- first-class documentation
+- first-class _documentation_
 
 ^
 All maintained by the core team
@@ -657,6 +657,10 @@ iex> "Hello " <> name = "Salut Web Engineering Düsseldorf"
 ```
 
 ---
+# TODO:
+## Some more slides on Pattern Matching
+
+---
 ## _Pattern_ Matching
 ## is _everywhere_
 
@@ -724,51 +728,16 @@ iex> quote do
 Elixir code represented as Elixir data structures
 
 ^
-Let's unwrap this
-
----
-[.code-highlight: all]
-[.code-highlight: 2]
-[.code-highlight: 3]
-[.code-highlight: 4]
-```elixir
-{
-  :my_function, # Function name
-  [], # Context (import, alias, line number, etc.)
-  ["argument1", :argument2, 42] # Arguments
-}
-```
-
-^
-With that new knowledge let's look at the previous pattern again
-
----
-```elixir
-{
-  {
-    :.,
-    [],
-    [
-      {:__aliases__, [alias: false], [:IO]},
-      :puts
-    ]
-  },
-  [],
-  [
-    {
-      :<>,
-      [context: Elixir, import: Kernel],
-      ["Hello ", {:name, [], Elixir}]
-    }
-  ]
-}
-```
+Why is this cool?
 
 ---
 ### Use the
 ##_full power_
 ### of
 ## **_Elixir_**
+
+^
+Code as data structures => Manipulate it!
 
 ^
 Let's have an example ...
@@ -1029,9 +998,9 @@ What would be tasks?
 # _Database_ Connection
 <br/>
 
-- establish a connection
-- run a query__*__
-- disconnect
+- establish a _connection_
+- run a _query___*__
+- _disconnect_
 
 ^
 INIT: establish a connection
@@ -1044,9 +1013,9 @@ ASYNC: disconnect
 # _Database_ Connection
 <br/>
 
-- establish a connection
-- run a query*
-- disconnect
+- establish a _connection_
+- run a _query_*
+- _disconnect_
 
 <br/><sup>* Usually you would have some kind of checkout/checkin mechanism</sup>
 
@@ -1162,11 +1131,11 @@ __Full quote:__
 ---
 # _Examples_ of transient bugs
 
-- Network request fails
-- File IO has a hickup
-- Odd race condition
-- Weird datetime issue
-- Database goes down
+- _Network request_ fails
+- _File IO_ has a hickup
+- Odd _race condition_
+- Weird _datetime_ issue
+- _Database_j goes down
 
 ^
 And so on and so forth
@@ -1262,11 +1231,11 @@ Serice crash recovery: Supervisors
 ---
 # There's _more_ ...
 
-- remote debugging
-- built-in support for node clustering
-- hot code upgrades (upgrade while running)
-- great support for metrics and introspection
-- ...
+- remote _debugging_
+- built-in support for _node clustering_
+- _hot code upgrades_ (upgrade while running)
+- great support for _metrics_ and _introspection_
+- _..._
 
 ---
 ## A lot of
@@ -1326,14 +1295,11 @@ Hiring: Not many Elixir developers, but it's easy enough to pick up
 ---
 # **_Elixir_**
 
-- functional and dynamically typed
-- focusses on developer happiness
-- considers documentation a first-class citizen
-- provides a full syntactic macro system
+- _functional_ and _dynamically typed_
+- focusses on _developer happiness_
+- considers _documentation_ a _first-class_ citizen
+- provides a full _syntactic macro system_
 - stands on the shoulders of giants (_Erlang_/_OTP_)
-
-^
-Erlang/OTP: easily build resilient systems
 
 ---
 # _Further_ Reading[^3]
