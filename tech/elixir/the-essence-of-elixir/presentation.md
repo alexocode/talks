@@ -896,7 +896,47 @@ They can make code imcomprehensible
 #### _Erlang_ VM
 
 ^
-Concurrency: Using the ...
+First of all, you can use Erlang code from Elixir
+
+---
+# _Code_ Reuse
+
+^
+Remember the `greetings` code from earlier?
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+---
+```elixir
+defmodule Greetings do
+  def hello(name) do
+    :greetings.hello(name)
+  end
+end
+```
+
+^
+A lot of Elixirs std just delegates to Erlang
+Example: Enum.reverse
+
+^
+Not unlike the state of languages on the JVM
+
+^
+Second ...
+
+---
+# _Concurrency_
+
+^
+The BEAM is "based" on the ...
 
 ---
 # _Actor_ Model[^2]
@@ -930,45 +970,27 @@ When message arrives (one of):
 - Designate what to do with the next message = Mutate State
 
 ---
-```elixir
-{:ok, process_id} = Agent.start_link(fn -> [1, 2, 3] end)
-Agent.update(process_id, fn list -> Enum.concat(list, [4, 5, 6]) end)
-my_list = Agent.get(process_id, fn list -> list end)
-IO.inspect(my_list)
-
-=> [1, 2, 3, 4, 5, 6]
-```
-
-^
-Agent = simple process keeping state
-
-^
-Ignore `start_link`, we'll explore it later
-
----
-```erlang
--module(greetings).
--export([hello/1]).
-
-hello(Name) ->
-    io:format("Hello ~s~n", [Name]).
-```
+# _Process_
+#### Actor
 
 ---
 ```elixir
-defmodule Greetings do
-  def hello(name) do
-    :greetings.hello(name)
+pid = spawn(fn ->
+  receive do
+    {:ping, from} -> send from, :pong
   end
-end
+end)
+send pid, {:ping, self()}
+flush() # Prints all messages in the inbox
+
+=> :pong
 ```
 
 ^
-A lot of Elixirs std just delegates to Erlang
-Example: Enum.reverse
+Obviously you don't want to build everything using `spawn`
 
 ^
-Not unlike the state of languages on the JVM
+That's why Erlang ships with ...
 
 ---
 # _OTP_
@@ -983,15 +1005,10 @@ Not unlike the state of languages on the JVM
 [^3]: https://learnyousomeerlang.com/what-is-otp
 
 ^
-At the core of most Elixir applications
-Because: the basic building block is a
-
----
-# _Process_
-#### Actor
+OTP provides a framework on how to structure your processes
 
 ^
-OTP provides a framework on how to structure your processes
+At the core of most Elixir applications
 
 ^
 Example:
