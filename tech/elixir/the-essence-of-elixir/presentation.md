@@ -30,6 +30,7 @@ Or rather, it's DNA
 - _History_ of **_Elixir_**
 - _Introduction_ to **_Elixir_**
 - _Design Aspects_ of **_Elixir_**
+- _Disadvantages_ of **_Elixir_**
 
 ^
 History: The Why
@@ -78,9 +79,6 @@ and a guy named ...
 # José _Valim_
 
 ^
-starts to work on a side-project ... a new language called Elixir
-
-^
 Well-known Rubyist
 
 ---
@@ -104,7 +102,8 @@ He became frustrated with Rubys approach to ...
 # _Concurrency_
 
 ^
-Why? CPUs don't get much faster, instead multiple CPUs
+CPUs used to get faster, they don't do anymore
+Instead: multiple CPUs
 
 ---
 ![](images/lookout.gif)
@@ -121,7 +120,7 @@ Compared different concurreny models
 ## _telephony switches_
 
 ^
-People behind it ...
+People behind it (so you've heard their names)
 
 ---
 
@@ -133,20 +132,17 @@ People behind it ...
 Looking for a better way to build ...
 
 ---
-- Distributed
-- Fault-tolerant
-- Soft real-time
-- High-availability
+- _Distributed_
+- _Fault-tolerant_
+- _Soft real-time_
+- _High-availability_
+
+^
+Similar to todays requirements for bigger systems
 
 ^
 Looked at a bunch of languages (Lisp, Prolog, Smalltalk)
 Nothing quite right
-
-^
-Ancient?
-
-^
-Inspired by them, they created Erlang
 
 ---
 ## Work on
@@ -175,10 +171,7 @@ More realistic:
 5-6 9s (< 5m)
 
 ^
-(We will explore later how!)
-
-^
-Huge success, impressive as hell!
+In this talk we will explore how!
 
 ^
 BUT ...
@@ -195,9 +188,6 @@ hello(Name) ->
 ^
 Syntax: Prolog-inspired
 Old language which you notice
-
-^
-Not a bad language, but takes some getting used to
 
 ^
 José saw all that goodness!
@@ -222,26 +212,11 @@ But how?
 Well, Erlang is a compiled language
 
 ---
-```erlang
--module(greetings).
--export([hello/1]).
-
-hello(Name) ->
-    io:format("Hello ~s~n", [Name]).
-```
-
-^
-This compiles to Bytecode which runs on the ...
-
----
 # _BEAM_
 #### _Erlang_ VM
 
 ^
 A VM; just like the JVM
-
-^
-All the cool concurrency stuff happens here!
 
 ^
 And THIS (Erlang)
@@ -309,23 +284,6 @@ Strong, dynamic typing
 -- elixir-lang.org
 
 ^
-Most notable: Immutability
-We're gonna explore that in a bit
-
----
-# **_Elixir_**
-
-- _functional_ language
-- _developer_ happiness
-- _pattern_ matching
-- _syntactic_ macros
-- _Erlang_ goodness
-
----
-# _Functional_
-# Language
-
-^
 What defines a functional programming language?
 
 ^
@@ -344,11 +302,11 @@ Pure functions? != OCaml? Clojure?
 ^
 How well does the language support this style?
 
+^
+How to avoid mutation?
+
 ---
 # _Immutability_
-
-^
-Absence of mutation (duh)
 
 ^
 Let's look at a simple example
@@ -446,22 +404,51 @@ Variables all over the place = annoying
 Optimizations: pointing to old data (can't change!)
 
 ---
+# _Syntax_?
+
+^
+I had some more slides but BORING
+
+^
+Stop me immediately when some language construct is unfamiliar! I'll explain
+
+---
+## _Design Aspects_
+### of
+## _**Elixir**_
+
+---
+# _Design Aspects_
+
+- _functional_ language
+- _developer_ happiness
+- _pattern_ matching
+- _syntactic_ macros
+- _Erlang_ goodness
+
+^
+We already covered "functional"
+
+---
 # _Developer_ Happiness
 
 ---
+[.autoscale: true]
+
 ## _Great_ Tooling
 
 - build tool _`mix`_
-- code formatter
+- code _formatter_
+- interactive console (_`iex`_)
 - unit testing framework
-- first-class documentation
-- and more ...
+- first-class _documentation_
 
 ^
 All maintained by the core team
 
 ^
 Not gonna talk about `mix` and formatter
+iex: Auto-complete, great data inspection, docs, command history etc.
 
 ---
 ## Unit Testing Framework
@@ -503,7 +490,8 @@ Tells us about the code, the left value, the right value etc.
 Syntactic Macro System - `assert` is a macro
 
 ---
-## First-Class _Documentation_
+# First-Class
+# _Documentation_
 
 ^
 Okay, what does that mean?
@@ -518,17 +506,17 @@ Elixir takes good docs seriously
 
 ---
 ```elixir
-defmodule Greetings do
+defmodule greetings do
   @doc """
-  Prints a friendly greeting.
+  prints a friendly greeting.
 
-  ## Examples
+  ## examples
 
-      iex> Greetings.hello("Web Engineering Düsseldorf")
-      "Hello Web Engineering Düsseldorf!"
+      iex> greetings.hello("web engineering düsseldorf")
+      "hello web engineering düsseldorf!"
   """
   def hello(name) do
-    IO.puts("Hello #{name}")
+    io.puts("hello #{name}")
   end
 end
 ```
@@ -538,6 +526,9 @@ First: docs are **not** comments
 
 ^
 `@doc` is a **module attribute**; basically a module-level constant
+
+^
+Can be accessed easily
 
 ---
 [.background-color: #191918]
@@ -554,9 +545,26 @@ Neat but not **that** impressive
 
 ^
 All published packages get their docs automatically generated that way
-
-^
 https://hexdocs.pm/
+
+---
+[.code-highlight: all]
+[.code-highlight: 7-8]
+```elixir
+defmodule Greetings do
+  @doc """
+  prints a friendly greeting.
+
+  ## Examples
+
+      iex> greetings.hello("web engineering düsseldorf")
+      "hello web engineering düsseldorf!"
+  """
+  def hello(name) do
+    Io.puts("hello #{name}")
+  end
+end
+```
 
 ---
 ```elixir
@@ -571,20 +579,6 @@ end
 [.background-color: #191918]
 
 ![inline](images/exunit-doctest-test-failure.png)
-
----
-# And _more_ ...
-
-- Powerful interactive console (_`iex`_)
-- "Batteries included" web framework (_Phoenix_)
-- A bunch more neat _Erlang/OTP_ things:
-- Supervision trees, observer, remote debugging, hot code upgrades ...
-
-^
-iex: Auto-complete, great data inspection, docs, command history etc.
-
-^
-Erlang/OTP: Later (but not everything)
 
 ---
 # _Pattern_
@@ -663,6 +657,10 @@ iex> "Hello " <> name = "Salut Web Engineering Düsseldorf"
 ```
 
 ---
+# TODO:
+## Some more slides on Pattern Matching
+
+---
 ## _Pattern_ Matching
 ## is _everywhere_
 
@@ -673,8 +671,8 @@ defmodule Greetings do
     hello("anonymous")
   end
 
-  def hello("Lambda " <> city) do
-    hello("FP-Enthusiast from #{city}")
+  def hello("Web Engineering " <> city) do
+    hello("Web Folks from #{city}")
   end
 
   def hello(name) do
@@ -706,7 +704,6 @@ Q: Who knows what that is?
 Q2: Who knows what macros are?
 
 ---
-
 ### Transform the
 # _AST_
 #### _A_bstract _S_yntax _T_ree
@@ -718,14 +715,29 @@ C-Macros: Fancy string replacement
 Languages: Lisp (most well-known), Rust, Elixir, and more
 Lisp: Basically write the AST directly
 
+---
+```elixir
+iex> quote do
+...>   IO.puts("Hello " <> name)
+...> end
+{{:., [], [{:__aliases__, [alias: false], [:IO]}, :puts]}, [],
+ [{:<>, [context: Elixir, import: Kernel], ["Hello ", {:name, [], Elixir}]}]}
+```
+
 ^
-Why is that cool?
+Elixir code represented as Elixir data structures
+
+^
+Why is this cool?
 
 ---
 ### Use the
 ##_full power_
 ### of
 ## **_Elixir_**
+
+^
+Code as data structures => Manipulate it!
 
 ^
 Let's have an example ...
@@ -802,7 +814,7 @@ iex> MimeType.to_extension("application/applixware")
 ```
 
 ^
-Other examples: Phoenix tlmplates => inlined
+Other examples: Phoenix templates => inlined
 
 ---
 ## **_Elixir_** Macros
@@ -815,6 +827,38 @@ Hygenic: Variables declared in Macros don't pollute the caller context
 Example: x in caller, x in macro, doesn't override
 
 ---
+```elixir
+defmodule MyMacros do
+  def define_x(value) do
+    quote do
+      x = unquote(value)
+    end
+  end
+end
+
+iex> import MyMacros
+iex> x = 42
+iex> define_x(1337) # x = 1337
+iex> IO.puts(x)
+
+=> 42
+```
+
+^
+Macros are very powerful, but ...
+
+---
+[.hide-footer]
+
+![](images/great-power.gif)
+
+^
+The Community agrees: Use Macros sparingly
+
+^
+They can make code imcomprehensible
+
+---
 # _Erlang_ goodness
 
 ---
@@ -822,7 +866,47 @@ Example: x in caller, x in macro, doesn't override
 #### _Erlang_ VM
 
 ^
-Concurrency: Using the ...
+First of all, you can use Erlang code from Elixir
+
+---
+# _Code_ Reuse
+
+^
+Remember the `greetings` code from earlier?
+
+---
+```erlang
+-module(greetings).
+-export([hello/1]).
+
+hello(Name) ->
+    io:format("Hello ~s~n", [Name]).
+```
+
+---
+```elixir
+defmodule Greetings do
+  def hello(name) do
+    :greetings.hello(name)
+  end
+end
+```
+
+^
+A lot of Elixirs std just delegates to Erlang
+Example: Enum.reverse
+
+^
+Not unlike the state of languages on the JVM
+
+^
+Second ...
+
+---
+# _Concurrency_
+
+^
+The BEAM is "based" on the ...
 
 ---
 # _Actor_ Model[^2]
@@ -856,45 +940,30 @@ When message arrives (one of):
 - Designate what to do with the next message = Mutate State
 
 ---
-```elixir
-{:ok, process_id} = Agent.start_link(fn -> [1, 2, 3] end)
-Agent.update(process_id, fn list -> Enum.concat(list, [4, 5, 6]) end)
-my_list = Agent.get(process_id, fn list -> list end)
-IO.inspect(my_list)
-
-=> [1, 2, 3, 4, 5, 6]
-```
+# _Process_
+#### Actor
 
 ^
-Agent = simple process keeping state
-
-^
-Ignore `start_link`, we'll explore it later
-
----
-```erlang
--module(greetings).
--export([hello/1]).
-
-hello(Name) ->
-    io:format("Hello ~s~n", [Name]).
-```
+Not OS level process but a lot more lightweight
 
 ---
 ```elixir
-defmodule Greetings do
-  def hello(name) do
-    :greetings.hello(name)
+pid = spawn(fn ->
+  receive do
+    {:ping, from} -> send from, :pong
   end
-end
+end)
+send pid, {:ping, self()}
+flush() # Prints all messages in the inbox
+
+=> :pong
 ```
 
 ^
-A lot of Elixirs std just delegates to Erlang
-Example: Enum.reverse
+Obviously you don't want to build everything using `spawn`
 
 ^
-Not unlike the state of languages on the JVM
+That's why Erlang ships with ...
 
 ---
 # _OTP_
@@ -909,15 +978,10 @@ Not unlike the state of languages on the JVM
 [^3]: https://learnyousomeerlang.com/what-is-otp
 
 ^
-At the core of most Elixir applications
-Because: the basic building block is a
-
----
-# _Process_
-#### Actor
+OTP provides a framework on how to structure your processes
 
 ^
-OTP provides a framework on how to structure your processes
+At the core of most Elixir applications
 
 ^
 Example:
@@ -929,12 +993,19 @@ Example:
 What would be tasks?
 
 ---
+[.text-strong: #1F223D, League Gothic]
+
 # _Database_ Connection
 <br/>
 
-- establish a connection
-- do some work*
-- disconnect
+- establish a _connection_
+- run a _query___*__
+- _disconnect_
+
+^
+INIT: establish a connection
+SYNC: run a query*
+ASYNC: disconnect
 
 ---
 [.build-lists: false]
@@ -942,23 +1013,20 @@ What would be tasks?
 # _Database_ Connection
 <br/>
 
-- establish a connection
-- run a query*
-- disconnect
-<br/>
+- establish a _connection_
+- run a _query_*
+- _disconnect_
 
-<sup>* Usually you would have some kind of checkout/checkin mechanism</sup>
-
-^
-INIT: establish a connection
-SYNC: run a query*
-ASYNC: disconnect
+<br/><sup>* Usually you would have some kind of checkout/checkin mechanism</sup>
 
 ^
 OTP Abstraction:
 
 ---
 # _Gen_Server
+
+^
+Name is fitting
 
 ---
 [.code-highlight: all]
@@ -1063,11 +1131,11 @@ __Full quote:__
 ---
 # _Examples_ of transient bugs
 
-- Network request fails
-- File IO has a hickup
-- Odd race condition
-- Weird datetime issue
-- Database goes down
+- _Network request_ fails
+- _File IO_ has a hickup
+- Odd _race condition_
+- Weird _datetime_ issue
+- _Database_j goes down
 
 ^
 And so on and so forth
@@ -1144,11 +1212,14 @@ end
 - _`GenStage`_ - exchange events with back-pressure between producer and consumer processes
 
 ---
+[.hide-footer]
 [.background-color: #ffffff]
 
 # Scaling down with Erlang
 
-![inline](images/erlang-all-the-things.jpeg)
+![280%](images/erlang-all-the-things.png)[^6]
+
+[^6]: https://livebook.manning.com/book/elixir-in-action-second-edition/chapter-1/43
 
 ^
 HTTP Server: Cowboy
@@ -1160,11 +1231,11 @@ Serice crash recovery: Supervisors
 ---
 # There's _more_ ...
 
-- remote debugging
-- built-in support for node clustering
-- hot code upgrades (upgrade while running)
-- great support for metrics and introspection
-- ...
+- remote _debugging_
+- built-in support for _node clustering_
+- _hot code upgrades_ (upgrade while running)
+- great support for _metrics_ and _introspection_
+- _..._
 
 ---
 ## A lot of
@@ -1188,19 +1259,47 @@ Phoenix abstracts a **lot** of OTP stuff for you
 Each request a process
 
 ---
+# _Disadvantages_
+## of
+# _**Elixir**_
+
+---
+# _Disadvantages_ of _**Elixir**_
+
+<br/>
+
+- Raw _Speed_
+- Smallish _Ecosystem_
+- Challenging _Hiring_
+
+^
+Speed: faster than Ruby, slower than C
+
+^
+Ecosystem: REPOS -> 20k Erlang, 36k Elixir, 1.5mi Ruby
+
+^
+Hiring: Not many Elixir developers, but it's easy enough to pick up
+
+---
+# Raw _Speed_
+
+> "Performance" isn’t a good reason to choose @elixirphoenix.
+>
+> "I don’t have to use caching for sub 200ms responses" is a _very_ good reason.
+-- Devon C. Estes (@devoncestes)
+
+---
 # _Summary_
 
 ---
 # **_Elixir_**
 
-- functional and dynamically typed
-- focusses on developer happiness
-- considers documentation a first-class citizen
-- provides a full syntactic macro system
+- _functional_ and _dynamically typed_
+- focusses on _developer happiness_
+- considers _documentation_ a _first-class_ citizen
+- provides a full _syntactic macro system_
 - stands on the shoulders of giants (_Erlang_/_OTP_)
-
-^
-Erlang/OTP: easily build resilient systems
 
 ---
 # _Further_ Reading[^3]

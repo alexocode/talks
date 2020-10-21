@@ -1,6 +1,6 @@
 # Talks
 
-This repository contains all presentations I've prepared for various talks in my free time. The slides are written in Markdown using [Sublime Text][sublime-text] and rendered via [Deckset][deckset].
+This repository contains all presentations I've prepared for various talks in my free time. The slides are written in Markdown using [Visual Studio Code][vscode] and rendered via [Deckset][deckset].
 
 Each talk follows this basic file and structure:
 
@@ -36,4 +36,4 @@ Each talk follows this basic file and structure:
 
 [asciinema]: https://asciinema.org/
 [deckset]: https://www.decksetapp.com/
-[sublime-text]: https://www.sublimetext.com/
+[vscode]: https://code.visualstudio.com/
