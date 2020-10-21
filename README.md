@@ -5,7 +5,6 @@ This repository contains all presentations I've prepared for various talks in my
 Each talk follows this basic file and structure:
 
 - `<talk-name>.md` the "raw" markdown for the slides
-- `build/` exported PDFs via [Deckset][deckset]
 - `examples/` any examples used in the talk, e.g. recorded via [`asciinema`][asciinema]
 - `images/` any images used in the talks
 
