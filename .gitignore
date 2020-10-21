@@ -1,4 +1,7 @@
 .DS_Store
 
+# Do not keep large PDF files in the history
+*.pdf
+
 # Sublime
 *.sublime-workspace
