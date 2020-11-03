@@ -9,7 +9,7 @@ Each talk follows this basic file and structure:
 - `images/` any images used in the talks
 
 ## [Social](social)
-- [Compassionate Coding](social/compassionate-coding)
+- [Being more Humane in tech](social/being-more-humane-in-tech)
 - [What Roleplaying Games can teach us about Collaboration](social/roleplaying-games-and-collaboration)
 - [You Know Nothing ... or do you?](social/you-know-nothing)
 
