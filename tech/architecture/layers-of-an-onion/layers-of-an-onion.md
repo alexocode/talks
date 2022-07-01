@@ -1,6 +1,13 @@
-theme: Poster, 1
+theme: Scherzkeks, 7
 
-# [fit] Template
+# Layers
+## of an
+# *Onion*
+
+![](images/onion.jpg)
+
+---
+![inline](images/diagrams/01-app.png)
 
 ---
 [.autoscale: true]
