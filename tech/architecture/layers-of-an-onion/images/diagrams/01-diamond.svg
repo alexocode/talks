@@ -1,0 +1,212 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.177578634396 515.1522557463497"
+  width="595.177578634396" height="515.1522557463497">
+  <!-- svg-source:excalidraw -->
+
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="595.177578634396" height="515.1522557463497" fill="#ffffff"></rect>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(307.7338801522984 398.56614055838793) rotate(355.0036520269547 -68.21978912692515 -82.68966105660422)">
+      <path
+        d="M-0.8 -0.86 C-23.64 -28.5, -113.97 -139.35, -136.31 -166.69 M0.99 1.31 C-22.11 -26.11, -114.76 -137.51, -137.43 -165.51"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(274.997449184787 216.19044268174662) rotate(355.0036520269547 15.904270741594928 89.3223574160505)">
+      <path d="M-0.86 -0.31 C4.34 29.85, 24.82 150.41, 30.31 180.17 M0.89 -1.52 C6.56 28.4, 27.5 148.54, 32.67 178.66"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(375.99517151556483 215.7405573076088) rotate(355.0036520269547 -33.72166861247274 86.70885027982291)">
+      <path
+        d="M-0.31 -0.69 C-11.65 28.47, -57.09 145.28, -68.83 174.1 M1.72 1.57 C-9.6 30.49, -57.51 143.97, -69.17 172.56"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(459.6093813515481 231.95843766433876) rotate(355.0036520269547 -74.05509541975334 75.56899308638646)">
+      <path
+        d="M-0.69 1.17 C-25.36 26.1, -123.88 124.34, -148.9 149.26 M1.16 0.74 C-23.5 25.83, -124.36 125.74, -149.27 150.4"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(267.8338792612209 212.8470013502162) rotate(355.0036520269547 51.078291791379456 1.2877418960910063)">
+      <path d="M1.17 1.1 C17.81 1.35, 82.88 0.7, 99.51 0.81 M0.32 0.64 C17.37 1.08, 85.13 1.52, 101.83 1.94"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(368.9472474985964 206.3193149413645) rotate(355.0036520269547 43.378552745413 12.469615199789416)">
+      <path d="M1.1 -0.74 C15.26 3.34, 70.22 21.29, 84.23 25.68 M0.22 1.48 C14.82 5.73, 72.49 20.23, 86.53 23.92"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(266.1596200953603 221.15116242771495) rotate(355.0036520269547 -49.9872607656568 7.15179485905918)">
+      <path
+        d="M-0.74 -0.77 C-17.68 1.29, -83.83 10.94, -100.45 13.45 M1.06 1.44 C-16.07 4.23, -84.04 13.23, -101.04 15.08"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(165.16319961549846 232.45143950333284) rotate(355.0036520269547 48.29937165584414 -37.723916299184765)">
+      <path d="M-0.77 0.68 C15.27 -11.58, 80.87 -61.68, 97.37 -74.35 M1.02 0 C16.83 -12.55, 80.34 -63.77, 96.51 -76.13"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(405.8054243272845 144.7335713089119) rotate(355.0036520269547 23.279354877909554 41.09931157649493)">
+      <path d="M0.68 0.16 C8.64 14.12, 39.42 69.21, 46.97 83 M-0.42 -0.8 C7.5 12.92, 38.78 67.78, 46.36 81.42"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(266.4938428768771 215.65233331619567) rotate(355.0036520269547 12.91312444205397 -30.84542746283114)">
+      <path d="M0.16 0.64 C4.8 -9.86, 22.58 -51.92, 27.04 -62.33 M-1.21 -0.07 C3.43 -10.46, 21.99 -50.91, 26.63 -60.97"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(366.2250480826633 211.66518121154456) rotate(355.0036520269547 -6.906471434775767 -32.85262805974111)">
+      <path
+        d="M0.64 1.04 C-1.7 -9.84, -11.09 -53.73, -13.33 -65.09 M-0.48 0.53 C-3.06 -10.68, -12.29 -55.58, -14.45 -66.74"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(401.4970826027302 150.24331558640483) rotate(355.0036520269547 -26.765363417165418 -3.5742582652717942)">
+      <path d="M1.04 -0.33 C-8.01 -1.57, -44.56 -5.6, -54.09 -6.82 M0.12 -1.55 C-9.01 -2.63, -45.57 -4.34, -54.57 -5.18"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(347.36838475806235 148.01571453442807) rotate(355.0036520269547 -27.486835951022783 -0.12072293423113933)">
+      <path d="M-0.33 0.91 C-9.74 0.54, -46.44 -1.07, -55.82 -1.15 M1.7 0.34 C-7.91 0.59, -46.77 0.12, -56.67 -0.21"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g
+      transform="translate(291.49481029911806 151.73150101131773) rotate(355.0036520269547 -14.12072293423114 -1.2167582724243289)">
+      <path d="M0.91 0.18 C-4.12 -0.2, -24.41 -2.28, -29.15 -2.62 M-0.08 -0.77 C-4.85 -0.97, -22.38 -1.46, -27.04 -1.4"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(464.5406352248042 157.6029365275055) rotate(0 30.229682387597904 -27.301468263752753)">
+      <path d="M0 0 C10.08 -9.1, 50.38 -45.5, 60.46 -54.6 M0 0 C10.08 -9.1, 50.38 -45.5, 60.46 -54.6" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(481 208) rotate(0 49.5 -17)">
+      <path d="M0 0 C16.5 -5.67, 82.5 -28.33, 99 -34 M0 0 C16.5 -5.67, 82.5 -28.33, 99 -34" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(500 257) rotate(0 42.58878931719801 17.465052602067573)">
+      <path d="M0 0 C14.2 5.82, 70.98 29.11, 85.18 34.93 M0 0 C14.2 5.82, 70.98 29.11, 85.18 34.93" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(435 373) rotate(0 26 35)">
+      <path d="M0 0 C8.67 11.67, 43.33 58.33, 52 70 M0 0 C8.67 11.67, 43.33 58.33, 52 70" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(372 410) rotate(0 17.765854327194347 40.85422800052913)">
+      <path d="M0 0 C5.92 13.62, 29.61 68.09, 35.53 81.71 M0 0 C5.92 13.62, 29.61 68.09, 35.53 81.71" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(289 425) rotate(0 -14.812541747475052 40.07612787317487)">
+      <path d="M0 0 C-4.94 13.36, -24.69 66.79, -29.63 80.15 M0 0 C-4.94 13.36, -24.69 66.79, -29.63 80.15"
+        stroke="#000000" stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(226 389) rotate(0 -35 35)">
+      <path d="M0 0 C-11.67 11.67, -58.33 58.33, -70 70 M0 0 C-11.67 11.67, -58.33 58.33, -70 70" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(183 338) rotate(0 -51.5 29)">
+      <path d="M0 0 C-17.17 9.67, -85.83 48.33, -103 58 M0 0 C-17.17 9.67, -85.83 48.33, -103 58" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(110 294) rotate(0 -50 4)">
+      <path d="M0 0 C-16.67 1.33, -83.33 6.67, -100 8 M0 0 C-16.67 1.33, -83.33 6.67, -100 8" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(125 200) rotate(0 -41 -14.5)">
+      <path d="M0 0 C-13.67 -4.83, -68.33 -24.17, -82 -29 M0 0 C-13.67 -4.83, -68.33 -24.17, -82 -29" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(171 143) rotate(0 -36 -33)">
+      <path d="M0 0 C-12 -11, -60 -55, -72 -66 M0 0 C-12 -11, -60 -55, -72 -66" stroke="#000000" stroke-width="1"
+        fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(224 109) rotate(0 -10 -29.5)">
+      <path d="M0 0 C-3.33 -9.83, -16.67 -49.17, -20 -59 M0 0 C-3.33 -9.83, -16.67 -49.17, -20 -59" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(296 98) rotate(0 2 -44)">
+      <path d="M0 0 C0.67 -14.67, 3.33 -73.33, 4 -88 M0 0 C0.67 -14.67, 3.33 -73.33, 4 -88" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(386 97) rotate(0 19.5 -38)">
+      <path d="M0 0 C6.5 -12.67, 32.5 -63.33, 39 -76 M0 0 C6.5 -12.67, 32.5 -63.33, 39 -76" stroke="#000000"
+        stroke-width="1" fill="none"></path>
+    </g>
+  </g>
+  <g stroke-linecap="round">
+    <g transform="translate(479 326) rotate(0 40.5 26.5)">
+      <path d="M0 0 C13.5 8.83, 67.5 44.17, 81 53 M0 0 C13.5 8.83, 67.5 44.17, 81 53" stroke="#000000" stroke-width="1"
+        fill="none"></path>
+    </g>
+  </g>
+</svg>

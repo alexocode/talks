@@ -7,7 +7,31 @@ theme: Scherzkeks, 7
 ![](images/onion.jpg)
 
 ---
+![inline](images/diagrams/01-alex.svg)
+
+---
+![inline](images/diagrams/01-diamond.svg)
+
+---
 ![inline](images/diagrams/01-app.png)
+
+---
+![inline](images/diagrams/02-app.png)
+
+---
+![inline](images/diagrams/03-app.png)
+
+---
+![inline](images/diagrams/04-app.png)
+
+---
+![inline](images/diagrams/05-app.png)
+
+---
+![inline](images/diagrams/01-diamond.png)
+
+---
+![inline](images/diagrams/02-alex.svg)
 
 ---
 [.autoscale: true]
