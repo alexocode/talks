@@ -9,69 +9,168 @@ theme: Scherzkeks, 7
 ---
 ![inline](images/diagrams/01-alex.svg)
 
+^
+This is Alex
+
 ---
 ![inline](images/diagrams/01-diamond.svg)
+
+^
+Alex has a great idea for an app
 
 ---
 ![inline](images/diagrams/01-app.png)
 
+^
+Needs app
+
 ---
 ![inline](images/diagrams/02-app.png)
+
+^
+Needs browser functionality
 
 ---
 ![inline](images/diagrams/03-app.png)
 
+^
+Needs message sending
+
 ---
 ![inline](images/diagrams/04-app.png)
+
+^
+Needs to save stuff in DB
 
 ---
 ![inline](images/diagrams/05-app.png)
 
----
-![inline](images/diagrams/01-diamond.png)
+^
+First prototype no problem!
+
+^
+- Some in API controllers
+- Some in message sending
+- Some in browser rendering
+
+^
+- Some messages as push?
+- More features in browser? Reuse API?
+- External service wants to trigger things!
 
 ---
 ![inline](images/diagrams/02-alex.svg)
 
----
-[.autoscale: true]
+^
+AAAAAAAAAAAAAAH
 
-# Hero's Journey
-
-1. The journey begins with the introduction of the Heroes in the Ordinary World, where
-2. they are presented with the Call to Adventure.
-3. Their initial reluctance may lead to Refusal of the Call, but they
-4. receive encouragement from a Mentor to
-5. cross over the Threshold and gain entry into the Special World.
-6. There, they encounter Tests, Allies, and Enemies.
-7. They Approach the Inmost Cave where
-8. they must endure an Ordeal.
-9. The Reward is seized and
-10. they are pursued as they follow The Road Back to the Ordinary World.
-11. They are transformed by the experience of a Resurrection and
-12. return triumphant with the Elixir—an item of great value that will benefit the Ordinary World.
+^
+How to manage all these different systems and keep my business logic clean?!
 
 ---
+![inline](images/diagrams/01-captain-onion.png)
 
-## Inline Images
-
-When using the **[inline]** modifier, images automatically centre and fit to the available space.
-
-![inline](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
+^
+CAPTIAN ONION TO THE RESCUE
 
 ---
+![inline](images/diagrams/02-alex.svg)
 
-![inline, left](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago2.jpg)
-
-Use **[inline, left]** or **[inline, right]** to move images around. With the text underneath like this, it is the simplest ways to add captions to images.
+^
+Can you help me?
 
 ---
+![inline](images/diagrams/02-captain-onion.png)
 
-# Tables
+^
+Sure!
 
-With `:---:`, `---:` and `:---` you can center, right or right align the cell content.
+---
+![inline](images/diagrams/02-alex.svg)
 
-  Header 1 |    Header 2   |   Header 3   |
------------| :-----------: | -----------: |
-Cell       |     _Cell_    |     *Cell*
-Cell       |   **Cell**    |     __Cell__
+^
+BUT HOW?!
+
+---
+![inline](images/diagrams/02-captain-onion.png)
+
+^
+CHANNEL
+
+---
+![inline](images/diagrams/03-captain-onion.png)
+
+^
+THE
+
+---
+![inline](images/diagrams/04-captain-onion.png)
+
+^
+ONION
+
+---
+![inline](images/diagrams/06-app.png)
+
+^
+*Fart noise*
+
+^
+Problem solved!
+
+---
+![inline](images/diagrams/01-classic-layers.png)
+
+---
+![inline](images/diagrams/02-classic-layers.png)
+
+^
+Too simple view on the world
+
+^
+As seen earlier, what about side-effects like emails, push notifications etc. where that?
+
+^
+Business depends on data does that sound right?
+
+---
+![inline](images/diagrams/01-layers.png)
+
+---
+![inline](images/diagrams/02-layers.png)
+
+---
+![inline](images/diagrams/03-layers.png)
+
+---
+![inline](images/diagrams/04-layers.png)
+
+---
+![inline](images/diagrams/05-layers.png)
+
+---
+![inline](images/diagrams/06-layers.png)
+
+---
+![inline](images/diagrams/07-layers.png)
+
+---
+![inline](images/diagrams/08-layers.png)
+
+---
+![inline](images/diagrams/09-layers.png)
+
+---
+![inline](images/diagrams/10-layers.png)
+
+---
+![inline](images/diagrams/11-layers.png)
+
+---
+![inline](images/diagrams/12-layers.png)
+
+---
+![inline](images/diagrams/13-layers.png)
+
+---
+![](images/onion.jpg)
