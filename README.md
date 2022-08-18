@@ -17,6 +17,9 @@ Each talk follows this basic file and structure:
 - [git gud](tech/misc/git-gud)
 
 ## [Tech](tech)
+### [Architecture](tech/architecture)
+- [Layers of an Onion](tech/architecture/layers-of-an-onion)
+
 ### [Elixir](tech/elixir)
 - [A Sip of Elixir](tech/elixir/a-sip-of-elixir)
 - [Beyond the Single Page Application](tech/elixir/phoenix-live-view)
