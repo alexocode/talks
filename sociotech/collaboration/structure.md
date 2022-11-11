@@ -17,24 +17,18 @@
 ## Body
 
 - Collaboration (the act of working together)
-  - Shared Context
   - Language (spoken and body)
     - Crossing fingers (good luck; vietnam = vagina)
     - Eyes and white iris (co-operative eye)
-  - Theory of Mind
+  - Shared Context
   - Humans carrying a log together (apes don't do this)
   - Why not everybody understand everything?
 
-- Cognitive Load / Mental Load / Brain Load (best term for this?)
-  - "Cognitive load refers to the amount of effort that is exerted or required while reasoning and thinking"
-  - Varies from human to human
-  - Upper limit to how much we can keep in our working memory
-  -
-
-- Mental Load
-- Shared Model
-- Communication and Context
-
 ## Conclusion
+
+Summary
+- Shared Goal
+- Shared Language
+- Shared Context
 
 Orchestra?

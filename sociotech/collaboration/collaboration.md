@@ -4,6 +4,7 @@ slide-transition: true
 theme: Fira, 5
 
 ---
+[.footer: Photo by Samuel Sianipar]
 
 > No one can whistle a symphony. It takes a whole orchestra to play it.
 -- H.E. Luccock
@@ -15,40 +16,62 @@ a rather unknown Methodist Bishop
 
 ---
 
-![](images/orchestra.jpg)
-
----
-
-# Collaboration
-
-![](images/orchestra.jpg)
-
----
-
-# Shared
-# Goal
-
----
-
-# Shared
-# Language
+# __Collaboration__
 
 ^
-Container
+Uniquely Human
+
+
+---
+[.footer: Photo by Mitchell Luo]
+
+![](images/collaboration.jpg)
 
 ---
 
 # Shared
-# Context
+# __Goal__
+
+---
+[.slide-transition: false]
+
+# Shared
+# __Language__
+
+^
+Body, Words
+
+^
+Word: Container
+
+---
+[.slide-transition: false]
+
+# Shared
+# __Context__
 
 ^
 Culture
 
 ---
+[.footer: Photo by Daniel Klein]
+
+![](images/breakdown.jpg)
+
+---
+
+![](images/orchestra.jpg)
+
+---
+
+![](images/orchestra.jpg)
 
 - Shared Goal
 - Shared Language
 - Shared Context
+
+^
+Beautiful together
 
 ---
 
