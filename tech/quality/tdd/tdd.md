@@ -1,9 +1,90 @@
 build-lists: true
-theme: Courier, 7
+theme: Ostrich, 5
 
-### Why automated
-# Testing
-### matters
+# **TDD**
+### **T**otally **D**elightful **D**evelopment
+
+---
+# **TDD**
+### **T**est **D**riven **D**evelopment
+
+---
+# What's
+# **TDD**
+
+^
+ASK
+
+---
+# **TDD** in a nutshell
+
+1. Write a test for new code
+2. Run the test, it should fail
+3. Write minimal code which satisfies the test
+4. Run the test, it should succeed
+5. Refactor code and tests
+
+---
+# 🔴 🟢 🔄
+
+---
+<!-- "But why" GIF here? -->
+# Why
+# **TDD**
+
+^
+ASK
+
+---
+# Examples!
+
+---
+![fit](images/evil-javascript.png)
+
+---
+```js
+const getTimeOfDay = () => {
+  const now = Date.now()
+
+  if (now.getHours() >= 0 && now.getHours() < 6) {
+    return "night"
+  } else if (now.getHours() >= 6 && now.getHours() < 12) {
+    return "morning"
+  } else if (now.getHours() >= 12 && now.getHours() < 18) {
+    return "afternoon"
+  }
+
+  return "evening"
+}
+```
+
+---
+# How can we test this?
+
+---
+```js
+test('returns night between midnight and 6am', () => {
+  // ❓❓❓❓❓
+  expect(getTimeOfDay() == 'night')
+})
+```
+
+---
+```js, [.highlight: 2]
+const getTimeOfDay = () => {
+  const now = Date.now()
+
+  if (now.getHours() >= 0 && now.getHours() < 6) {
+    return "night"
+  } else if (now.getHours() >= 6 && now.getHours() < 12) {
+    return "morning"
+  } else if (now.getHours() >= 12 && now.getHours() < 18) {
+    return "afternoon"
+  }
+
+  return "evening"
+}
+```
 
 ---
 
@@ -226,7 +307,7 @@ You might ask, and Alex does too, ...
 def get_time_of_day():
   now = datetime.now()
 
-  if now.hour >= 0 and now.hour < 6:
+  if (now.hour >= 0 and now.hour < 6) {
     return "night"
   elif now.hour >= 6 and now.hour < 12:
     return "morning"
@@ -786,7 +867,7 @@ class TestGetTimeOfDay(unittest.TestCase):
 # Coding Kata
 
 - install docker
-- go to <insert workshop repo>  
+- go to <insert workshop repo>
   you can scan the QR Code
 - read `tdd-dojo/fizz-buzz`
 - `git clone`
