@@ -64,8 +64,7 @@ const getTimeOfDay = () => {
 ---
 ```js
 test('returns night between midnight and 6am', () => {
-  // ❓❓❓❓❓
-  expect(getTimeOfDay() == 'night')
+  expect(getTimeOfDay()).toBe('night')
 })
 ```
 
