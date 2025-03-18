@@ -97,7 +97,7 @@ HARD: Change, bug fixing etc.
 
 # _Delightfully_ Boring
 
-1. _Simple_ beats _Complex_ / _Least Surprise_
+1. _Simple_ beats _Complex_ / _Least_ Surprise
 2. _Explicit_ beats _Implicit_
 3. Isolate _Failure_
 4. _Conscious_ Design (_Exploration_)
