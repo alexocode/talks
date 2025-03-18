@@ -120,6 +120,10 @@ HARD: Change, bug fixing etc.
 
 ---
 
+![](./images/building/elixir.png)
+
+---
+
 ![](./images/building/docs3.png)
 
 ---
