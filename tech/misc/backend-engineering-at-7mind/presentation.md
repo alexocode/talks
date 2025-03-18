@@ -195,6 +195,21 @@ HARD: Change, bug fixing etc.
 
 ---
 
+![](./images/elixir.jpg)
+
+---
+
+# _Elixir_[^1]
+
+- Distributed
+- _Fault-tolerant_
+- Soft real-time
+- _High-availability_
+
+[^1]: https://elixir-lang.org/
+
+---
+
 # _Ceremonies_
 
 ![](./images/ceremony.jpg)
